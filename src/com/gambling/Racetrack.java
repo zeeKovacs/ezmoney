@@ -5,47 +5,34 @@ import java.util.HashMap;
 public class Racetrack {
 
     private String name;
-    private Climate climate;
-    private Material material;
-    private Length length;
-    private Climate[] climates = {WARM, COLD};
-    private Material[] materials = {GRASS, SAND, ASPHALT, SLAG};
-    private Length[] lengths = {SHORT, MEDIUM, LONG};
+    private int climate;
+    private int material;
+    private int length;
+   
+    private HashMap<Integer, String> climates = Map.of(1, "warm", 2, "cold");
+    private HashMap<Integer, String> materials = Map.of(1, "sand", 2, "grass", 3, "slag", 4, "asphalt");
+    private HashMap<Integer, String> lengths = Map.of(1, "short", 2, "medium", 3, "long");
 
-    private enum Climate {
-        WARM,
-        COLD;
+    public Racetrack(String name, int climate, int material, int length) {
+       this.name = name;
+       this.climate = climate;
+       this.material = material;
+       this.length = length;
     }
 
-    private enum Material {
-        GRASS,
-        SAND,
-        ASPHALT,
-        SLAG,
+    public String getName() {
+        return this.name;
     }
 
-    private enum Length {
-        SHORT,
-        MEDIUM,
-        LONG;
-    }
-
-    public Racetrack(String name, int climateNum, int materialNum, int lengthNum) {
-        this.name = name;
-        this.climate = clmiates[climateNum-1];
-        this.material = materials[materialNum-1];
-        this.length = lengths[lengthNum-1];
-    }
-
-    public Climate getClimate() {
+    public int getClimate() {
         return this.climate;
     }
 
-    public Material getMaterial() {
+    public int getMaterial() {
         return this.material;
     }
 
-    public Length getLength() {
+    public int getLength() {
         return this.length;
     }
 }
