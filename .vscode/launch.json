@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GamblingSim",
+            "request": "launch",
+            "mainClass": "GamblingSim",
+            "projectName": "GamblingSim_f14568ea"
+        }
+    ]
+}

@@ -15,8 +15,7 @@ public class FileHandler {
             String[][] data = new String[0][0];
             while (br.ready()) {
                 int numOfLines = fileLines(file);
-                String countFieldString = br.readLine();
-                int numOfFields = countFieldString.length() - countFieldString.replace(",", "").length() + 1;
+                int numOfFields = fileCols(file);
                 
                 data = new String[numOfLines][numOfFields];
                 for (int i = 0; i < numOfLines; i++) {
@@ -54,6 +53,22 @@ public class FileHandler {
                 i++;
             }
             return i;
+        } catch (FileNotFoundException f) {
+            System.out.println("File not found!");
+            return 0;
+        } catch (IOException e) {
+            System.out.println("IO Exception occured!");
+            return 0;
+        }
+    }
+
+    public int fileCols(String file) {
+        int i = 0;
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
+            String countFieldString = br.readLine();
+            i = countFieldString.length() - countFieldString.replace(",", "").length() + 1;
+            return i;
+
         } catch (FileNotFoundException f) {
             System.out.println("File not found!");
             return 0;
