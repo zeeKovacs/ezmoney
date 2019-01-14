@@ -14,7 +14,7 @@ public class FileHandler {
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             while (br.ready()) {
-                String[] data = br.readLine().split(",");              
+                data = br.readLine().split(",");              
             }
             return data;
 
@@ -27,11 +27,11 @@ public class FileHandler {
         }
     }
 
-    public void Write(String file,String[] itemToWrite) {
+    public void Write(String file,String[] itemsToWrite) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
-            for (String item : itemToWrite) {
-                if (record != null) {
-                    bw.write(record.toWrite());
+            for (String item : itemsToWrite) {
+                if (item != null) {
+                    bw.write(item);
                 }
             }
         } catch (IOException e) {
