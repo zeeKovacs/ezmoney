@@ -12,11 +12,20 @@ public class GamblingSim {
         Random random = new Random();
         int randomTrackNUmber = random.nextInt(trackDatas[0].length-1);
         String[] trackData = trackDatas[randomTrackNUmber];
-        Racetrack theTrack = new Racetrack(trackData[0], Integer.parseInt(trackData[1]),
+        Racetrack racetrack = new Racetrack(trackData[0], Integer.parseInt(trackData[1]),
                                                          Integer.parseInt(trackData[2]),
                                                          Integer.parseInt(trackData[3]));
 
-        System.out.println(theTrack.getName() + " " + theTrack.getClimate());
+
+        String[][] horseData = fh.Read("data/horses.csv");
+        Horse[] horses = new Horse[fh.fileLines("data/horses.csv")];
+        for (int i = 0; i < horseData.length; i++) {
+            horses[i] = new Horse(horseData[i]);
+        } 
+
+        for (Horse horse : horses) {
+            System.out.println(horse.getName());
+        }
 
         /*try {
             int numberOfRounds = Integer.parseInt(args[0]);
@@ -37,7 +46,7 @@ public class GamblingSim {
 
             int horseChance = 0;
             int[] horseStats = new int[8];
-            for (int i; i < 8; i++) {
+            for (int i = 0; i < 8; i++) {
                 horseChance += horses[i].getTerrains().get(racetrack.getMaterial());
                 if (horses[i].getClimates() == racetrack.getClimate()) {
                     horseChance += 2;
@@ -53,4 +62,8 @@ public class GamblingSim {
                 horseStats[i] = horseChance * 100;
                 horseChance = 0;        
             } 
+    for (int value : horseStats) {
+        System.out.println(value);
+    }
+}
 }
