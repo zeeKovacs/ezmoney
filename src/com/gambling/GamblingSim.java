@@ -35,5 +35,22 @@ public class GamblingSim {
 
         //main(String[] args) , the main entry point of the application.*/
 
-    }    
+            int horseChance = 0;
+            int[] horseStats = new int[8];
+            for (int i; i < 8; i++) {
+                horseChance += horses[i].getTerrains().get(racetrack.getMaterial());
+                if (horses[i].getClimates() == racetrack.getClimate()) {
+                    horseChance += 2;
+                } else {
+                    horseChance += 1;
+                }
+                if (horses[i].getLength() == racetrack.getLength()) {
+                    horseChance += 2;
+                } else {
+                    horseChance += 2;
+                }
+                horseChance += horses[i].getJockey();
+                horseStats[i] = horseChance * 100;
+                horseChance = 0;        
+            } 
 }
