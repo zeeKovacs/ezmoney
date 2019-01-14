@@ -23,47 +23,36 @@ public class GamblingSim {
             horses[i] = new Horse(horseData[i]);
         } 
 
-        for (Horse horse : horses) {
-            System.out.println(horse.getName());
-        }
-
-        /*try {
-            int numberOfRounds = Integer.parseInt(args[0]);
-            for (int i=0; i < numberOfRounds; i++) {
-
+        Random rand = new Random();
+        int total = 0;
+        int horseChance = 0;
+        int[] horseStats = new int[9];
+        horseStats[0] = 0;
+        for (int i = 1; i < 9; i++) {
+            horseChance += horses[i-1].getTerrains().get(racetrack.getMaterial());
+            if (horses[i-1].getClimates() == racetrack.getClimate()) {
+                horseChance += 2;
+            } else {
+                horseChance += 1;
             }
-        } catch (NullPointerException n) {
-            System.out.println("Imperium rectae rationis inire velit!");
+            if (horses[i-1].getLength() == racetrack.getLength()) {
+                horseChance += 2;
+            } else {
+                horseChance += 1;
+            }
+            horseChance += horses[i-1].getJockey();
+            horseStats[i] = total + horseChance * 100;
+            total += horseChance * 100;
+            horseChance = 0;        
+        } 
+
+        int winner = rand.nextInt(total) + 1;
+        System.out.println(winner);
+
+        for (int i = 0; i < 8; i++) {
+            if (winner >= horseStats[i] && winner < horseStats[i + 1]) {
+                System.out.println(horses[i].getName());
+            }
         }
-
-        /*Main : Starts the application. Able to configure the round of the 
-        //simulations to run by taking an argument from the command line. It has the following methods:
-
-        // public generateHistoricalDatas(int round)
-            //returns a HistoricalDatas instance that contains the simulation result
-
-        //main(String[] args) , the main entry point of the application.*/
-
-            int horseChance = 0;
-            int[] horseStats = new int[8];
-            for (int i = 0; i < 8; i++) {
-                horseChance += horses[i].getTerrains().get(racetrack.getMaterial());
-                if (horses[i].getClimates() == racetrack.getClimate()) {
-                    horseChance += 2;
-                } else {
-                    horseChance += 1;
-                }
-                if (horses[i].getLength() == racetrack.getLength()) {
-                    horseChance += 2;
-                } else {
-                    horseChance += 2;
-                }
-                horseChance += horses[i].getJockey();
-                horseStats[i] = horseChance * 100;
-                horseChance = 0;        
-            } 
-    for (int value : horseStats) {
-        System.out.println(value);
     }
-}
 }
