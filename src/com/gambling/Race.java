@@ -1,17 +1,20 @@
 package com.gambling;
 
 import java.util.Random;
+import java.time.Instant;
 
 public class Race {
     
     private Racetrack racetrack;
     private Horse[] horses;
     private Horse winner;
+    private Instant timestamp = Instant.now();
 
     public Race() {
         this.racetrack = createRandomTrack();
         this.horses = createHorses();
         this.winner = declareWinner();
+        
     }
 
     public Race(Racetrack track) {
@@ -30,6 +33,11 @@ public class Race {
 
     public Horse getWinner() {
         return this.winner;
+    }
+
+    public String getTimestamp() {
+        String time = this.timestamp;
+        return time;
     }
 
     private Racetrack createRandomTrack() {

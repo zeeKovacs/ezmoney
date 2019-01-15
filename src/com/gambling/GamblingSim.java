@@ -8,6 +8,7 @@ public class GamblingSim {
     public static void main(String[] args) {
 
         try {
+            Instant timestamp = Instant.now();
             int timesToRun = Integer.parseInt(args[0]);
             Racetrack[] tracks = Racetrack.createAllRacetracks();
             int tracksLength = tracks.length;
@@ -22,12 +23,11 @@ public class GamblingSim {
             }
 
         HistoricalDatas history = new HistoricalDatas();
-        String[][] stats = new String[races.length][2];
+        String[][] stats = new String[races.length][3];
         for (int l = 0; l < races.length; l++) {
-               String trackName = races[l].getRacetrack().getName();
-               String winner = races[l].getWinner().getName();
-               stats[l][0] = trackName;
-               stats[l][1] = winner;
+               stats[l][0] = races[l].getTimestamp();
+               stats[l][1] = races[l].getRacetrack().getName();
+               stats[l][2] = races[l].getWinner().getName();
                history.generateData(stats[l]);
             }
             // need races.length for all simulations
