@@ -11,12 +11,15 @@ public class Race {
     private Racetrack racetrack;
     private Horse[] horses;
     private Horse winner;
+    private String timestamp;
+    
     public static final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss:SS";
 
     public Race() {
         this.racetrack = createRandomTrack();
         this.horses = createHorses();
         this.winner = declareWinner();
+        this.timestamp = createTimestamp();
         
     }
 
@@ -24,6 +27,7 @@ public class Race {
         this.racetrack = track;
         this.horses = createHorses();
         this.winner = declareWinner();
+        this.timestamp = createTimestamp();
     }
 
     public Racetrack getRacetrack() {
@@ -39,6 +43,10 @@ public class Race {
     }
 
     public String getTimestamp() {
+        return this.timestamp;
+    }
+
+    private String createTimestamp() {
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
         return sdf.format(calendar.getTime());

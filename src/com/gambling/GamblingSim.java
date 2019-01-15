@@ -28,13 +28,13 @@ public class GamblingSim {
                 }
             }
 
-        HistoricalDatas history = new HistoricalDatas();
-        String[][] stats = new String[races.length][3];
-        for (int l = 0; l < races.length; l++) {
-               stats[l][0] = races[l].getTimestamp();
-               stats[l][1] = races[l].getRacetrack().getName();
-               stats[l][2] = races[l].getWinner().getName();
-               history.generateData(stats[l]);
+            HistoricalDatas history = new HistoricalDatas();
+            String[][] stats = new String[races.length][3];
+            for (int l = 0; l < races.length; l++) {
+                stats[l][0] = races[l].getTimestamp();
+                stats[l][1] = races[l].getRacetrack().getName();
+                stats[l][2] = races[l].getWinner().getName();
+                history.generateData(stats[l]);
             }
             // need races.length for all simulations
 
