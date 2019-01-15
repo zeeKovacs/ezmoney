@@ -4,7 +4,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Random;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
-import java.time.Instant;
 
 public class Race {
     
@@ -12,7 +11,7 @@ public class Race {
     private Horse[] horses;
     private Horse winner;
     private String timestamp;
-    
+
     public static final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss:SS";
 
     public Race() {
@@ -98,10 +97,20 @@ public class Race {
         } 
 
         int winner = rand.nextInt(total) + 1;
+        Horse[] placements = new Horse[8];
+        
         for (int i = 0; i < 8; i++) {
             if (winner >= horseStats[i] && winner < horseStats[i + 1]) {
+                placements[0] = horses[i];
                 return horses[i];
             }
+        }
+        
+        for (int i = 1; i < 8; i++) {
+            if (winner != horseStats[i]) {
+                horseStats[i] = horseStats[i]-winner;
+            }
+
         }
         return null;
     } 
