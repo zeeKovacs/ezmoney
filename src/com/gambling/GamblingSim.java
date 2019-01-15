@@ -8,7 +8,6 @@ public class GamblingSim {
     public static void main(String[] args) {
 
         try {
-            Instant timestamp = Instant.now();
             int timesToRun = Integer.parseInt(args[0]);
             Racetrack[] tracks = Racetrack.createAllRacetracks();
             int tracksLength = tracks.length;

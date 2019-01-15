@@ -1,6 +1,9 @@
 package com.gambling;
 
+import java.time.format.DateTimeFormatter;
 import java.util.Random;
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
 import java.time.Instant;
 
 public class Race {
@@ -8,7 +11,7 @@ public class Race {
     private Racetrack racetrack;
     private Horse[] horses;
     private Horse winner;
-    private Instant timestamp = Instant.now();
+    public static final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss:SS";
 
     public Race() {
         this.racetrack = createRandomTrack();
@@ -36,8 +39,9 @@ public class Race {
     }
 
     public String getTimestamp() {
-        String time = this.timestamp;
-        return time;
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
+        return sdf.format(calendar.getTime());
     }
 
     private Racetrack createRandomTrack() {
