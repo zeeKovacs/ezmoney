@@ -9,7 +9,7 @@ public class Race {
     private Horse[] horses;
     private Horse winner;
     private Instant timestamp = Instant.now();
-
+    
     public Race() {
         this.racetrack = createRandomTrack();
         this.horses = createHorses();
