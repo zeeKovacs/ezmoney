@@ -1,6 +1,12 @@
 package com.gambling;
 
 public class HistoricalDatas {
+
+    private String file = "data/history.csv";
+
+    public void generateData(String dataLine) {
+        
+    }
     /*Contains the simulation data.
 
     It has the following methods:
