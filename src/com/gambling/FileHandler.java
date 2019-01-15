@@ -37,7 +37,7 @@ public class FileHandler {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
             for (String item : itemsToWrite) {
                 if (item != null) {
-                    bw.write(item);
+                    bw.write(item + ",");
                 }
             }
         } catch (IOException e) {
