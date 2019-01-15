@@ -7,6 +7,13 @@ public class GamblingSim {
 
     public static void main(String[] args) {
 
+        Statistics stats = new Statistics();
+        stats.statPrint();
+        System.out.println(stats.winCount());
+        System.out.println(stats.raceCount());
+        System.out.println(stats.stats());
+        /*
+
         try {
             int timesToRun = Integer.parseInt(args[0]);
             Racetrack[] tracks = Racetrack.createAllRacetracks();
@@ -39,7 +46,7 @@ public class GamblingSim {
             System.out.println("Please give a command line argument (number > 0)!");
         } catch (NumberFormatException n) {
             System.out.println("Please give a command line argument (number > 0)!");
-        }
+        }*/
         
         
     }
