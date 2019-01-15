@@ -1,6 +1,8 @@
 package com.gambling;
 
 import java.time.Instant;
+import java.util.Calendar;
+import java.text.SimpleDateFormat;
 
 public class Logger {
 
@@ -15,8 +17,10 @@ public class Logger {
     }
 
     public void log(String type, String message) {
-        Instant timestamp = Instant.now();
-        System.out.println(timestamp + " " + type + " " + message);
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat(Race.DATE_FORMAT_NOW);
+        sdf.format(calendar.getTime());
+        System.out.println(sdf + " " + type + " " + message);
     }
 
 }
