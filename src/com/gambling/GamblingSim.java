@@ -12,6 +12,7 @@ public class GamblingSim {
         System.out.println(stats.winCount());
         System.out.println(stats.raceCount());
         System.out.println(stats.stats());
+        System.out.println(stats.contenders());
         /*
 
         try {

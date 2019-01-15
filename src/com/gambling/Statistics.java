@@ -3,6 +3,8 @@ package com.gambling;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
+import java.util.Set;
+import java.util.HashSet;
 
 public class Statistics {
     FileHandler fh = new FileHandler();
@@ -10,6 +12,8 @@ public class Statistics {
     private Map<String, Double> statistics = new HashMap<>();
     private Map<String, Integer> winCount = new HashMap<>();
     private Map<String, Integer> raceCount = new HashMap<>();
+    //private Map<String, String[]> contenders = new HashMap<>();
+    private Set<String> horses = new HashSet<>();
     
     public Map<String, Integer> winCount() {
         for (int i=0; i < statData.length; i++) {
@@ -40,6 +44,13 @@ public class Statistics {
             }
         }
         return statistics;
+    }
+
+    public Set<String> contenders() {
+        for (int i = 0; i < statData.length; i++) {
+            horses.add(statData[i][2]);
+            }
+        return horses;
     }
 
 
