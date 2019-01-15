@@ -4,6 +4,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Random;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
 
 public class Race {
     
@@ -72,45 +73,47 @@ public class Race {
         return horses; 
     }
 
-    private Horse declareWinner() {
+    private Horse[] getRaceResult() {
+        Horse[] tempHorses = System.arraycopy(horses);
+        Horse[] placements = Horse[tempHorses.length];
+        for (int i=0; i < placements.length; i++) {
+            placements[i] = declareWinner(8-i, tempHorses);
+            tempHorses = Utility.removeFromArray(tempHorses, tempHorses[i]);
+        }
+        return placements;
+    }
+
+    private Horse declareWinner(int horseCount, Horse[] tempHorses) {
         Random rand = new Random();
         int total = 0;
         int horseChance = 0;
-        int[] horseStats = new int[9];
+        int[] horseStats = new int[horseCount-1];
         horseStats[0] = 0;
         for (int i = 1; i < 9; i++) {
-            horseChance += horses[i-1].getTerrains().get(racetrack.getMaterial());
-            if (horses[i-1].getClimates() == racetrack.getClimate()) {
+            horseChance += tempHorses[i-1].getTerrains().get(racetrack.getMaterial());
+            if (tempHorses[i-1].getClimates() == racetrack.getClimate()) {
                 horseChance += 2;
             } else {
                 horseChance += 1;
             }
-            if (horses[i-1].getLength() == racetrack.getLength()) {
+            if (tempHorses[i-1].getLength() == racetrack.getLength()) {
                 horseChance += 2;
             } else {
                 horseChance += 1;
             }
-            horseChance += horses[i-1].getJockey();
+            horseChance += tempHorses[i-1].getJockey();
             horseStats[i] = total + horseChance * 100;
             total += horseChance * 100;
             horseChance = 0;        
         } 
 
         int winner = rand.nextInt(total) + 1;
-        Horse[] placements = new Horse[8];
-        
+    
         for (int i = 0; i < 8; i++) {
             if (winner >= horseStats[i] && winner < horseStats[i + 1]) {
-                placements[0] = horses[i];
-                return horses[i];
+                placements[0] = tempHorses[i];
+                return tempHorses[i];
             }
-        }
-        
-        for (int i = 1; i < 8; i++) {
-            if (winner != horseStats[i]) {
-                horseStats[i] = horseStats[i]-winner;
-            }
-
         }
         return null;
     } 
