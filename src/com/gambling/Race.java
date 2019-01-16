@@ -82,7 +82,7 @@ public class Race {
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {
             placements[i] = declareWinner(8-i, tempHorses);
-            tempHorses = Utility.removeFromArray(tempHorses, tempHorses[i], Horse[].class);
+            tempHorses = Utility.removeFromArray(tempHorses, tempHorses[i], Horse.class);
         }
         return placements;
     }
