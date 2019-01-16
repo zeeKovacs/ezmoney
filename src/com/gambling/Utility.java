@@ -4,8 +4,8 @@ import java.util.Random;
 
 public class Utility {
 
-    public static Item[] addToArray(Item[] list, Item toAdd) {
-        Item[] tempList = new Item[list.length+1];
+    public static Horse[] addToArray(Horse[] list, Horse toAdd) {
+        Horse[] tempList = new Horse[list.length+1];
         System.arraycopy(list, 0, tempList, 0, tempList.length-1);
         tempList[list.length] = toAdd;
         list = tempList;
@@ -20,10 +20,10 @@ public class Utility {
         return list;
     }
 
-    public static Item[] removeFromArray(Item[] list, Item toRemove) {
+    public static Horse[] removeFromArray(Horse[] list, Horse toRemove) {
         for (int i=0; i < list.length; i++) {
             if (list[i].equals(toRemove)) {
-                Item tempList[] = new Item[list.length-1];
+                Horse tempList[] = new Horse[list.length-1];
                 System.arraycopy(list, 0, tempList, 0, i);
                 System.arraycopy(list, i+1, tempList, i, list.length-i-1);
                 return tempList;
