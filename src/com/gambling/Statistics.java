@@ -6,14 +6,20 @@ import java.util.Arrays;
 import java.util.Set;
 import java.util.HashSet;
 
+//THIS IS CHAOS, PLEASE DONT TOUCH IT
+//THIS IS CHAOS, PLEASE DONT TOUCH IT
+//THIS IS CHAOS, PLEASE DONT TOUCH IT
+
 public class Statistics {
     FileHandler fh = new FileHandler();
     String[][] statData = fh.Read("data/history.csv");
     private Map<String, Double> statistics = new HashMap<>();
     private Map<String, Integer> winCount = new HashMap<>();
     private Map<String, Integer> raceCount = new HashMap<>();
-    //private Map<String, String[]> contenders = new HashMap<>();
-    private Set<String> horses = new HashSet<>();
+    private String[] horses;
+    private String[] tracks;
+    private Map<String, String[]> trackRec = new HashMap<>();
+    private String[] temp;
     
     public Map<String, Integer> winCount() {
         for (int i=0; i < statData.length; i++) {
@@ -46,11 +52,43 @@ public class Statistics {
         return statistics;
     }
 
-    public Set<String> contenders() {
+    public String[] tracks() {
+        Set<String> horseset = new HashSet<>();
         for (int i = 0; i < statData.length; i++) {
-            horses.add(statData[i][2]);
+            horseset.add(statData[i][2]);
             }
+        String[] horses = horses.toArray(new String[horseset.size()]);
         return horses;
+    }
+
+    public String[] contenders() {
+        Set<String> trackset = new HashSet<>();
+        for (int i = 0; i < statData.length; i++) {
+            trackset.add(statData[i][1]);
+            }
+        String[] tracks = trackset.toArray(new String[trackset.size()]);
+        return tracks;
+    }
+    public String[] winnersOnTrack(String track) {
+        int len = raceCount.get(track);
+        temp = new String[len];
+        for (int i = 0; i < statData.length; i++) {
+            if (statData[1].equals(track)) {
+                temp[i] = statData[i][1];
+            }
+        }
+        return temp;
+    }
+
+    public Map<String, String[]> trackRecords() {
+        int k = 0;
+        for (int i = 0; i < statData.length; i++) {
+            if (trackRec.get(tracks[k]) == null) {
+                trackRec.put(tracks[k], winnersOnTrack(tracks[k]));
+                k++;
+            }
+        }
+        return trackRec;            
     }
 
 
