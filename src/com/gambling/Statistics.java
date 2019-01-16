@@ -85,6 +85,7 @@ public class Statistics {
         for (int i = 0; i < statData.length; i++) {
             if (trackRec.get(tracks[k]) == null) {
                 trackRec.put(tracks[k], winnersOnTrack(tracks[k]));
+                k++;
             }
         }
         return trackRec;            
