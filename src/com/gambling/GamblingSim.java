@@ -20,17 +20,16 @@ public class GamblingSim {
 
             HistoricalDatas history = new HistoricalDatas();
             String[][] stats = new String[races.length][3];
+            String[] tempstats = new String[races.length];
             for (int l = 0; l < races.length; l++) {
                 stats[l][0] = races[l].getTimestamp();
                 stats[l][1] = races[l].getRacetrack().getName();
                 stats[l][2] = races[l].getWinner().getName();
                 history.generateData(stats[l]);
+                tempstats[l] = races[l].getTimestamp() + "," + races[l].getRacetrack().getName() + "," + races[l].getWinner().getName();
             }
-            // need races.length for all simulations
-
-            //for (Race race : races) {
-            //    System.out.println(race.getRacetrack().getName() + " " + race.getWinner().getName());
-            //}   --------> add this to statistics or something..
+            history.generateTemp(tempstats);
+            
 
         } catch (IndexOutOfBoundsException i) {
             System.out.println("Please give a command line argument (number > 0)!");

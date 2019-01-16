@@ -10,6 +10,7 @@ public class HistoricalDatas {
     load() , loads the content of an instance of a HistoricalDatas and returns it.*/
 
     private String file = "data/history.csv";
+    private String temp = "data/temp.csv";
 
     public HistoricalDatas() {
         
@@ -17,7 +18,12 @@ public class HistoricalDatas {
 
     public void generateData(String[] data) {
         FileHandler fh = new FileHandler();
-        fh.Write(this.file, data);
+        fh.Append(this.file, data);
+    }
+
+    public void generateTemp(String[] data) {
+        FileHandler fh = new FileHandler();
+        fh.Write(this.temp, data);
     }
 
 }
