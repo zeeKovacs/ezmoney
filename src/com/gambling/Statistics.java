@@ -57,7 +57,7 @@ public class Statistics {
         for (int i = 0; i < statData.length; i++) {
             horseset.add(statData[i][2]);
             }
-        String[] horses = horses.toArray(new String[horseset.size()]);
+        String[] horses = horseset.toArray(new String[horseset.size()]);
         return horses;
     }
 
