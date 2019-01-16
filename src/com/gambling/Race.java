@@ -48,6 +48,16 @@ public class Race {
         return this.timestamp;
     }
 
+    public String getPlacement() {
+        int counter = placements.length;
+        String horseNames = "[";
+        for (int i=0; i < counter-1; i++) {
+            horseNames += placements[i].getName() + ",";
+        }
+        horseNames += placements[counter-1].getName() + "]";
+        return horseNames;
+    }
+
     private String createTimestamp() {
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
