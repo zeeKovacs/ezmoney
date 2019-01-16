@@ -20,18 +20,18 @@ public class Race {
     public Race() {
         this.racetrack = createRandomTrack();
         this.horses = createHorses();
-        //this.winner = declareWinner();
         this.timestamp = createTimestamp();
         this.placements = getRaceResult();
+        this.winner = placements[0];
         
     }
 
     public Race(Racetrack track) {
         this.racetrack = track;
         this.horses = createHorses();
-        //this.winner = declareWinner();
         this.timestamp = createTimestamp();
         this.placements = getRaceResult();
+        this.winner = placements[0];
     }
 
     public Racetrack getRacetrack() {
@@ -82,7 +82,7 @@ public class Race {
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {
             placements[i] = declareWinner(8-i, tempHorses);
-            tempHorses = Utility.removeFromArray(tempHorses, tempHorses[i]);
+            tempHorses = Utility.removeFromArray(tempHorses, tempHorses[i], Horse[].class);
         }
         return placements;
     }
