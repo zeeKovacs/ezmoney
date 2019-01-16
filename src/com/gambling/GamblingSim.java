@@ -5,6 +5,7 @@ public class GamblingSim {
     public static void main(String[] args) {
 
         try {
+            Logger logger = new Logger();
             int timesToRun = Integer.parseInt(args[0]);
             Racetrack[] tracks = Racetrack.createAllRacetracks();
             int tracksLength = tracks.length;
@@ -29,6 +30,7 @@ public class GamblingSim {
                 tempstats[l] = races[l].getTimestamp() + "," + races[l].getRacetrack().getName() + "," + races[l].getWinner().getName();
             }
             history.generateTemp(tempstats);
+
             
 
         } catch (IndexOutOfBoundsException i) {
@@ -40,6 +42,7 @@ public class GamblingSim {
         Statistics statse = new Statistics();
         statse.initMaps();
         System.out.println(statse.winnerWinner("Kincsem Park"));
+        System.out.println(statse.numOfSims("data/temp.csv"));
         
         
     }

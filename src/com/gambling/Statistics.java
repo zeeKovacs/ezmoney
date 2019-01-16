@@ -117,4 +117,9 @@ public class Statistics {
         Arrays.sort(horses);
         return horses[indx];          
     }
+
+    public Integer numOfSims(String file) {
+        Integer num = fh.fileLines(file);
+        return num;
+    }
 }
