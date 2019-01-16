@@ -33,7 +33,7 @@ public class FileHandler {
         }
     }
 
-    public void Write(String file, String[] itemsToWrite) {
+    public void Append(String file, String[] itemsToWrite) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(file, true))) {
             for (String item : itemsToWrite) {
                 if (item != null && !item.equals(itemsToWrite[itemsToWrite.length-1])) {
@@ -44,6 +44,18 @@ public class FileHandler {
                 }
             }
             bw.append("\n");
+        } catch (IOException e) {
+            System.out.println("IO Exception occured!");
+        }
+    }
+
+    public void Write(String file, String[] itemsToWrite) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
+            for (String item : itemsToWrite) {
+                if (item != null) {
+                    bw.append(item + "\n");
+                }
+            }
         } catch (IOException e) {
             System.out.println("IO Exception occured!");
         }
