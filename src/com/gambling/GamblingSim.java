@@ -7,15 +7,6 @@ public class GamblingSim {
 
     public static void main(String[] args) {
 
-        Statistics stats = new Statistics();
-        System.out.println(stats.raceCount());
-        System.out.println(Arrays.toString(stats.tracks()));
-        System.out.println(stats.trackRecords());
-        stats.contenders();
-        stats.arrayPrinter();
-        System.out.println(Arrays.toString(stats.horseWinCounter("Kincsem Park")));
-        System.out.println(stats.winnerWinner("Kincsem Park"));
-        /*
         try {
             int timesToRun = Integer.parseInt(args[0]);
             Racetrack[] tracks = Racetrack.createAllRacetracks();
@@ -44,11 +35,18 @@ public class GamblingSim {
             //    System.out.println(race.getRacetrack().getName() + " " + race.getWinner().getName());
             //}   --------> add this to statistics or something..
 
-        } catch (IndexOutOfBoundsException i) {
-            System.out.println("Please give a command line argument (number > 0)!");
+        //} catch (IndexOutOfBoundsException i) {
+          //  System.out.println("Please give a command line argument (number > 0)!");
         } catch (NumberFormatException n) {
             System.out.println("Please give a command line argument (number > 0)!");
-        }*/
+        }
+        
+        Statistics statse = new Statistics();
+        //System.out.println(statse.raceCount());
+        //System.out.println(statse.trackRecords());
+        //statse.arrayPrinter();
+        statse.initMaps();
+        System.out.println(statse.winnerWinner("Kincsem Park"));
         
         
     }

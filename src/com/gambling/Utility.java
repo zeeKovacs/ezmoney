@@ -6,7 +6,7 @@ import java.util.Random;
 
 public class Utility {
 
-    public static <T> T[] addToArray(T[] list, T toAdd, Class<T[]> type) {
+    public static <T> T[] addToArray(T[] list, T toAdd, Class<T> type) {
         @SuppressWarnings("unchecked")
         T[] tempList = (T[]) Array.newInstance(type, list.length-1);
         System.arraycopy(list, 0, tempList, 0, tempList.length-1);
@@ -15,7 +15,7 @@ public class Utility {
         return list;
     }
 
-    public static <T> T[] removeFromArray(T[] list, T toRemove, Class<T[]> type) {
+    public static <T> T[] removeFromArray(T[] list, T toRemove, Class<T> type) {
         for (int i=0; i < list.length; i++) {
             if (list[i].equals(toRemove)) {
                 @SuppressWarnings("unchecked")
