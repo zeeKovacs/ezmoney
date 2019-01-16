@@ -19,16 +19,15 @@ public class Race {
         this.racetrack = createRandomTrack();
         this.horses = createHorses();
         this.timestamp = createTimestamp();
-        this.placements = getRaceResult();
+        this.placements = getRaceResults();
         this.winner = placements[0];
-        
     }
 
     public Race(Racetrack track) {
         this.racetrack = track;
         this.horses = createHorses();
         this.timestamp = createTimestamp();
-        this.placements = getRaceResult();
+        this.placements = getRaceResults();
         this.winner = placements[0];
     }
 
@@ -48,7 +47,7 @@ public class Race {
         return this.timestamp;
     }
 
-    public String getPlacement() {
+    public String getPlacements() {
         int counter = placements.length;
         String horseNames = "";
         for (int i=0; i < counter-1; i++) {
@@ -66,7 +65,7 @@ public class Race {
 
     private Racetrack createRandomTrack() {
         FileHandler fh = new FileHandler();
-        String[][] trackDatas = fh.Read("data/racetracks.csv");
+        String[][] trackDatas = fh.read("data/racetracks.csv");
         Random random = new Random();
         int randomTrackNUmber = random.nextInt(trackDatas[0].length-1);
         String[] trackData = trackDatas[randomTrackNUmber];
@@ -77,7 +76,7 @@ public class Race {
 
     private Horse[] createHorses() {
         FileHandler fh = new FileHandler();
-        String[][] horseData = fh.Read("data/horses.csv");
+        String[][] horseData = fh.read("data/horses.csv");
         Horse[] horses = new Horse[fh.fileLines("data/horses.csv")];
         for (int i = 0; i < horseData.length; i++) {
             horses[i] = new Horse(horseData[i]);
@@ -85,7 +84,7 @@ public class Race {
         return horses; 
     }
 
-    private Horse[] getRaceResult() {
+    private Horse[] getRaceResults() {
         Horse[] tempHorses = Arrays.copyOf(horses, 8);
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {

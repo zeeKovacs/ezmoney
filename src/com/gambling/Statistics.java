@@ -16,32 +16,32 @@ import java.text.DateFormat;
 
 public class Statistics {
     FileHandler fh = new FileHandler();
-    String[][] statData = fh.Read("data/history.csv");
-    String[][] tempData = fh.Read("data/temp.csv");
-    private Map<String, Integer> raceCount = new HashMap<>();
-    private Map<String, String[]> trackRec = new HashMap<>();
-    private Map<String, double[]> statRec = new HashMap<>();
-    private String[] horses = contenders();
+    String[][] statData = fh.read("data/history.csv");
+    String[][] tempData = fh.read("data/temp.csv");
+    private Map<String, Integer> racePerTrack = new HashMap<>();
+    private Map<String, String[]> trackResults = new HashMap<>();
+    private Map<String, double[]> statRecords = new HashMap<>();
+    private String[] horses = horses();
     private String[] tracks = tracks();
 
     public void initMaps() {
-        raceCount();
-        trackRecords();
+        racePerTrack();
+        trackResults();
         statRecords();
     }
 
-    public Map<String, Integer> raceCount() {
+    public Map<String, Integer> racePerTrack() {
             for (int i=0; i < statData.length; i++) {
-                if (raceCount.get(statData[i][1]) == null) {
-                    raceCount.put(statData[i][1], 1);
+                if (racePerTrack.get(statData[i][1]) == null) {
+                    racePerTrack.put(statData[i][1], 1);
                 } else {
-                    raceCount.put(statData[i][1], raceCount.get(statData[i][1]) + 1);
+                    racePerTrack.put(statData[i][1], racePerTrack.get(statData[i][1]) + 1);
                 }
             }
-            return raceCount;
+            return racePerTrack;
     }
 
-    public String[] contenders() {
+    public String[] horses() {
         Set<String> horseset = new HashSet<>();
         for (int i = 0; i < statData.length; i++) {
             horseset.add(statData[i][2]);
@@ -60,7 +60,7 @@ public class Statistics {
     }
 
     public String[] winnersOnTrack(String track) {
-        int len = raceCount.get(track);
+        int len = racePerTrack.get(track);
         String[] temp = new String[len];
         int k = 0;
         for (int i = 0; i < statData.length; i++) {
@@ -72,18 +72,18 @@ public class Statistics {
         return temp;
     }
 
-    public Map<String, String[]> trackRecords() {
+    public Map<String, String[]> trackResults() {
         for (int i = 0; i < 10; i++) {
-            if (trackRec.get(tracks[i]) == null) {
-                trackRec.put(tracks[i], winnersOnTrack(tracks[i]));
+            if (trackResults.get(tracks[i]) == null) {
+                trackResults.put(tracks[i], winnersOnTrack(tracks[i]));
             }
         }
-        return trackRec;            
+        return trackResults;            
     }
 
     public double[] horseWinCounter(String track) {
         int k = 0;
-        String[] winners = trackRec.get(track);
+        String[] winners = trackResults.get(track);
         double[] tempInt = new double[horses.length];
         Arrays.sort(horses);
         Arrays.sort(winners);
@@ -96,7 +96,7 @@ public class Statistics {
             }
         }
         for (int z = 0; z < tempInt.length; z++) {
-            tempInt[z] = (tempInt[z] / raceCount.get(track)) * 100;
+            tempInt[z] = (tempInt[z] / racePerTrack.get(track)) * 100;
             double num = tempInt[z];
             double rounded = Math.round(num * 100) / 100;
             tempInt[z] = rounded;
@@ -106,15 +106,15 @@ public class Statistics {
 
     public Map<String, double[]> statRecords() {
         for (int i = 0; i < 10; i++) {
-            if (statRec.get(tracks[i]) == null) {
-                statRec.put(tracks[i], horseWinCounter(tracks[i]));
+            if (statRecords.get(tracks[i]) == null) {
+                statRecords.put(tracks[i], horseWinCounter(tracks[i]));
             }
         }
-        return statRec;            
+        return statRecords;            
     }
     
-    public String winnerWinner(String track) {
-        double[] trackS = statRec.get(track);
+    public String winnerOnTrack(String track) {
+        double[] trackS = statRecords.get(track);
         double max = 0;
         int indx = 0;
         for (int i = 0; i < trackS.length; i++) {
@@ -134,10 +134,6 @@ public class Statistics {
 
     public int historyLength() {
         return statData.length;
-    }
-
-    public String[] getHorses() {
-        return this.horses;
     }
 
     public long getTimeDiff() {
@@ -183,4 +179,13 @@ public class Statistics {
 
         return placementRates;
     }
+
+    public String[] getHorses() {
+        return this.horses;
+    }
+
+    public String[] getTracks() {
+        return this.tracks;
+    }
+
 }
