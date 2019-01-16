@@ -23,4 +23,17 @@ public class Logger {
         System.out.println(sdf + " " + type + " " + message);
     }
 
+    /*public void arrayPrinter() {
+        for (double[] winners : statRecords().values()) {
+            System.out.println(Arrays.toString(winners));
+            }
+    }
+
+
+    public void statPrint() {
+        for (String[] line : statData) {
+            System.out.println(Arrays.toString(line));
+        }
+    }*/
+
 }

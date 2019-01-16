@@ -5,32 +5,17 @@ import java.util.HashMap;
 import java.util.Arrays;
 import java.util.Set;
 import java.util.HashSet;
-
-//THIS IS CHAOS, PLEASE DONT TOUCH IT
-//THIS IS CHAOS, PLEASE DONT TOUCH IT
-//THIS IS CHAOS, PLEASE DONT TOUCH IT
+import java.lang.Math;
 
 public class Statistics {
     FileHandler fh = new FileHandler();
     String[][] statData = fh.Read("data/history.csv");
-    private Map<String, Double> statistics = new HashMap<>();
-    private Map<String, Integer> winCount = new HashMap<>();
     private Map<String, Integer> raceCount = new HashMap<>();
-    private String[] horses;
-    private String[] tracks;
+    private String[] horses = contenders();
+    private String[] tracks = tracks();
     private Map<String, String[]> trackRec = new HashMap<>();
-    private String[] temp;
-    
-    public Map<String, Integer> winCount() {
-        for (int i=0; i < statData.length; i++) {
-            if (winCount.get(statData[i][2]) == null) {
-                winCount.put(statData[i][2], 1);
-            } else {
-                winCount.put(statData[i][2], winCount.get(statData[i][2]) + 1);
-            }
-        }
-        return winCount;
-    }
+    private Map<String, double[]> statRec = new HashMap<>();
+
 
     public Map<String, Integer> raceCount() {
             for (int i=0; i < statData.length; i++) {
@@ -43,16 +28,7 @@ public class Statistics {
             return raceCount;
     }
 
-    public Map<String, Double> stats() {
-        for (String horse : winCount.keySet()) {
-            if (statistics.get(horse) == null) {
-                statistics.put(horse, (double)winCount.get(horse) / 2);
-            }
-        }
-        return statistics;
-    }
-
-    public String[] tracks() {
+    public String[] contenders() {
         Set<String> horseset = new HashSet<>();
         for (int i = 0; i < statData.length; i++) {
             horseset.add(statData[i][2]);
@@ -61,7 +37,7 @@ public class Statistics {
         return horses;
     }
 
-    public String[] contenders() {
+    public String[] tracks() {
         Set<String> trackset = new HashSet<>();
         for (int i = 0; i < statData.length; i++) {
             trackset.add(statData[i][1]);
@@ -71,32 +47,81 @@ public class Statistics {
     }
     public String[] winnersOnTrack(String track) {
         int len = raceCount.get(track);
-        temp = new String[len];
+        String[] temp = new String[len];
+        int k = 0;
         for (int i = 0; i < statData.length; i++) {
-            if (statData[1].equals(track)) {
-                temp[i] = statData[i][1];
+            if (statData[i][1].equals(track)) {
+                temp[k] = statData[i][2];
+                k++;
             }
         }
         return temp;
     }
 
     public Map<String, String[]> trackRecords() {
-        int k = 0;
-        for (int i = 0; i < statData.length; i++) {
-            if (trackRec.get(tracks[k]) == null) {
-                trackRec.put(tracks[k], winnersOnTrack(tracks[k]));
-                k++;
+        for (int i = 0; i < 10; i++) {
+            if (trackRec.get(tracks[i]) == null) {
+                trackRec.put(tracks[i], winnersOnTrack(tracks[i]));
             }
         }
         return trackRec;            
     }
 
-
-    public void statPrint() {
-        for (String[] line : statData) {
-            System.out.println(Arrays.toString(line));
-        }
+    public void arrayPrinter() {
+        for (double[] winners : statRecords().values()) {
+            System.out.println(Arrays.toString(winners));
+            }
     }
+
+
+
+    public double[] horseWinCounter(String track) {
+        int k = 0;
+        String[] winners = trackRec.get(track);
+        double[] tempInt = new double[horses.length];
+        Arrays.sort(horses);
+        Arrays.sort(winners);
+        for (int i = 0; i < winners.length; i++) {
+            if (horses[k].equals(winners[i])) {
+                tempInt[k] += 1;
+            } else {
+                k++;
+                i--;
+            }
+        }
+        for (int z = 0; z < tempInt.length; z++) {
+            tempInt[z] = (tempInt[z] / raceCount.get(track)) * 100;
+            double num = tempInt[z];
+            double rounded = Math.round(num * 100) / 100;
+            tempInt[z] = rounded;
+        }
+        return tempInt;
+    }
+
+    public Map<String, double[]> statRecords() {
+        for (int i = 0; i < 10; i++) {
+            if (statRec.get(tracks[i]) == null) {
+                statRec.put(tracks[i], horseWinCounter(tracks[i]));
+            }
+        }
+        return statRec;            
+    }
+    
+    public String winnerWinner(String track) {
+        double[] trackS = statRec.get(track);
+        double max = 0;
+        int indx = 0;
+        for (int i = 0; i < trackS.length; i++) {
+            if (trackS[i] > max) {
+                max = trackS[i];
+                indx = i;
+            }
+        }
+        Arrays.sort(horses);
+        return horses[indx];          
+    }
+
+
 
 
 

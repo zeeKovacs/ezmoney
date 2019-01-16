@@ -8,13 +8,14 @@ public class GamblingSim {
     public static void main(String[] args) {
 
         Statistics stats = new Statistics();
-        stats.statPrint();
-        System.out.println(stats.winCount());
         System.out.println(stats.raceCount());
-        System.out.println(stats.stats());
-        System.out.println(stats.contenders());
+        System.out.println(Arrays.toString(stats.tracks()));
+        System.out.println(stats.trackRecords());
+        stats.contenders();
+        stats.arrayPrinter();
+        System.out.println(Arrays.toString(stats.horseWinCounter("Kincsem Park")));
+        System.out.println(stats.winnerWinner("Kincsem Park"));
         /*
-
         try {
             int timesToRun = Integer.parseInt(args[0]);
             Racetrack[] tracks = Racetrack.createAllRacetracks();
