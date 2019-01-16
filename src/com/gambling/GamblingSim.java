@@ -35,16 +35,13 @@ public class GamblingSim {
             //    System.out.println(race.getRacetrack().getName() + " " + race.getWinner().getName());
             //}   --------> add this to statistics or something..
 
-        //} catch (IndexOutOfBoundsException i) {
-          //  System.out.println("Please give a command line argument (number > 0)!");
+        } catch (IndexOutOfBoundsException i) {
+            System.out.println("Please give a command line argument (number > 0)!");
         } catch (NumberFormatException n) {
             System.out.println("Please give a command line argument (number > 0)!");
         }
         
         Statistics statse = new Statistics();
-        //System.out.println(statse.raceCount());
-        //System.out.println(statse.trackRecords());
-        //statse.arrayPrinter();
         statse.initMaps();
         System.out.println(statse.winnerWinner("Kincsem Park"));
         
