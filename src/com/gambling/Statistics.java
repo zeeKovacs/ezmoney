@@ -4,12 +4,20 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Arrays;
 import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import java.text.ParseException;
+
 import java.util.HashSet;
 import java.lang.Math;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+import java.text.DateFormat;
 
 public class Statistics {
     FileHandler fh = new FileHandler();
     String[][] statData = fh.Read("data/history.csv");
+    String[][] tempData = fh.Read("data/temp.csv");
     private Map<String, Integer> raceCount = new HashMap<>();
     private Map<String, String[]> trackRec = new HashMap<>();
     private Map<String, double[]> statRec = new HashMap<>();
@@ -122,4 +130,19 @@ public class Statistics {
         Integer num = fh.fileLines(file);
         return num;
     }
+
+    public long getTimeDiff() {
+        try {
+            DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SS");
+            Date date1 = format.parse(tempData[0][0]);
+            Date date2 = format.parse(tempData[numOfSims("data/temp.csv")-1][0]);
+            long diffInMillies = date2.getTime() - date1.getTime();
+            TimeUnit timeUnit = TimeUnit.MILLISECONDS;
+            return timeUnit.convert(diffInMillies,TimeUnit.MILLISECONDS);
+            
+        } catch (ParseException e) {
+            return 0;
+        }
+    }
+    
 }

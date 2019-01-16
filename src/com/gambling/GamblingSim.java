@@ -43,7 +43,7 @@ public class GamblingSim {
         statse.initMaps();
         System.out.println(statse.winnerWinner("Kincsem Park"));
         System.out.println(statse.numOfSims("data/temp.csv"));
-        
+        System.out.println(statse.getTimeDiff());
         
     }
 }
