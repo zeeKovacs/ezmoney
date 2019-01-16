@@ -16,10 +16,14 @@ public class Logger {
     }
 
     public void log(String type, String message) {
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat sdf = new SimpleDateFormat(Race.DATE_FORMAT_NOW);
-        sdf.format(calendar.getTime());
-        System.out.println(sdf + " " + type + " " + message);
+        // Calendar calendar = Calendar.getInstance();
+        // SimpleDateFormat sdf = new SimpleDateFormat(Race.DATE_FORMAT_NOW);
+        // sdf.format(calendar.getTime());
+        System.out.println(" -> " + type + ": " + message);
+    }
+
+    public void clearTerminal() {
+        System.out.println("\033[H\033[2J");
     }
 
     /*public void arrayPrinter() {

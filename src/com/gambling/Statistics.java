@@ -58,6 +58,7 @@ public class Statistics {
         String[] tracks = trackset.toArray(new String[trackset.size()]);
         return tracks;
     }
+
     public String[] winnersOnTrack(String track) {
         int len = raceCount.get(track);
         String[] temp = new String[len];
@@ -131,6 +132,14 @@ public class Statistics {
         return num;
     }
 
+    public int historyLength() {
+        return statData.length;
+    }
+
+    public String[] getHorses() {
+        return this.horses;
+    }
+
     public long getTimeDiff() {
         try {
             DateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SS");
@@ -144,5 +153,34 @@ public class Statistics {
             return 0;
         }
     }
-    
+
+    public String[][] getPlacementNames() {
+        String[][] raceResults = new String[statData.length][9];
+        for (int i=0; i < statData.length; i++) {
+            System.arraycopy(statData[i], 1, raceResults[i], 0, 9);
+        }
+        return raceResults;
+    }
+
+    public double[] getPlacementPercentages(String track, String horse) {
+        double[] placementRates = new double[8];
+        int trackCounter = 0;
+        for (int i=0; i < statData.length; i++) {
+            if (statData[i][1].equals(track)) {
+                trackCounter++;
+                for (int j=2; j < 10; j++) {
+                    if (statData[i][j].equals(horse)) {
+                        placementRates[j-2] += 1;
+                        break;
+                    } 
+                }
+            }
+        }
+
+        for (int i=0; i < 8; i++) {
+            placementRates[i] = placementRates[i] / trackCounter * 100;
+        }
+
+        return placementRates;
+    }
 }

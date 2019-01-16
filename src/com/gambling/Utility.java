@@ -9,8 +9,7 @@ public class Utility {
         T[] tempList = (T[]) Array.newInstance(type, list.length-1);
         System.arraycopy(list, 0, tempList, 0, tempList.length-1);
         tempList[list.length] = toAdd;
-        list = tempList;
-        return list;
+        return tempList;
     }
 
     public static <T> T[] removeFromArray(T[] list, T toRemove, Class<T> type) {

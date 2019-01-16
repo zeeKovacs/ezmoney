@@ -50,11 +50,11 @@ public class Race {
 
     public String getPlacement() {
         int counter = placements.length;
-        String horseNames = "[";
+        String horseNames = "";
         for (int i=0; i < counter-1; i++) {
             horseNames += placements[i].getName() + ",";
         }
-        horseNames += placements[counter-1].getName() + "]";
+        horseNames += placements[counter-1].getName();
         return horseNames;
     }
 
