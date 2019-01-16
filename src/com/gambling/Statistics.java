@@ -11,11 +11,16 @@ public class Statistics {
     FileHandler fh = new FileHandler();
     String[][] statData = fh.Read("data/history.csv");
     private Map<String, Integer> raceCount = new HashMap<>();
-    private String[] horses = contenders();
-    private String[] tracks = tracks();
     private Map<String, String[]> trackRec = new HashMap<>();
     private Map<String, double[]> statRec = new HashMap<>();
+    private String[] horses = contenders();
+    private String[] tracks = tracks();
 
+    public void initMaps() {
+        raceCount();
+        trackRecords();
+        statRecords();
+    }
 
     public Map<String, Integer> raceCount() {
             for (int i=0; i < statData.length; i++) {
@@ -67,14 +72,6 @@ public class Statistics {
         return trackRec;            
     }
 
-    public void arrayPrinter() {
-        for (double[] winners : statRecords().values()) {
-            System.out.println(Arrays.toString(winners));
-            }
-    }
-
-
-
     public double[] horseWinCounter(String track) {
         int k = 0;
         String[] winners = trackRec.get(track);
@@ -120,13 +117,4 @@ public class Statistics {
         Arrays.sort(horses);
         return horses[indx];          
     }
-
-
-
-
-
-    //Stores statistical data about the simulation: how many number of 
-    //simulations were run, how many data points, 
-    //how long it take to run all the simulations, winning/losing percentages, 
-    //etc. It depends on the selected game.
 }

@@ -1,11 +1,9 @@
 package com.gambling;
 
-import java.time.format.DateTimeFormatter;
 import java.util.Random;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
-import java.util.HashMap;
 
 public class Race {
     
@@ -82,7 +80,7 @@ public class Race {
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {
             placements[i] = declareWinner(8-i, tempHorses);
-            tempHorses = Utility.removeFromArray(tempHorses, tempHorses[i], Horse.class);
+            tempHorses = Utility.removeFromArray(tempHorses, placements[i], Horse.class);
         }
         return placements;
     }
@@ -91,7 +89,7 @@ public class Race {
         Random rand = new Random();
         int total = 0;
         int horseChance = 0;
-        int[] horseStats = new int[horseCount-1];
+        int[] horseStats = new int[horseCount+1];
         horseStats[0] = 0;
         for (int i = 1; i < horseCount+1; i++) {
             horseChance += tempHorses[i-1].getTerrains().get(racetrack.getMaterial());
@@ -115,7 +113,6 @@ public class Race {
     
         for (int i = 0; i < horseCount; i++) {
             if (winner >= horseStats[i] && winner < horseStats[i + 1]) {
-                placements[0] = tempHorses[i];
                 return tempHorses[i];
             }
         }

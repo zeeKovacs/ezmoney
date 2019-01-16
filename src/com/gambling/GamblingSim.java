@@ -1,21 +1,9 @@
 package com.gambling;
 
-import java.util.Iterator;
-import java.util.Arrays;
-
 public class GamblingSim {
 
     public static void main(String[] args) {
 
-        Statistics stats = new Statistics();
-        System.out.println(stats.raceCount());
-        System.out.println(Arrays.toString(stats.tracks()));
-        System.out.println(stats.trackRecords());
-        stats.contenders();
-        stats.arrayPrinter();
-        System.out.println(Arrays.toString(stats.horseWinCounter("Kincsem Park")));
-        System.out.println(stats.winnerWinner("Kincsem Park"));
-        /*
         try {
             int timesToRun = Integer.parseInt(args[0]);
             Racetrack[] tracks = Racetrack.createAllRacetracks();
@@ -48,7 +36,11 @@ public class GamblingSim {
             System.out.println("Please give a command line argument (number > 0)!");
         } catch (NumberFormatException n) {
             System.out.println("Please give a command line argument (number > 0)!");
-        }*/
+        }
+        
+        Statistics statse = new Statistics();
+        statse.initMaps();
+        System.out.println(statse.winnerWinner("Kincsem Park"));
         
         
     }

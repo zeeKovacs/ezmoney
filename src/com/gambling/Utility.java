@@ -1,8 +1,6 @@
 package com.gambling;
 
 import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.Random;
 
 public class Utility {
 
