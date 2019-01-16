@@ -1,8 +1,5 @@
 package com.gambling;
 
-import java.util.Iterator;
-import java.util.Arrays;
-
 public class GamblingSim {
 
     public static void main(String[] args) {

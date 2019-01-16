@@ -1,11 +1,9 @@
 package com.gambling;
 
-import java.time.format.DateTimeFormatter;
 import java.util.Random;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.text.SimpleDateFormat;
-import java.util.HashMap;
 
 public class Race {
     
