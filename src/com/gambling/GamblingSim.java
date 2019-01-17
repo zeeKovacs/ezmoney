@@ -40,7 +40,8 @@ public class GamblingSim {
         Scanner sc = new Scanner(System.in);
         while (true) {
             logger.log("SYSTEM MESSAGE", "PRESS (1) TO GET DETAILED STATISTICS");
-            logger.log("SYSTEM MESSAGE", "PRESS (2) TO EXIT");
+            logger.log("SYSTEM MESSAGE", "PRESS (2) TO CHECK WINNER");
+            logger.log("SYSTEM MESSAGE", "PRESS (3) TO EXIT");
             switch (sc.nextLine()) {
                 case "1":
                     logger.log("DETAILED STATISTICS", "\n");
@@ -52,6 +53,9 @@ public class GamblingSim {
                     }
                     continue;
                 case "2":
+                    logger.log("WINNER OF ACTUAL RACE", randomRace.getWinner().getName());
+                    continue;
+                case "3":
                     System.exit(3);
                 default:
                     continue;
