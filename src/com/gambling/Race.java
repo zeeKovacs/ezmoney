@@ -112,8 +112,6 @@ public class Race {
         int winner = rand.nextInt(total-1) + 1;
     
         for (int i = 0; i < horseCount; i++) {
-            System.out.println(winner);
-            System.out.println(Arrays.toString(horseStats));
             if (winner >= horseStats[i] && winner < horseStats[i + 1]) {
                 return tempHorses[i];
             }
