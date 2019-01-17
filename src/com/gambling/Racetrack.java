@@ -1,6 +1,6 @@
 package com.gambling;
 
-//import java.util.Map;
+import java.util.Map;
 
 public class Racetrack {
 
@@ -9,9 +9,9 @@ public class Racetrack {
     private int material;
     private int length;
     
-    //private Map<Integer, String> climates = Map.of(1, "warm", 2, "cold");
-    //private Map<Integer, String> materials = Map.of(1, "sand", 2, "grass", 3, "slag", 4, "asphalt");
-    //private Map<Integer, String> lengths = Map.of(1, "short", 2, "medium", 3, "long");
+    private Map<Integer, String> climates = Map.of(1, "warm", 2, "cold");
+    private Map<Integer, String> materials = Map.of(1, "sand", 2, "grass", 3, "slag", 4, "asphalt");
+    private Map<Integer, String> lengths = Map.of(1, "short", 2, "medium", 3, "long");
 
     public Racetrack(String name, int material, int climate, int length) {
        this.name = name;
@@ -46,5 +46,11 @@ public class Racetrack {
 
     public int getLength() {
         return this.length;
+    }
+
+    @Override
+    public String toString() {
+        return this.name + " racetrack is a " + materials.get(this.material) + " covered " + lengths.get(this.length) +
+               " track where the weather is usually " + climates.get(this.climate) + ".n";
     }
 }
