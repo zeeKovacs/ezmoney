@@ -16,19 +16,19 @@ public class Race {
     public static final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss:SS";
 
     public Race(Horse[] horses) {
+        this.horses = horses;
         this.racetrack = createRandomTrack();
         this.timestamp = createTimestamp();
         this.placements = getRaceResults();
         this.winner = placements[0];
-        this.horses = horses;
     }
 
     public Race(Racetrack track, Horse[] horses) {
+        this.horses = horses;
         this.racetrack = track;
         this.timestamp = createTimestamp();
         this.placements = getRaceResults();
         this.winner = placements[0];
-        this.horses = horses;
     }
 
     public Racetrack getRacetrack() {
@@ -58,6 +58,7 @@ public class Race {
     }
 
     private String createTimestamp() {
+        System.out.println("firstmethod " + horses);
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
         return sdf.format(calendar.getTime());
@@ -75,6 +76,7 @@ public class Race {
     }
 
     private Horse[] getRaceResults() {
+        System.out.println("??? " + Arrays.toString(horses));
         Horse[] tempHorses = Arrays.copyOf(horses, horses.length);
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {
