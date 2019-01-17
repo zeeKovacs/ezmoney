@@ -39,4 +39,14 @@ public class Horse {
     public String getName() {
         return this.name;
     }
+
+    public static Horse[] createHorses() {
+        FileHandler fh = new FileHandler();
+        String[][] horseData = fh.read("data/horses.csv");
+        Horse[] horses = new Horse[fh.fileLines("data/horses.csv")];
+        for (int i = 0; i < horseData.length; i++) {
+            horses[i] = new Horse(horseData[i]);
+        }
+        return horses; 
+    }
 }

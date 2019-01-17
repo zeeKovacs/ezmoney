@@ -15,20 +15,20 @@ public class Race {
 
     public static final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss:SS";
 
-    public Race() {
+    public Race(Horse[] horses) {
         this.racetrack = createRandomTrack();
-        this.horses = createHorses();
         this.timestamp = createTimestamp();
         this.placements = getRaceResults();
         this.winner = placements[0];
+        this.horses = horses;
     }
 
-    public Race(Racetrack track) {
+    public Race(Racetrack track, Horse[] horses) {
         this.racetrack = track;
-        this.horses = createHorses();
         this.timestamp = createTimestamp();
         this.placements = getRaceResults();
         this.winner = placements[0];
+        this.horses = horses;
     }
 
     public Racetrack getRacetrack() {
@@ -74,19 +74,8 @@ public class Race {
                                            Integer.parseInt(trackData[3]));
     }
 
-    private Horse[] createHorses() {
-        FileHandler fh = new FileHandler();
-        String[][] horseData = fh.read("data/horses.csv");
-        Horse[] horses = new Horse[fh.fileLines("data/horses.csv")];
-        for (int i = 0; i < horseData.length; i++) {
-            horses[i] = new Horse(horseData[i]);
-        }
-        return horses; 
-    }
-
     private Horse[] getRaceResults() {
-        Horse[] tempHorses = new Horse[8];
-        System.arraycopy(horses, 0, tempHorses, 0, 8);
+        Horse[] tempHorses = Arrays.copyOf(horses, horses.length);
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {
             if (tempHorses.length == 1) {
