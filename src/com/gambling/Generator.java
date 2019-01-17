@@ -5,6 +5,7 @@ public class Generator {
     public void generateSimulations(String[] args) {
         try {
             HistoricalDatas history = new HistoricalDatas();
+            Horse[] horses = Horse.createHorses();
             Racetrack[] tracks = Racetrack.createAllRacetracks();
             int timesToRun = Integer.parseInt(args[0]);
             int tracksLength = tracks.length;
@@ -15,7 +16,8 @@ public class Generator {
             int i = 0;
             for (int j=0; j < tracksLength; j++) {
                 for (int k=0; k < timesToRun; k++) {
-                    races[i] = new Race(tracks[j]);
+                    System.out.println("hello1 " + horses);
+                    races[i] = new Race(tracks[j], horses);
                     i++;
                 }
             }

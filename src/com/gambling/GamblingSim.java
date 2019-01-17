@@ -5,12 +5,12 @@ package com.gambling;
 public class GamblingSim {
 
     public static void main(String[] args) {
-        Generator gen = new Generator();        
+        Generator gen = new Generator();
+        gen.generateSimulations(args);     
         Statistics stat = new Statistics();
         Logger logger = new Logger();
         //Scanner sc = new Scanner(System.in);
         
-        gen.generateSimulations(args);
         stat.initMaps();
 
         logger.clearTerminal();
