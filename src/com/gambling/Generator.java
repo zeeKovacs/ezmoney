@@ -25,7 +25,7 @@ public class Generator {
                 stats[l][1] = races[l].getRacetrack().getName();
                 stats[l][2] = races[l].getPlacements();
                 history.generateData(stats[l]);
-                tempStats[l] = races[l].getTimestamp() + "," + races[l].getRacetrack().getName() + "," + races[l].getWinner().getName();
+                tempStats[l] = races[l].getTimestamp() + "," + races[l].getRacetrack().getName() + "," + races[l].getPlacements();
             }
             history.generateTemp(tempStats);
 
