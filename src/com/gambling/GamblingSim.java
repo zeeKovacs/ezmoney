@@ -1,16 +1,14 @@
 package com.gambling;
 
-//import java.util.Scanner;
-
 public class GamblingSim {
 
-    public static void main(String[] args) {
-        Generator gen = new Generator();        
+    public static void main(String[] args) throws Exception {
+        Generator gen = new Generator();  
+        gen.generateSimulations(args);   
+
         Statistics stat = new Statistics();
         Logger logger = new Logger();
-        //Scanner sc = new Scanner(System.in);
         
-        gen.generateSimulations(args);
         stat.initMaps();
 
         logger.clearTerminal();

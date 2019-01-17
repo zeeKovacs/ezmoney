@@ -16,7 +16,6 @@ public class Generator {
             int i = 0;
             for (int j=0; j < tracksLength; j++) {
                 for (int k=0; k < timesToRun; k++) {
-                    System.out.println("hello1 " + horses);
                     races[i] = new Race(tracks[j], horses);
                     i++;
                 }
