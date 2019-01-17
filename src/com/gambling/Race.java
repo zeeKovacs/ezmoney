@@ -77,7 +77,6 @@ public class Race {
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {
                 placements[i] = declareWinner(8-i, tempHorses);
-                System.out.println(placements[i]);
                 tempHorses = Utility.removeFromArray(tempHorses, placements[i], Horse.class);
             }
         return placements;

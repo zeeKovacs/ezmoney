@@ -19,9 +19,8 @@ public class GamblingSim {
         logger.log("SYSTEM MESSAGE", "Pick a horse to view it's statistics!");
         logger.log("LISTING", "Horses\n");
         logger.listArray(stat.getHorses()); 
-        logger.listArray(stat.getTracks());
         logger.log("SYSTEM MESSAGE", "NEXT RACE WILL TAKE PLACE ON:");
         Race randomRace = new Race();
-        logger.log("TRACK", randomRace.getRacetrack());
+        logger.log("TRACK", randomRace.getRacetrack().toString());
     }
 }

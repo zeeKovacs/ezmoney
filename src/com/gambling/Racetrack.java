@@ -50,7 +50,7 @@ public class Racetrack {
 
     @Override
     public String toString() {
-        return this.name + " racetrack is a " + materials.get(this.material) + " covered " + lengths.get(this.length) +
-               " track where the weather is usually " + climates.get(this.climate) + ".n";
+        return this.name + " racetrack is a(n) " + materials.get(this.material) + " covered " + lengths.get(this.length) +
+               " track where the weather is usually " + climates.get(this.climate) + ".\n";
     }
 }
