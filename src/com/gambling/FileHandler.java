@@ -9,7 +9,7 @@ import java.io.FileWriter;
 
 public class FileHandler {
 
-    public String[][] Read(String file) { 
+    public String[][] read(String file) { 
 
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String[][] data = new String[0][0];
@@ -33,29 +33,30 @@ public class FileHandler {
         }
     }
 
-    public void Append(String file, String[] itemsToWrite) {
+    public void append(String file, String[] itemsToWrite) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(file, true))) {
             for (String item : itemsToWrite) {
                 if (item != null && !item.equals(itemsToWrite[itemsToWrite.length-1])) {
                     bw.append(item + ",");
-                }
-                else {
+                } else {
                     bw.append(item);
                 }
             }
             bw.append("\n");
+
         } catch (IOException e) {
             System.out.println("IO Exception occured!");
         }
     }
 
-    public void Write(String file, String[] itemsToWrite) {
+    public void write(String file, String[] itemsToWrite) {
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(file))) {
             for (String item : itemsToWrite) {
                 if (item != null) {
                     bw.append(item + "\n");
                 }
             }
+
         } catch (IOException e) {
             System.out.println("IO Exception occured!");
         }
@@ -69,6 +70,7 @@ public class FileHandler {
                 i++;
             }
             return i;
+
         } catch (FileNotFoundException f) {
             System.out.println("File not found!");
             return 0;
@@ -84,7 +86,7 @@ public class FileHandler {
             String countFieldString = br.readLine();
             i = countFieldString.length() - countFieldString.replace(",", "").length() + 1;
             return i;
-
+            
         } catch (FileNotFoundException f) {
             System.out.println("File not found!");
             return 0;

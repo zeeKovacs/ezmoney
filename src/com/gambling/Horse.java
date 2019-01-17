@@ -3,13 +3,11 @@ package com.gambling;
 import java.util.Map;
 
 public class Horse {
-
     private String name;
     private int climates;
     private Map<Integer, Integer> terrains;
     private int lengths;
     private int jockeySkill;
-
 
     public Horse(String[] data) {
         this.name = data[0];

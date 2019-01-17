@@ -1,616 +1,238 @@
-2019-01-17 09:14:41:244,Happy Valley,Invincible,Snowball,Demigod,Kit-Kat,Pony,Cinnamon,Roach,Overdose
-2019-01-17 09:14:41:282,Happy Valley,Cinnamon,Roach,Overdose,Snowball,Invincible,Kit-Kat,Pony,Demigod
-2019-01-17 09:14:41:283,Happy Valley,Overdose,Invincible,Demigod,Snowball,Roach,Pony,Kit-Kat,Cinnamon
-2019-01-17 09:14:41:284,Happy Valley,Kit-Kat,Roach,Overdose,Pony,Demigod,Invincible,Cinnamon,Snowball
-2019-01-17 09:14:41:285,Happy Valley,Kit-Kat,Demigod,Overdose,Snowball,Invincible,Pony,Roach,Cinnamon
-2019-01-17 09:14:41:286,Happy Valley,Kit-Kat,Invincible,Pony,Roach,Demigod,Snowball,Cinnamon,Overdose
-2019-01-17 09:14:41:287,Happy Valley,Kit-Kat,Cinnamon,Demigod,Roach,Pony,Snowball,Invincible,Overdose
-2019-01-17 09:14:41:288,Happy Valley,Roach,Pony,Cinnamon,Invincible,Demigod,Overdose,Snowball,Kit-Kat
-2019-01-17 09:14:41:289,Happy Valley,Roach,Snowball,Kit-Kat,Demigod,Overdose,Invincible,Pony,Cinnamon
-2019-01-17 09:14:41:289,Happy Valley,Demigod,Invincible,Pony,Kit-Kat,Snowball,Overdose,Roach,Cinnamon
-2019-01-17 09:14:41:290,Happy Valley,Snowball,Invincible,Kit-Kat,Pony,Cinnamon,Overdose,Roach,Demigod
-2019-01-17 09:14:41:291,Happy Valley,Pony,Cinnamon,Kit-Kat,Demigod,Overdose,Snowball,Invincible,Roach
-2019-01-17 09:14:41:292,Happy Valley,Snowball,Cinnamon,Invincible,Pony,Overdose,Demigod,Roach,Kit-Kat
-2019-01-17 09:14:41:293,Happy Valley,Overdose,Cinnamon,Kit-Kat,Demigod,Pony,Roach,Invincible,Snowball
-2019-01-17 09:14:41:293,Happy Valley,Roach,Snowball,Invincible,Pony,Overdose,Cinnamon,Demigod,Kit-Kat
-2019-01-17 09:14:41:294,Happy Valley,Snowball,Overdose,Invincible,Demigod,Pony,Cinnamon,Roach,Kit-Kat
-2019-01-17 09:14:41:295,Happy Valley,Pony,Kit-Kat,Invincible,Demigod,Snowball,Cinnamon,Overdose,Roach
-2019-01-17 09:14:41:296,Happy Valley,Invincible,Roach,Demigod,Pony,Overdose,Kit-Kat,Cinnamon,Snowball
-2019-01-17 09:14:41:297,Happy Valley,Cinnamon,Roach,Snowball,Invincible,Kit-Kat,Demigod,Pony,Overdose
-2019-01-17 09:14:41:298,Happy Valley,Invincible,Pony,Roach,Kit-Kat,Demigod,Snowball,Overdose,Cinnamon
-2019-01-17 09:14:41:300,Happy Valley,Invincible,Pony,Cinnamon,Kit-Kat,Overdose,Demigod,Roach,Snowball
-2019-01-17 09:14:41:301,Happy Valley,Cinnamon,Snowball,Demigod,Overdose,Pony,Kit-Kat,Roach,Invincible
-2019-01-17 09:14:41:302,Happy Valley,Cinnamon,Pony,Invincible,Kit-Kat,Demigod,Overdose,Snowball,Roach
-2019-01-17 09:14:41:303,Happy Valley,Snowball,Overdose,Demigod,Roach,Cinnamon,Invincible,Pony,Kit-Kat
-2019-01-17 09:14:41:304,Happy Valley,Overdose,Demigod,Pony,Cinnamon,Roach,Invincible,Kit-Kat,Snowball
-2019-01-17 09:14:41:305,Happy Valley,Snowball,Cinnamon,Demigod,Pony,Invincible,Roach,Kit-Kat,Overdose
-2019-01-17 09:14:41:306,Happy Valley,Overdose,Cinnamon,Kit-Kat,Snowball,Demigod,Pony,Roach,Invincible
-2019-01-17 09:14:41:306,Happy Valley,Kit-Kat,Overdose,Snowball,Demigod,Pony,Roach,Invincible,Cinnamon
-2019-01-17 09:14:41:307,Happy Valley,Invincible,Kit-Kat,Cinnamon,Demigod,Pony,Overdose,Snowball,Roach
-2019-01-17 09:14:41:308,Happy Valley,Kit-Kat,Overdose,Cinnamon,Roach,Invincible,Demigod,Pony,Snowball
-2019-01-17 09:14:41:310,Happy Valley,Invincible,Demigod,Roach,Pony,Cinnamon,Overdose,Kit-Kat,Snowball
-2019-01-17 09:14:41:311,Happy Valley,Kit-Kat,Demigod,Invincible,Snowball,Overdose,Cinnamon,Pony,Roach
-2019-01-17 09:14:41:312,Happy Valley,Kit-Kat,Demigod,Pony,Overdose,Snowball,Invincible,Roach,Cinnamon
-2019-01-17 09:14:41:312,Happy Valley,Demigod,Roach,Pony,Kit-Kat,Invincible,Overdose,Snowball,Cinnamon
-2019-01-17 09:14:41:313,Happy Valley,Roach,Invincible,Overdose,Pony,Cinnamon,Snowball,Kit-Kat,Demigod
-2019-01-17 09:14:41:314,Happy Valley,Snowball,Demigod,Pony,Cinnamon,Overdose,Invincible,Roach,Kit-Kat
-2019-01-17 09:14:41:315,Happy Valley,Overdose,Kit-Kat,Snowball,Roach,Invincible,Cinnamon,Demigod,Pony
-2019-01-17 09:14:41:316,Happy Valley,Overdose,Roach,Pony,Demigod,Cinnamon,Kit-Kat,Invincible,Snowball
-2019-01-17 09:14:41:317,Happy Valley,Roach,Invincible,Overdose,Snowball,Kit-Kat,Cinnamon,Pony,Demigod
-2019-01-17 09:14:41:317,Happy Valley,Snowball,Overdose,Kit-Kat,Roach,Pony,Cinnamon,Demigod,Invincible
-2019-01-17 09:14:41:318,Happy Valley,Overdose,Demigod,Kit-Kat,Pony,Snowball,Roach,Invincible,Cinnamon
-2019-01-17 09:14:41:319,Happy Valley,Demigod,Pony,Invincible,Cinnamon,Roach,Overdose,Snowball,Kit-Kat
-2019-01-17 09:14:41:320,Happy Valley,Snowball,Invincible,Roach,Pony,Demigod,Cinnamon,Overdose,Kit-Kat
-2019-01-17 09:14:41:321,Happy Valley,Demigod,Overdose,Cinnamon,Pony,Roach,Invincible,Snowball,Kit-Kat
-2019-01-17 09:14:41:322,Happy Valley,Kit-Kat,Snowball,Invincible,Cinnamon,Overdose,Roach,Pony,Demigod
-2019-01-17 09:14:41:323,Happy Valley,Pony,Snowball,Roach,Invincible,Demigod,Overdose,Kit-Kat,Cinnamon
-2019-01-17 09:14:41:324,Happy Valley,Snowball,Cinnamon,Overdose,Demigod,Invincible,Roach,Pony,Kit-Kat
-2019-01-17 09:14:41:325,Happy Valley,Pony,Snowball,Overdose,Kit-Kat,Demigod,Cinnamon,Invincible,Roach
-2019-01-17 09:14:41:325,Happy Valley,Kit-Kat,Snowball,Pony,Demigod,Cinnamon,Invincible,Roach,Overdose
-2019-01-17 09:14:41:326,Happy Valley,Overdose,Demigod,Invincible,Snowball,Pony,Cinnamon,Roach,Kit-Kat
-2019-01-17 09:14:41:327,Happy Valley,Roach,Invincible,Kit-Kat,Snowball,Pony,Cinnamon,Overdose,Demigod
-2019-01-17 09:14:41:327,Happy Valley,Invincible,Overdose,Kit-Kat,Snowball,Pony,Cinnamon,Demigod,Roach
-2019-01-17 09:14:41:328,Happy Valley,Roach,Invincible,Snowball,Overdose,Pony,Cinnamon,Demigod,Kit-Kat
-2019-01-17 09:14:41:328,Happy Valley,Pony,Snowball,Overdose,Demigod,Cinnamon,Kit-Kat,Roach,Invincible
-2019-01-17 09:14:41:329,Happy Valley,Roach,Overdose,Invincible,Kit-Kat,Cinnamon,Pony,Snowball,Demigod
-2019-01-17 09:14:41:329,Happy Valley,Overdose,Pony,Invincible,Kit-Kat,Snowball,Roach,Demigod,Cinnamon
-2019-01-17 09:14:41:330,Happy Valley,Roach,Snowball,Demigod,Overdose,Pony,Cinnamon,Invincible,Kit-Kat
-2019-01-17 09:14:41:330,Happy Valley,Pony,Cinnamon,Kit-Kat,Overdose,Demigod,Invincible,Roach,Snowball
-2019-01-17 09:14:41:331,Happy Valley,Overdose,Kit-Kat,Pony,Invincible,Demigod,Roach,Cinnamon,Snowball
-2019-01-17 09:14:41:332,Happy Valley,Roach,Pony,Kit-Kat,Overdose,Demigod,Cinnamon,Snowball,Invincible
-2019-01-17 09:14:41:333,Happy Valley,Demigod,Overdose,Invincible,Pony,Roach,Cinnamon,Snowball,Kit-Kat
-2019-01-17 09:14:41:334,Happy Valley,Roach,Kit-Kat,Demigod,Cinnamon,Pony,Snowball,Invincible,Overdose
-2019-01-17 09:14:41:335,Happy Valley,Demigod,Snowball,Overdose,Pony,Roach,Cinnamon,Invincible,Kit-Kat
-2019-01-17 09:14:41:336,Happy Valley,Invincible,Demigod,Kit-Kat,Pony,Overdose,Snowball,Roach,Cinnamon
-2019-01-17 09:14:41:337,Happy Valley,Invincible,Demigod,Cinnamon,Kit-Kat,Pony,Snowball,Overdose,Roach
-2019-01-17 09:14:41:338,Happy Valley,Invincible,Overdose,Roach,Pony,Snowball,Demigod,Kit-Kat,Cinnamon
-2019-01-17 09:14:41:338,Happy Valley,Invincible,Snowball,Overdose,Roach,Kit-Kat,Pony,Demigod,Cinnamon
-2019-01-17 09:14:41:339,Happy Valley,Demigod,Overdose,Cinnamon,Kit-Kat,Roach,Pony,Snowball,Invincible
-2019-01-17 09:14:41:340,Happy Valley,Demigod,Snowball,Invincible,Cinnamon,Overdose,Kit-Kat,Pony,Roach
-2019-01-17 09:14:41:341,Happy Valley,Cinnamon,Roach,Overdose,Invincible,Kit-Kat,Pony,Snowball,Demigod
-2019-01-17 09:14:41:342,Happy Valley,Invincible,Demigod,Snowball,Overdose,Cinnamon,Kit-Kat,Pony,Roach
-2019-01-17 09:14:41:342,Happy Valley,Invincible,Cinnamon,Roach,Pony,Overdose,Demigod,Snowball,Kit-Kat
-2019-01-17 09:14:41:343,Happy Valley,Cinnamon,Demigod,Kit-Kat,Snowball,Overdose,Invincible,Pony,Roach
-2019-01-17 09:14:41:344,Happy Valley,Invincible,Overdose,Snowball,Roach,Cinnamon,Demigod,Pony,Kit-Kat
-2019-01-17 09:14:41:345,Happy Valley,Snowball,Kit-Kat,Roach,Pony,Demigod,Overdose,Cinnamon,Invincible
-2019-01-17 09:14:41:346,Happy Valley,Invincible,Roach,Overdose,Pony,Snowball,Kit-Kat,Demigod,Cinnamon
-2019-01-17 09:14:41:346,Happy Valley,Snowball,Kit-Kat,Demigod,Cinnamon,Pony,Overdose,Roach,Invincible
-2019-01-17 09:14:41:347,Happy Valley,Snowball,Invincible,Demigod,Kit-Kat,Overdose,Pony,Roach,Cinnamon
-2019-01-17 09:14:41:348,Happy Valley,Pony,Snowball,Kit-Kat,Roach,Demigod,Overdose,Invincible,Cinnamon
-2019-01-17 09:14:41:349,Happy Valley,Roach,Overdose,Demigod,Invincible,Pony,Snowball,Cinnamon,Kit-Kat
-2019-01-17 09:14:41:349,Happy Valley,Demigod,Pony,Roach,Snowball,Invincible,Overdose,Cinnamon,Kit-Kat
-2019-01-17 09:14:41:350,Happy Valley,Demigod,Overdose,Kit-Kat,Pony,Invincible,Snowball,Cinnamon,Roach
-2019-01-17 09:14:41:351,Happy Valley,Roach,Invincible,Kit-Kat,Snowball,Pony,Cinnamon,Overdose,Demigod
-2019-01-17 09:14:41:352,Happy Valley,Demigod,Invincible,Overdose,Cinnamon,Kit-Kat,Snowball,Pony,Roach
-2019-01-17 09:14:41:352,Happy Valley,Invincible,Roach,Kit-Kat,Snowball,Demigod,Overdose,Cinnamon,Pony
-2019-01-17 09:14:41:353,Happy Valley,Snowball,Invincible,Cinnamon,Demigod,Roach,Overdose,Kit-Kat,Pony
-2019-01-17 09:14:41:354,Happy Valley,Cinnamon,Roach,Overdose,Pony,Kit-Kat,Snowball,Demigod,Invincible
-2019-01-17 09:14:41:355,Happy Valley,Snowball,Pony,Demigod,Cinnamon,Overdose,Kit-Kat,Invincible,Roach
-2019-01-17 09:14:41:355,Happy Valley,Snowball,Invincible,Cinnamon,Demigod,Pony,Overdose,Roach,Kit-Kat
-2019-01-17 09:14:41:356,Happy Valley,Cinnamon,Snowball,Kit-Kat,Demigod,Roach,Pony,Overdose,Invincible
-2019-01-17 09:14:41:357,Happy Valley,Demigod,Pony,Kit-Kat,Invincible,Roach,Cinnamon,Snowball,Overdose
-2019-01-17 09:14:41:357,Happy Valley,Invincible,Snowball,Kit-Kat,Pony,Demigod,Cinnamon,Overdose,Roach
-2019-01-17 09:14:41:358,Happy Valley,Snowball,Demigod,Kit-Kat,Invincible,Overdose,Roach,Pony,Cinnamon
-2019-01-17 09:14:41:359,Happy Valley,Kit-Kat,Snowball,Demigod,Pony,Invincible,Roach,Cinnamon,Overdose
-2019-01-17 09:14:41:360,Happy Valley,Roach,Cinnamon,Pony,Invincible,Kit-Kat,Overdose,Snowball,Demigod
-2019-01-17 09:14:41:360,Happy Valley,Pony,Roach,Overdose,Demigod,Cinnamon,Invincible,Kit-Kat,Snowball
-2019-01-17 09:14:41:361,Happy Valley,Demigod,Overdose,Roach,Kit-Kat,Invincible,Snowball,Cinnamon,Pony
-2019-01-17 09:14:41:362,Happy Valley,Pony,Cinnamon,Kit-Kat,Invincible,Overdose,Demigod,Snowball,Roach
-2019-01-17 09:14:41:362,Happy Valley,Invincible,Cinnamon,Demigod,Snowball,Overdose,Kit-Kat,Roach,Pony
-2019-01-17 09:14:41:363,Happy Valley,Demigod,Snowball,Invincible,Roach,Overdose,Pony,Kit-Kat,Cinnamon
-2019-01-17 09:14:41:364,Hippodrom,Snowball,Kit-Kat,Pony,Cinnamon,Demigod,Overdose,Invincible,Roach
-2019-01-17 09:14:41:364,Hippodrom,Snowball,Kit-Kat,Overdose,Pony,Invincible,Roach,Demigod,Cinnamon
-2019-01-17 09:14:41:365,Hippodrom,Pony,Invincible,Cinnamon,Demigod,Roach,Kit-Kat,Snowball,Overdose
-2019-01-17 09:14:41:366,Hippodrom,Cinnamon,Invincible,Kit-Kat,Overdose,Snowball,Roach,Demigod,Pony
-2019-01-17 09:14:41:366,Hippodrom,Snowball,Cinnamon,Roach,Kit-Kat,Overdose,Demigod,Invincible,Pony
-2019-01-17 09:14:41:367,Hippodrom,Kit-Kat,Roach,Overdose,Demigod,Snowball,Cinnamon,Invincible,Pony
-2019-01-17 09:14:41:368,Hippodrom,Pony,Roach,Invincible,Kit-Kat,Demigod,Overdose,Cinnamon,Snowball
-2019-01-17 09:14:41:371,Hippodrom,Cinnamon,Invincible,Pony,Snowball,Roach,Demigod,Kit-Kat,Overdose
-2019-01-17 09:14:41:372,Hippodrom,Roach,Demigod,Kit-Kat,Cinnamon,Invincible,Pony,Overdose,Snowball
-2019-01-17 09:14:41:372,Hippodrom,Invincible,Kit-Kat,Demigod,Cinnamon,Snowball,Roach,Pony,Overdose
-2019-01-17 09:14:41:373,Hippodrom,Roach,Invincible,Kit-Kat,Demigod,Overdose,Pony,Cinnamon,Snowball
-2019-01-17 09:14:41:373,Hippodrom,Pony,Invincible,Kit-Kat,Cinnamon,Demigod,Overdose,Roach,Snowball
-2019-01-17 09:14:41:373,Hippodrom,Roach,Invincible,Snowball,Overdose,Demigod,Kit-Kat,Cinnamon,Pony
-2019-01-17 09:14:41:374,Hippodrom,Roach,Cinnamon,Snowball,Invincible,Kit-Kat,Demigod,Pony,Overdose
-2019-01-17 09:14:41:374,Hippodrom,Demigod,Roach,Snowball,Kit-Kat,Cinnamon,Invincible,Pony,Overdose
-2019-01-17 09:14:41:375,Hippodrom,Demigod,Pony,Cinnamon,Snowball,Kit-Kat,Roach,Invincible,Overdose
-2019-01-17 09:14:41:375,Hippodrom,Pony,Overdose,Demigod,Kit-Kat,Cinnamon,Invincible,Roach,Snowball
-2019-01-17 09:14:41:375,Hippodrom,Kit-Kat,Pony,Overdose,Cinnamon,Invincible,Roach,Snowball,Demigod
-2019-01-17 09:14:41:376,Hippodrom,Kit-Kat,Invincible,Demigod,Cinnamon,Overdose,Pony,Snowball,Roach
-2019-01-17 09:14:41:376,Hippodrom,Pony,Invincible,Roach,Kit-Kat,Demigod,Snowball,Cinnamon,Overdose
-2019-01-17 09:14:41:376,Hippodrom,Cinnamon,Roach,Invincible,Kit-Kat,Snowball,Pony,Overdose,Demigod
-2019-01-17 09:14:41:377,Hippodrom,Cinnamon,Roach,Pony,Overdose,Invincible,Kit-Kat,Demigod,Snowball
-2019-01-17 09:14:41:377,Hippodrom,Pony,Kit-Kat,Demigod,Roach,Invincible,Overdose,Cinnamon,Snowball
-2019-01-17 09:14:41:377,Hippodrom,Cinnamon,Snowball,Demigod,Roach,Pony,Invincible,Kit-Kat,Overdose
-2019-01-17 09:14:41:378,Hippodrom,Cinnamon,Demigod,Snowball,Invincible,Kit-Kat,Pony,Overdose,Roach
-2019-01-17 09:14:41:379,Hippodrom,Demigod,Kit-Kat,Invincible,Roach,Cinnamon,Pony,Snowball,Overdose
-2019-01-17 09:14:41:380,Hippodrom,Invincible,Pony,Overdose,Kit-Kat,Demigod,Cinnamon,Roach,Snowball
-2019-01-17 09:14:41:380,Hippodrom,Invincible,Snowball,Overdose,Cinnamon,Roach,Demigod,Pony,Kit-Kat
-2019-01-17 09:14:41:381,Hippodrom,Demigod,Cinnamon,Kit-Kat,Pony,Roach,Snowball,Overdose,Invincible
-2019-01-17 09:14:41:383,Hippodrom,Cinnamon,Snowball,Roach,Kit-Kat,Pony,Invincible,Demigod,Overdose
-2019-01-17 09:14:41:383,Hippodrom,Overdose,Cinnamon,Kit-Kat,Pony,Invincible,Roach,Demigod,Snowball
-2019-01-17 09:14:41:384,Hippodrom,Snowball,Cinnamon,Overdose,Kit-Kat,Invincible,Demigod,Roach,Pony
-2019-01-17 09:14:41:385,Hippodrom,Cinnamon,Kit-Kat,Invincible,Pony,Snowball,Roach,Overdose,Demigod
-2019-01-17 09:14:41:385,Hippodrom,Invincible,Pony,Roach,Cinnamon,Demigod,Kit-Kat,Snowball,Overdose
-2019-01-17 09:14:41:386,Hippodrom,Overdose,Demigod,Kit-Kat,Cinnamon,Pony,Snowball,Roach,Invincible
-2019-01-17 09:14:41:386,Hippodrom,Demigod,Roach,Snowball,Pony,Cinnamon,Invincible,Overdose,Kit-Kat
-2019-01-17 09:14:41:387,Hippodrom,Roach,Snowball,Overdose,Cinnamon,Invincible,Demigod,Pony,Kit-Kat
-2019-01-17 09:14:41:387,Hippodrom,Demigod,Cinnamon,Kit-Kat,Pony,Overdose,Invincible,Snowball,Roach
-2019-01-17 09:14:41:388,Hippodrom,Roach,Snowball,Pony,Demigod,Kit-Kat,Overdose,Cinnamon,Invincible
-2019-01-17 09:14:41:388,Hippodrom,Demigod,Roach,Cinnamon,Invincible,Snowball,Overdose,Pony,Kit-Kat
-2019-01-17 09:14:41:389,Hippodrom,Roach,Snowball,Pony,Overdose,Demigod,Kit-Kat,Cinnamon,Invincible
-2019-01-17 09:14:41:389,Hippodrom,Pony,Overdose,Snowball,Kit-Kat,Invincible,Roach,Cinnamon,Demigod
-2019-01-17 09:14:41:390,Hippodrom,Cinnamon,Pony,Overdose,Invincible,Kit-Kat,Roach,Demigod,Snowball
-2019-01-17 09:14:41:390,Hippodrom,Overdose,Invincible,Demigod,Pony,Cinnamon,Roach,Snowball,Kit-Kat
-2019-01-17 09:14:41:391,Hippodrom,Kit-Kat,Pony,Snowball,Overdose,Roach,Invincible,Demigod,Cinnamon
-2019-01-17 09:14:41:391,Hippodrom,Roach,Demigod,Cinnamon,Pony,Snowball,Invincible,Overdose,Kit-Kat
-2019-01-17 09:14:41:392,Hippodrom,Overdose,Cinnamon,Demigod,Snowball,Kit-Kat,Invincible,Roach,Pony
-2019-01-17 09:14:41:392,Hippodrom,Kit-Kat,Invincible,Roach,Demigod,Snowball,Overdose,Cinnamon,Pony
-2019-01-17 09:14:41:393,Hippodrom,Kit-Kat,Invincible,Demigod,Snowball,Overdose,Cinnamon,Roach,Pony
-2019-01-17 09:14:41:393,Hippodrom,Invincible,Roach,Overdose,Snowball,Cinnamon,Kit-Kat,Pony,Demigod
-2019-01-17 09:14:41:394,Hippodrom,Roach,Overdose,Pony,Snowball,Cinnamon,Demigod,Invincible,Kit-Kat
-2019-01-17 09:14:41:395,Hippodrom,Roach,Pony,Kit-Kat,Cinnamon,Invincible,Snowball,Overdose,Demigod
-2019-01-17 09:14:41:395,Hippodrom,Kit-Kat,Snowball,Demigod,Roach,Pony,Cinnamon,Invincible,Overdose
-2019-01-17 09:14:41:396,Hippodrom,Roach,Pony,Invincible,Overdose,Cinnamon,Demigod,Snowball,Kit-Kat
-2019-01-17 09:14:41:396,Hippodrom,Cinnamon,Kit-Kat,Invincible,Snowball,Overdose,Demigod,Roach,Pony
-2019-01-17 09:14:41:397,Hippodrom,Kit-Kat,Cinnamon,Roach,Demigod,Overdose,Pony,Invincible,Snowball
-2019-01-17 09:14:41:398,Hippodrom,Roach,Kit-Kat,Cinnamon,Pony,Overdose,Demigod,Snowball,Invincible
-2019-01-17 09:14:41:399,Hippodrom,Overdose,Cinnamon,Invincible,Roach,Pony,Snowball,Kit-Kat,Demigod
-2019-01-17 09:14:41:400,Hippodrom,Invincible,Roach,Snowball,Pony,Demigod,Kit-Kat,Cinnamon,Overdose
-2019-01-17 09:14:41:400,Hippodrom,Kit-Kat,Snowball,Cinnamon,Invincible,Demigod,Overdose,Pony,Roach
-2019-01-17 09:14:41:401,Hippodrom,Kit-Kat,Cinnamon,Snowball,Demigod,Overdose,Roach,Pony,Invincible
-2019-01-17 09:14:41:401,Hippodrom,Roach,Overdose,Snowball,Cinnamon,Kit-Kat,Pony,Invincible,Demigod
-2019-01-17 09:14:41:402,Hippodrom,Invincible,Cinnamon,Roach,Snowball,Pony,Overdose,Kit-Kat,Demigod
-2019-01-17 09:14:41:402,Hippodrom,Demigod,Invincible,Pony,Roach,Overdose,Snowball,Kit-Kat,Cinnamon
-2019-01-17 09:14:41:403,Hippodrom,Snowball,Invincible,Overdose,Roach,Kit-Kat,Demigod,Cinnamon,Pony
-2019-01-17 09:14:41:403,Hippodrom,Snowball,Overdose,Kit-Kat,Pony,Invincible,Cinnamon,Roach,Demigod
-2019-01-17 09:14:41:404,Hippodrom,Cinnamon,Snowball,Kit-Kat,Roach,Invincible,Demigod,Pony,Overdose
-2019-01-17 09:14:41:404,Hippodrom,Roach,Snowball,Overdose,Cinnamon,Invincible,Demigod,Pony,Kit-Kat
-2019-01-17 09:14:41:405,Hippodrom,Roach,Pony,Demigod,Cinnamon,Invincible,Kit-Kat,Overdose,Snowball
-2019-01-17 09:14:41:405,Hippodrom,Cinnamon,Demigod,Pony,Roach,Invincible,Kit-Kat,Snowball,Overdose
-2019-01-17 09:14:41:406,Hippodrom,Roach,Overdose,Snowball,Cinnamon,Demigod,Pony,Kit-Kat,Invincible
-2019-01-17 09:14:41:406,Hippodrom,Snowball,Roach,Kit-Kat,Cinnamon,Invincible,Overdose,Demigod,Pony
-2019-01-17 09:14:41:407,Hippodrom,Snowball,Roach,Demigod,Cinnamon,Kit-Kat,Pony,Invincible,Overdose
-2019-01-17 09:14:41:407,Hippodrom,Invincible,Snowball,Overdose,Roach,Cinnamon,Demigod,Kit-Kat,Pony
-2019-01-17 09:14:41:408,Hippodrom,Cinnamon,Invincible,Snowball,Roach,Overdose,Kit-Kat,Pony,Demigod
-2019-01-17 09:14:41:408,Hippodrom,Demigod,Invincible,Roach,Cinnamon,Kit-Kat,Snowball,Overdose,Pony
-2019-01-17 09:14:41:409,Hippodrom,Cinnamon,Kit-Kat,Overdose,Snowball,Pony,Roach,Demigod,Invincible
-2019-01-17 09:14:41:409,Hippodrom,Roach,Demigod,Snowball,Invincible,Overdose,Cinnamon,Kit-Kat,Pony
-2019-01-17 09:14:41:410,Hippodrom,Snowball,Kit-Kat,Pony,Cinnamon,Demigod,Invincible,Roach,Overdose
-2019-01-17 09:14:41:410,Hippodrom,Roach,Overdose,Demigod,Snowball,Kit-Kat,Cinnamon,Invincible,Pony
-2019-01-17 09:14:41:411,Hippodrom,Cinnamon,Pony,Demigod,Kit-Kat,Snowball,Overdose,Invincible,Roach
-2019-01-17 09:14:41:411,Hippodrom,Roach,Pony,Invincible,Cinnamon,Kit-Kat,Demigod,Overdose,Snowball
-2019-01-17 09:14:41:412,Hippodrom,Snowball,Invincible,Roach,Pony,Cinnamon,Demigod,Overdose,Kit-Kat
-2019-01-17 09:14:41:412,Hippodrom,Invincible,Pony,Cinnamon,Demigod,Snowball,Roach,Overdose,Kit-Kat
-2019-01-17 09:14:41:413,Hippodrom,Kit-Kat,Roach,Invincible,Pony,Demigod,Overdose,Cinnamon,Snowball
-2019-01-17 09:14:41:413,Hippodrom,Snowball,Invincible,Pony,Roach,Demigod,Overdose,Cinnamon,Kit-Kat
-2019-01-17 09:14:41:413,Hippodrom,Overdose,Invincible,Demigod,Roach,Kit-Kat,Cinnamon,Pony,Snowball
-2019-01-17 09:14:41:414,Hippodrom,Invincible,Overdose,Snowball,Cinnamon,Pony,Roach,Demigod,Kit-Kat
-2019-01-17 09:14:41:414,Hippodrom,Overdose,Snowball,Pony,Roach,Kit-Kat,Cinnamon,Invincible,Demigod
-2019-01-17 09:14:41:414,Hippodrom,Roach,Demigod,Cinnamon,Kit-Kat,Overdose,Invincible,Pony,Snowball
-2019-01-17 09:14:41:415,Hippodrom,Overdose,Invincible,Roach,Cinnamon,Pony,Snowball,Kit-Kat,Demigod
-2019-01-17 09:14:41:415,Hippodrom,Overdose,Kit-Kat,Cinnamon,Invincible,Roach,Demigod,Snowball,Pony
-2019-01-17 09:14:41:416,Hippodrom,Snowball,Demigod,Overdose,Kit-Kat,Cinnamon,Pony,Roach,Invincible
-2019-01-17 09:14:41:416,Hippodrom,Pony,Demigod,Kit-Kat,Cinnamon,Invincible,Roach,Snowball,Overdose
-2019-01-17 09:14:41:417,Hippodrom,Demigod,Cinnamon,Roach,Kit-Kat,Snowball,Overdose,Pony,Invincible
-2019-01-17 09:14:41:417,Hippodrom,Overdose,Snowball,Cinnamon,Invincible,Demigod,Roach,Pony,Kit-Kat
-2019-01-17 09:14:41:418,Hippodrom,Cinnamon,Roach,Snowball,Invincible,Demigod,Overdose,Kit-Kat,Pony
-2019-01-17 09:14:41:418,Hippodrom,Snowball,Pony,Cinnamon,Roach,Invincible,Kit-Kat,Demigod,Overdose
-2019-01-17 09:14:41:419,Hippodrom,Overdose,Cinnamon,Snowball,Invincible,Demigod,Pony,Kit-Kat,Roach
-2019-01-17 09:14:41:419,Hippodrom,Overdose,Snowball,Kit-Kat,Pony,Invincible,Demigod,Cinnamon,Roach
-2019-01-17 09:14:41:419,Rennbahn,Pony,Roach,Demigod,Overdose,Snowball,Kit-Kat,Cinnamon,Invincible
-2019-01-17 09:14:41:420,Rennbahn,Demigod,Snowball,Kit-Kat,Roach,Overdose,Pony,Cinnamon,Invincible
-2019-01-17 09:14:41:420,Rennbahn,Pony,Invincible,Snowball,Kit-Kat,Demigod,Cinnamon,Overdose,Roach
-2019-01-17 09:14:41:420,Rennbahn,Overdose,Snowball,Pony,Kit-Kat,Cinnamon,Invincible,Demigod,Roach
-2019-01-17 09:14:41:421,Rennbahn,Invincible,Cinnamon,Roach,Kit-Kat,Demigod,Pony,Overdose,Snowball
-2019-01-17 09:14:41:421,Rennbahn,Demigod,Overdose,Cinnamon,Roach,Invincible,Pony,Kit-Kat,Snowball
-2019-01-17 09:14:41:422,Rennbahn,Kit-Kat,Overdose,Pony,Snowball,Demigod,Roach,Cinnamon,Invincible
-2019-01-17 09:14:41:422,Rennbahn,Kit-Kat,Demigod,Pony,Snowball,Roach,Cinnamon,Overdose,Invincible
-2019-01-17 09:14:41:422,Rennbahn,Invincible,Demigod,Kit-Kat,Pony,Roach,Cinnamon,Overdose,Snowball
-2019-01-17 09:14:41:423,Rennbahn,Kit-Kat,Invincible,Cinnamon,Overdose,Roach,Pony,Snowball,Demigod
-2019-01-17 09:14:41:423,Rennbahn,Cinnamon,Invincible,Overdose,Snowball,Demigod,Pony,Kit-Kat,Roach
-2019-01-17 09:14:41:423,Rennbahn,Pony,Demigod,Cinnamon,Kit-Kat,Roach,Invincible,Snowball,Overdose
-2019-01-17 09:14:41:423,Rennbahn,Kit-Kat,Cinnamon,Snowball,Overdose,Invincible,Pony,Demigod,Roach
-2019-01-17 09:14:41:424,Rennbahn,Invincible,Kit-Kat,Overdose,Roach,Pony,Demigod,Snowball,Cinnamon
-2019-01-17 09:14:41:424,Rennbahn,Invincible,Demigod,Roach,Pony,Overdose,Kit-Kat,Cinnamon,Snowball
-2019-01-17 09:14:41:424,Rennbahn,Snowball,Invincible,Demigod,Roach,Cinnamon,Pony,Kit-Kat,Overdose
-2019-01-17 09:14:41:425,Rennbahn,Invincible,Kit-Kat,Cinnamon,Demigod,Snowball,Overdose,Pony,Roach
-2019-01-17 09:14:41:425,Rennbahn,Invincible,Snowball,Demigod,Pony,Roach,Cinnamon,Overdose,Kit-Kat
-2019-01-17 09:14:41:425,Rennbahn,Cinnamon,Snowball,Kit-Kat,Overdose,Invincible,Roach,Demigod,Pony
-2019-01-17 09:14:41:425,Rennbahn,Overdose,Demigod,Cinnamon,Invincible,Roach,Kit-Kat,Pony,Snowball
-2019-01-17 09:14:41:425,Rennbahn,Invincible,Kit-Kat,Demigod,Pony,Cinnamon,Snowball,Overdose,Roach
-2019-01-17 09:14:41:426,Rennbahn,Pony,Kit-Kat,Invincible,Demigod,Overdose,Snowball,Cinnamon,Roach
-2019-01-17 09:14:41:426,Rennbahn,Invincible,Overdose,Snowball,Kit-Kat,Pony,Demigod,Cinnamon,Roach
-2019-01-17 09:14:41:426,Rennbahn,Invincible,Cinnamon,Pony,Snowball,Roach,Demigod,Kit-Kat,Overdose
-2019-01-17 09:14:41:426,Rennbahn,Snowball,Overdose,Invincible,Kit-Kat,Pony,Demigod,Cinnamon,Roach
-2019-01-17 09:14:41:427,Rennbahn,Cinnamon,Pony,Snowball,Demigod,Roach,Kit-Kat,Invincible,Overdose
-2019-01-17 09:14:41:428,Rennbahn,Demigod,Pony,Cinnamon,Roach,Invincible,Snowball,Kit-Kat,Overdose
-2019-01-17 09:14:41:428,Rennbahn,Invincible,Snowball,Demigod,Cinnamon,Pony,Kit-Kat,Roach,Overdose
-2019-01-17 09:14:41:428,Rennbahn,Roach,Pony,Demigod,Snowball,Overdose,Invincible,Cinnamon,Kit-Kat
-2019-01-17 09:14:41:429,Rennbahn,Roach,Kit-Kat,Pony,Snowball,Overdose,Demigod,Invincible,Cinnamon
-2019-01-17 09:14:41:429,Rennbahn,Snowball,Roach,Invincible,Kit-Kat,Overdose,Cinnamon,Demigod,Pony
-2019-01-17 09:14:41:429,Rennbahn,Roach,Demigod,Invincible,Snowball,Pony,Overdose,Kit-Kat,Cinnamon
-2019-01-17 09:14:41:430,Rennbahn,Roach,Kit-Kat,Cinnamon,Pony,Demigod,Invincible,Snowball,Overdose
-2019-01-17 09:14:41:430,Rennbahn,Snowball,Invincible,Demigod,Overdose,Cinnamon,Roach,Pony,Kit-Kat
-2019-01-17 09:14:41:431,Rennbahn,Overdose,Demigod,Kit-Kat,Pony,Invincible,Roach,Cinnamon,Snowball
-2019-01-17 09:14:41:431,Rennbahn,Pony,Kit-Kat,Roach,Invincible,Demigod,Cinnamon,Overdose,Snowball
-2019-01-17 09:14:41:431,Rennbahn,Invincible,Roach,Pony,Snowball,Cinnamon,Overdose,Demigod,Kit-Kat
-2019-01-17 09:14:41:432,Rennbahn,Cinnamon,Demigod,Invincible,Snowball,Roach,Kit-Kat,Overdose,Pony
-2019-01-17 09:14:41:432,Rennbahn,Pony,Snowball,Invincible,Roach,Kit-Kat,Cinnamon,Demigod,Overdose
-2019-01-17 09:14:41:432,Rennbahn,Demigod,Overdose,Pony,Cinnamon,Kit-Kat,Invincible,Snowball,Roach
-2019-01-17 09:14:41:433,Rennbahn,Overdose,Pony,Kit-Kat,Cinnamon,Snowball,Demigod,Invincible,Roach
-2019-01-17 09:14:41:433,Rennbahn,Roach,Kit-Kat,Pony,Demigod,Overdose,Snowball,Cinnamon,Invincible
-2019-01-17 09:14:41:433,Rennbahn,Roach,Overdose,Demigod,Pony,Kit-Kat,Invincible,Cinnamon,Snowball
-2019-01-17 09:14:41:434,Rennbahn,Snowball,Invincible,Pony,Cinnamon,Kit-Kat,Overdose,Roach,Demigod
-2019-01-17 09:14:41:434,Rennbahn,Demigod,Cinnamon,Invincible,Pony,Roach,Overdose,Kit-Kat,Snowball
-2019-01-17 09:14:41:434,Rennbahn,Snowball,Invincible,Demigod,Overdose,Pony,Cinnamon,Roach,Kit-Kat
-2019-01-17 09:14:41:435,Rennbahn,Demigod,Cinnamon,Snowball,Roach,Kit-Kat,Invincible,Pony,Overdose
-2019-01-17 09:14:41:435,Rennbahn,Invincible,Cinnamon,Pony,Kit-Kat,Overdose,Demigod,Roach,Snowball
-2019-01-17 09:14:41:435,Rennbahn,Roach,Overdose,Pony,Snowball,Demigod,Cinnamon,Kit-Kat,Invincible
-2019-01-17 09:14:41:435,Rennbahn,Overdose,Demigod,Roach,Kit-Kat,Invincible,Pony,Cinnamon,Snowball
-2019-01-17 09:14:41:435,Rennbahn,Cinnamon,Kit-Kat,Snowball,Pony,Demigod,Overdose,Invincible,Roach
-2019-01-17 09:14:41:436,Rennbahn,Pony,Demigod,Kit-Kat,Snowball,Roach,Invincible,Cinnamon,Overdose
-2019-01-17 09:14:41:436,Rennbahn,Pony,Snowball,Roach,Cinnamon,Demigod,Invincible,Kit-Kat,Overdose
-2019-01-17 09:14:41:437,Rennbahn,Demigod,Roach,Invincible,Pony,Overdose,Snowball,Cinnamon,Kit-Kat
-2019-01-17 09:14:41:437,Rennbahn,Invincible,Demigod,Snowball,Overdose,Kit-Kat,Cinnamon,Pony,Roach
-2019-01-17 09:14:41:437,Rennbahn,Cinnamon,Overdose,Pony,Invincible,Kit-Kat,Demigod,Roach,Snowball
-2019-01-17 09:14:41:438,Rennbahn,Pony,Kit-Kat,Snowball,Invincible,Roach,Overdose,Demigod,Cinnamon
-2019-01-17 09:14:41:439,Rennbahn,Kit-Kat,Roach,Overdose,Invincible,Pony,Cinnamon,Demigod,Snowball
-2019-01-17 09:14:41:439,Rennbahn,Demigod,Cinnamon,Invincible,Kit-Kat,Pony,Overdose,Roach,Snowball
-2019-01-17 09:14:41:439,Rennbahn,Demigod,Kit-Kat,Invincible,Snowball,Overdose,Pony,Roach,Cinnamon
-2019-01-17 09:14:41:440,Rennbahn,Invincible,Roach,Pony,Snowball,Cinnamon,Overdose,Kit-Kat,Demigod
-2019-01-17 09:14:41:440,Rennbahn,Kit-Kat,Overdose,Roach,Pony,Invincible,Snowball,Cinnamon,Demigod
-2019-01-17 09:14:41:440,Rennbahn,Overdose,Kit-Kat,Demigod,Pony,Snowball,Roach,Invincible,Cinnamon
-2019-01-17 09:14:41:441,Rennbahn,Cinnamon,Demigod,Roach,Kit-Kat,Overdose,Snowball,Pony,Invincible
-2019-01-17 09:14:41:441,Rennbahn,Invincible,Demigod,Kit-Kat,Roach,Cinnamon,Overdose,Pony,Snowball
-2019-01-17 09:14:41:442,Rennbahn,Pony,Cinnamon,Demigod,Invincible,Roach,Snowball,Overdose,Kit-Kat
-2019-01-17 09:14:41:442,Rennbahn,Overdose,Cinnamon,Pony,Kit-Kat,Invincible,Demigod,Snowball,Roach
-2019-01-17 09:14:41:442,Rennbahn,Snowball,Roach,Invincible,Overdose,Pony,Cinnamon,Demigod,Kit-Kat
-2019-01-17 09:14:41:443,Rennbahn,Cinnamon,Demigod,Kit-Kat,Overdose,Invincible,Snowball,Pony,Roach
-2019-01-17 09:14:41:443,Rennbahn,Cinnamon,Invincible,Demigod,Overdose,Kit-Kat,Pony,Snowball,Roach
-2019-01-17 09:14:41:444,Rennbahn,Snowball,Pony,Demigod,Roach,Invincible,Kit-Kat,Cinnamon,Overdose
-2019-01-17 09:14:41:444,Rennbahn,Roach,Invincible,Pony,Snowball,Cinnamon,Overdose,Demigod,Kit-Kat
-2019-01-17 09:14:41:444,Rennbahn,Cinnamon,Kit-Kat,Invincible,Snowball,Pony,Overdose,Roach,Demigod
-2019-01-17 09:14:41:445,Rennbahn,Demigod,Invincible,Pony,Kit-Kat,Roach,Cinnamon,Overdose,Snowball
-2019-01-17 09:14:41:445,Rennbahn,Cinnamon,Roach,Demigod,Overdose,Invincible,Pony,Kit-Kat,Snowball
-2019-01-17 09:14:41:445,Rennbahn,Pony,Kit-Kat,Snowball,Cinnamon,Demigod,Overdose,Roach,Invincible
-2019-01-17 09:14:41:446,Rennbahn,Invincible,Pony,Roach,Overdose,Cinnamon,Demigod,Kit-Kat,Snowball
-2019-01-17 09:14:41:446,Rennbahn,Kit-Kat,Pony,Cinnamon,Invincible,Overdose,Snowball,Roach,Demigod
-2019-01-17 09:14:41:446,Rennbahn,Snowball,Roach,Demigod,Invincible,Cinnamon,Pony,Overdose,Kit-Kat
-2019-01-17 09:14:41:446,Rennbahn,Kit-Kat,Invincible,Roach,Cinnamon,Demigod,Snowball,Overdose,Pony
-2019-01-17 09:14:41:447,Rennbahn,Roach,Snowball,Pony,Kit-Kat,Demigod,Cinnamon,Invincible,Overdose
-2019-01-17 09:14:41:447,Rennbahn,Demigod,Cinnamon,Pony,Kit-Kat,Invincible,Roach,Overdose,Snowball
-2019-01-17 09:14:41:447,Rennbahn,Demigod,Kit-Kat,Roach,Invincible,Snowball,Pony,Cinnamon,Overdose
-2019-01-17 09:14:41:447,Rennbahn,Kit-Kat,Roach,Overdose,Pony,Invincible,Snowball,Demigod,Cinnamon
-2019-01-17 09:14:41:448,Rennbahn,Invincible,Demigod,Roach,Kit-Kat,Cinnamon,Snowball,Overdose,Pony
-2019-01-17 09:14:41:448,Rennbahn,Roach,Snowball,Overdose,Cinnamon,Invincible,Demigod,Pony,Kit-Kat
-2019-01-17 09:14:41:448,Rennbahn,Snowball,Overdose,Invincible,Kit-Kat,Cinnamon,Roach,Pony,Demigod
-2019-01-17 09:14:41:448,Rennbahn,Overdose,Snowball,Kit-Kat,Roach,Cinnamon,Pony,Demigod,Invincible
-2019-01-17 09:14:41:449,Rennbahn,Demigod,Kit-Kat,Invincible,Roach,Pony,Overdose,Snowball,Cinnamon
-2019-01-17 09:14:41:449,Rennbahn,Invincible,Cinnamon,Demigod,Overdose,Pony,Kit-Kat,Snowball,Roach
-2019-01-17 09:14:41:449,Rennbahn,Pony,Demigod,Cinnamon,Invincible,Overdose,Kit-Kat,Roach,Snowball
-2019-01-17 09:14:41:449,Rennbahn,Demigod,Snowball,Roach,Pony,Cinnamon,Kit-Kat,Overdose,Invincible
-2019-01-17 09:14:41:450,Rennbahn,Pony,Invincible,Snowball,Overdose,Kit-Kat,Demigod,Roach,Cinnamon
-2019-01-17 09:14:41:450,Rennbahn,Cinnamon,Kit-Kat,Invincible,Roach,Pony,Snowball,Demigod,Overdose
-2019-01-17 09:14:41:451,Rennbahn,Roach,Demigod,Invincible,Snowball,Kit-Kat,Pony,Overdose,Cinnamon
-2019-01-17 09:14:41:451,Rennbahn,Snowball,Invincible,Pony,Demigod,Roach,Overdose,Kit-Kat,Cinnamon
-2019-01-17 09:14:41:451,Rennbahn,Kit-Kat,Overdose,Demigod,Cinnamon,Pony,Invincible,Snowball,Roach
-2019-01-17 09:14:41:452,Rennbahn,Snowball,Kit-Kat,Demigod,Pony,Cinnamon,Overdose,Invincible,Roach
-2019-01-17 09:14:41:452,Rennbahn,Invincible,Roach,Snowball,Cinnamon,Demigod,Overdose,Pony,Kit-Kat
-2019-01-17 09:14:41:452,Rennbahn,Demigod,Snowball,Overdose,Pony,Roach,Invincible,Cinnamon,Kit-Kat
-2019-01-17 09:14:41:452,Churchill Downs,Demigod,Pony,Kit-Kat,Cinnamon,Roach,Overdose,Invincible,Snowball
-2019-01-17 09:14:41:453,Churchill Downs,Invincible,Roach,Demigod,Cinnamon,Kit-Kat,Pony,Snowball,Overdose
-2019-01-17 09:14:41:453,Churchill Downs,Snowball,Pony,Roach,Kit-Kat,Invincible,Overdose,Demigod,Cinnamon
-2019-01-17 09:14:41:453,Churchill Downs,Kit-Kat,Cinnamon,Roach,Overdose,Demigod,Pony,Invincible,Snowball
-2019-01-17 09:14:41:453,Churchill Downs,Roach,Snowball,Kit-Kat,Cinnamon,Pony,Invincible,Demigod,Overdose
-2019-01-17 09:14:41:454,Churchill Downs,Invincible,Pony,Cinnamon,Kit-Kat,Overdose,Roach,Demigod,Snowball
-2019-01-17 09:14:41:454,Churchill Downs,Pony,Overdose,Demigod,Snowball,Kit-Kat,Invincible,Roach,Cinnamon
-2019-01-17 09:14:41:454,Churchill Downs,Cinnamon,Demigod,Roach,Pony,Kit-Kat,Overdose,Snowball,Invincible
-2019-01-17 09:14:41:454,Churchill Downs,Roach,Demigod,Cinnamon,Pony,Kit-Kat,Invincible,Snowball,Overdose
-2019-01-17 09:14:41:454,Churchill Downs,Cinnamon,Invincible,Demigod,Overdose,Snowball,Roach,Kit-Kat,Pony
-2019-01-17 09:14:41:455,Churchill Downs,Invincible,Pony,Kit-Kat,Overdose,Demigod,Cinnamon,Roach,Snowball
-2019-01-17 09:14:41:455,Churchill Downs,Snowball,Demigod,Cinnamon,Roach,Overdose,Kit-Kat,Invincible,Pony
-2019-01-17 09:14:41:455,Churchill Downs,Cinnamon,Demigod,Roach,Kit-Kat,Invincible,Snowball,Pony,Overdose
-2019-01-17 09:14:41:455,Churchill Downs,Demigod,Kit-Kat,Roach,Invincible,Cinnamon,Snowball,Pony,Overdose
-2019-01-17 09:14:41:456,Churchill Downs,Demigod,Kit-Kat,Roach,Invincible,Overdose,Pony,Cinnamon,Snowball
-2019-01-17 09:14:41:456,Churchill Downs,Pony,Demigod,Roach,Snowball,Overdose,Cinnamon,Invincible,Kit-Kat
-2019-01-17 09:14:41:456,Churchill Downs,Kit-Kat,Roach,Cinnamon,Overdose,Invincible,Pony,Snowball,Demigod
-2019-01-17 09:14:41:456,Churchill Downs,Demigod,Overdose,Pony,Snowball,Roach,Cinnamon,Invincible,Kit-Kat
-2019-01-17 09:14:41:457,Churchill Downs,Invincible,Kit-Kat,Overdose,Snowball,Demigod,Roach,Cinnamon,Pony
-2019-01-17 09:14:41:457,Churchill Downs,Cinnamon,Snowball,Pony,Demigod,Roach,Invincible,Kit-Kat,Overdose
-2019-01-17 09:14:41:457,Churchill Downs,Snowball,Invincible,Pony,Kit-Kat,Demigod,Cinnamon,Overdose,Roach
-2019-01-17 09:14:41:458,Churchill Downs,Overdose,Roach,Snowball,Pony,Demigod,Kit-Kat,Cinnamon,Invincible
-2019-01-17 09:14:41:458,Churchill Downs,Cinnamon,Roach,Snowball,Pony,Demigod,Invincible,Kit-Kat,Overdose
-2019-01-17 09:14:41:458,Churchill Downs,Kit-Kat,Roach,Snowball,Invincible,Pony,Overdose,Cinnamon,Demigod
-2019-01-17 09:14:41:459,Churchill Downs,Roach,Cinnamon,Pony,Invincible,Kit-Kat,Demigod,Overdose,Snowball
-2019-01-17 09:14:41:459,Churchill Downs,Cinnamon,Overdose,Roach,Invincible,Pony,Kit-Kat,Snowball,Demigod
-2019-01-17 09:14:41:459,Churchill Downs,Demigod,Overdose,Cinnamon,Pony,Kit-Kat,Invincible,Roach,Snowball
-2019-01-17 09:14:41:460,Churchill Downs,Overdose,Snowball,Pony,Demigod,Cinnamon,Roach,Kit-Kat,Invincible
-2019-01-17 09:14:41:460,Churchill Downs,Roach,Demigod,Overdose,Cinnamon,Pony,Kit-Kat,Invincible,Snowball
-2019-01-17 09:14:41:460,Churchill Downs,Pony,Invincible,Cinnamon,Roach,Demigod,Snowball,Kit-Kat,Overdose
-2019-01-17 09:14:41:461,Churchill Downs,Demigod,Cinnamon,Invincible,Roach,Pony,Overdose,Kit-Kat,Snowball
-2019-01-17 09:14:41:461,Churchill Downs,Cinnamon,Snowball,Invincible,Roach,Kit-Kat,Overdose,Demigod,Pony
-2019-01-17 09:14:41:461,Churchill Downs,Roach,Pony,Invincible,Cinnamon,Demigod,Overdose,Kit-Kat,Snowball
-2019-01-17 09:14:41:462,Churchill Downs,Kit-Kat,Pony,Invincible,Overdose,Demigod,Roach,Cinnamon,Snowball
-2019-01-17 09:14:41:462,Churchill Downs,Overdose,Invincible,Kit-Kat,Demigod,Cinnamon,Snowball,Pony,Roach
-2019-01-17 09:14:41:462,Churchill Downs,Roach,Demigod,Pony,Snowball,Kit-Kat,Invincible,Overdose,Cinnamon
-2019-01-17 09:14:41:463,Churchill Downs,Snowball,Roach,Cinnamon,Overdose,Kit-Kat,Demigod,Pony,Invincible
-2019-01-17 09:14:41:463,Churchill Downs,Snowball,Cinnamon,Roach,Invincible,Pony,Demigod,Kit-Kat,Overdose
-2019-01-17 09:16:02:540,Happy Valley,Kit-Kat,Pony,Roach,Invincible,Snowball,Cinnamon,Overdose,Demigod
-2019-01-17 09:16:02:579,Happy Valley,Overdose,Snowball,Roach,Kit-Kat,Cinnamon,Invincible,Pony,Demigod
-2019-01-17 09:16:02:580,Happy Valley,Kit-Kat,Snowball,Invincible,Overdose,Demigod,Pony,Cinnamon,Roach
-2019-01-17 09:16:02:581,Happy Valley,Overdose,Cinnamon,Invincible,Demigod,Roach,Snowball,Pony,Kit-Kat
-2019-01-17 09:16:02:582,Happy Valley,Pony,Overdose,Snowball,Kit-Kat,Demigod,Roach,Cinnamon,Invincible
-2019-01-17 09:16:02:583,Happy Valley,Invincible,Roach,Pony,Snowball,Overdose,Cinnamon,Kit-Kat,Demigod
-2019-01-17 09:16:02:583,Happy Valley,Demigod,Kit-Kat,Overdose,Invincible,Roach,Cinnamon,Snowball,Pony
-2019-01-17 09:16:02:584,Happy Valley,Overdose,Invincible,Snowball,Cinnamon,Kit-Kat,Pony,Demigod,Roach
-2019-01-17 09:16:02:585,Happy Valley,Snowball,Overdose,Demigod,Cinnamon,Roach,Pony,Invincible,Kit-Kat
-2019-01-17 09:16:02:586,Happy Valley,Kit-Kat,Cinnamon,Roach,Demigod,Snowball,Pony,Overdose,Invincible
-2019-01-17 09:16:02:587,Happy Valley,Invincible,Snowball,Cinnamon,Overdose,Roach,Pony,Kit-Kat,Demigod
-2019-01-17 09:16:02:587,Happy Valley,Cinnamon,Snowball,Overdose,Invincible,Pony,Demigod,Roach,Kit-Kat
-2019-01-17 09:16:02:588,Happy Valley,Invincible,Overdose,Cinnamon,Demigod,Roach,Kit-Kat,Pony,Snowball
-2019-01-17 09:16:02:589,Happy Valley,Overdose,Invincible,Roach,Demigod,Pony,Snowball,Kit-Kat,Cinnamon
-2019-01-17 09:16:02:590,Happy Valley,Snowball,Kit-Kat,Demigod,Invincible,Overdose,Cinnamon,Roach,Pony
-2019-01-17 09:16:02:591,Happy Valley,Cinnamon,Kit-Kat,Demigod,Invincible,Roach,Snowball,Overdose,Pony
-2019-01-17 09:16:02:591,Happy Valley,Pony,Snowball,Overdose,Demigod,Roach,Invincible,Cinnamon,Kit-Kat
-2019-01-17 09:16:02:592,Happy Valley,Invincible,Pony,Roach,Snowball,Kit-Kat,Overdose,Cinnamon,Demigod
-2019-01-17 09:16:02:593,Happy Valley,Pony,Invincible,Kit-Kat,Cinnamon,Snowball,Overdose,Demigod,Roach
-2019-01-17 09:16:02:594,Happy Valley,Snowball,Demigod,Kit-Kat,Pony,Overdose,Invincible,Roach,Cinnamon
-2019-01-17 09:16:02:595,Happy Valley,Snowball,Roach,Pony,Cinnamon,Overdose,Demigod,Kit-Kat,Invincible
-2019-01-17 09:16:02:595,Happy Valley,Demigod,Cinnamon,Kit-Kat,Pony,Roach,Overdose,Snowball,Invincible
-2019-01-17 09:16:02:596,Happy Valley,Overdose,Roach,Pony,Cinnamon,Invincible,Demigod,Kit-Kat,Snowball
-2019-01-17 09:16:02:597,Happy Valley,Pony,Roach,Snowball,Overdose,Invincible,Kit-Kat,Cinnamon,Demigod
-2019-01-17 09:16:02:598,Happy Valley,Demigod,Snowball,Kit-Kat,Cinnamon,Roach,Pony,Invincible,Overdose
-2019-01-17 09:16:02:598,Happy Valley,Snowball,Kit-Kat,Pony,Invincible,Demigod,Roach,Cinnamon,Overdose
-2019-01-17 09:16:02:599,Happy Valley,Invincible,Demigod,Snowball,Pony,Kit-Kat,Cinnamon,Roach,Overdose
-2019-01-17 09:16:02:600,Happy Valley,Roach,Cinnamon,Demigod,Kit-Kat,Overdose,Snowball,Invincible,Pony
-2019-01-17 09:16:02:601,Happy Valley,Pony,Snowball,Overdose,Demigod,Kit-Kat,Roach,Cinnamon,Invincible
-2019-01-17 09:16:02:601,Happy Valley,Demigod,Roach,Snowball,Cinnamon,Overdose,Pony,Invincible,Kit-Kat
-2019-01-17 09:16:02:602,Happy Valley,Pony,Invincible,Kit-Kat,Roach,Demigod,Snowball,Overdose,Cinnamon
-2019-01-17 09:16:02:603,Happy Valley,Overdose,Demigod,Roach,Kit-Kat,Invincible,Cinnamon,Snowball,Pony
-2019-01-17 09:16:02:604,Happy Valley,Invincible,Snowball,Kit-Kat,Roach,Pony,Cinnamon,Demigod,Overdose
-2019-01-17 09:16:02:604,Happy Valley,Snowball,Invincible,Kit-Kat,Overdose,Pony,Demigod,Roach,Cinnamon
-2019-01-17 09:16:02:605,Happy Valley,Snowball,Overdose,Demigod,Invincible,Kit-Kat,Roach,Pony,Cinnamon
-2019-01-17 09:16:02:606,Happy Valley,Demigod,Cinnamon,Pony,Overdose,Snowball,Kit-Kat,Invincible,Roach
-2019-01-17 09:16:02:606,Happy Valley,Demigod,Snowball,Overdose,Kit-Kat,Invincible,Pony,Roach,Cinnamon
-2019-01-17 09:16:02:607,Happy Valley,Overdose,Demigod,Roach,Cinnamon,Snowball,Kit-Kat,Invincible,Pony
-2019-01-17 09:16:02:608,Happy Valley,Cinnamon,Roach,Pony,Overdose,Invincible,Snowball,Kit-Kat,Demigod
-2019-01-17 09:16:02:609,Happy Valley,Pony,Invincible,Cinnamon,Roach,Demigod,Kit-Kat,Snowball,Overdose
-2019-01-17 09:16:02:609,Happy Valley,Roach,Demigod,Overdose,Snowball,Cinnamon,Invincible,Pony,Kit-Kat
-2019-01-17 09:16:02:610,Happy Valley,Snowball,Kit-Kat,Demigod,Pony,Overdose,Roach,Cinnamon,Invincible
-2019-01-17 09:16:02:611,Happy Valley,Demigod,Roach,Snowball,Overdose,Cinnamon,Pony,Invincible,Kit-Kat
-2019-01-17 09:16:02:611,Happy Valley,Snowball,Roach,Overdose,Cinnamon,Pony,Kit-Kat,Demigod,Invincible
-2019-01-17 09:16:02:612,Happy Valley,Roach,Overdose,Kit-Kat,Invincible,Snowball,Cinnamon,Pony,Demigod
-2019-01-17 09:16:02:613,Happy Valley,Pony,Invincible,Kit-Kat,Snowball,Overdose,Cinnamon,Demigod,Roach
-2019-01-17 09:16:02:613,Happy Valley,Kit-Kat,Snowball,Invincible,Pony,Demigod,Overdose,Cinnamon,Roach
-2019-01-17 09:16:02:614,Happy Valley,Invincible,Demigod,Snowball,Kit-Kat,Pony,Cinnamon,Overdose,Roach
-2019-01-17 09:16:02:615,Happy Valley,Demigod,Pony,Overdose,Invincible,Roach,Kit-Kat,Cinnamon,Snowball
-2019-01-17 09:16:02:615,Happy Valley,Kit-Kat,Snowball,Demigod,Roach,Overdose,Invincible,Cinnamon,Pony
-2019-01-17 09:16:02:616,Happy Valley,Overdose,Snowball,Pony,Invincible,Roach,Cinnamon,Kit-Kat,Demigod
-2019-01-17 09:16:02:616,Happy Valley,Roach,Overdose,Kit-Kat,Pony,Invincible,Cinnamon,Demigod,Snowball
-2019-01-17 09:16:02:617,Happy Valley,Overdose,Snowball,Cinnamon,Invincible,Pony,Roach,Demigod,Kit-Kat
-2019-01-17 09:16:02:618,Happy Valley,Roach,Cinnamon,Kit-Kat,Overdose,Snowball,Demigod,Invincible,Pony
-2019-01-17 09:16:02:618,Happy Valley,Kit-Kat,Snowball,Pony,Invincible,Demigod,Overdose,Cinnamon,Roach
-2019-01-17 09:16:02:619,Happy Valley,Demigod,Roach,Pony,Invincible,Cinnamon,Overdose,Snowball,Kit-Kat
-2019-01-17 09:16:02:620,Happy Valley,Pony,Overdose,Snowball,Cinnamon,Kit-Kat,Invincible,Demigod,Roach
-2019-01-17 09:16:02:620,Happy Valley,Overdose,Demigod,Invincible,Snowball,Roach,Cinnamon,Pony,Kit-Kat
-2019-01-17 09:16:02:621,Happy Valley,Roach,Snowball,Pony,Kit-Kat,Invincible,Cinnamon,Overdose,Demigod
-2019-01-17 09:16:02:622,Happy Valley,Cinnamon,Invincible,Snowball,Pony,Roach,Overdose,Demigod,Kit-Kat
-2019-01-17 09:16:02:622,Happy Valley,Invincible,Roach,Overdose,Demigod,Cinnamon,Pony,Snowball,Kit-Kat
-2019-01-17 09:16:02:623,Happy Valley,Roach,Kit-Kat,Demigod,Overdose,Pony,Cinnamon,Snowball,Invincible
-2019-01-17 09:16:02:624,Happy Valley,Pony,Demigod,Roach,Invincible,Overdose,Snowball,Cinnamon,Kit-Kat
-2019-01-17 09:16:02:625,Happy Valley,Kit-Kat,Roach,Overdose,Pony,Demigod,Cinnamon,Invincible,Snowball
-2019-01-17 09:16:02:626,Happy Valley,Invincible,Roach,Pony,Overdose,Snowball,Demigod,Kit-Kat,Cinnamon
-2019-01-17 09:16:02:626,Happy Valley,Roach,Invincible,Cinnamon,Demigod,Kit-Kat,Pony,Overdose,Snowball
-2019-01-17 09:16:02:627,Happy Valley,Kit-Kat,Demigod,Invincible,Pony,Cinnamon,Snowball,Overdose,Roach
-2019-01-17 09:16:02:627,Happy Valley,Cinnamon,Demigod,Pony,Snowball,Invincible,Overdose,Roach,Kit-Kat
-2019-01-17 09:16:02:628,Happy Valley,Pony,Snowball,Kit-Kat,Demigod,Cinnamon,Overdose,Roach,Invincible
-2019-01-17 09:16:02:629,Happy Valley,Snowball,Roach,Cinnamon,Pony,Kit-Kat,Overdose,Invincible,Demigod
-2019-01-17 09:16:02:629,Happy Valley,Pony,Cinnamon,Overdose,Invincible,Roach,Snowball,Demigod,Kit-Kat
-2019-01-17 09:16:02:630,Happy Valley,Cinnamon,Demigod,Invincible,Overdose,Snowball,Kit-Kat,Roach,Pony
-2019-01-17 09:16:02:631,Happy Valley,Cinnamon,Demigod,Pony,Snowball,Invincible,Kit-Kat,Roach,Overdose
-2019-01-17 09:16:02:631,Happy Valley,Kit-Kat,Cinnamon,Pony,Roach,Overdose,Invincible,Demigod,Snowball
-2019-01-17 09:16:02:632,Happy Valley,Pony,Roach,Kit-Kat,Demigod,Cinnamon,Snowball,Overdose,Invincible
-2019-01-17 09:16:02:633,Happy Valley,Cinnamon,Demigod,Snowball,Invincible,Pony,Roach,Kit-Kat,Overdose
-2019-01-17 09:16:02:633,Happy Valley,Snowball,Cinnamon,Invincible,Overdose,Kit-Kat,Pony,Roach,Demigod
-2019-01-17 09:16:02:634,Happy Valley,Cinnamon,Kit-Kat,Snowball,Invincible,Overdose,Demigod,Pony,Roach
-2019-01-17 09:16:02:635,Happy Valley,Demigod,Overdose,Snowball,Invincible,Pony,Kit-Kat,Roach,Cinnamon
-2019-01-17 09:16:02:635,Happy Valley,Roach,Pony,Snowball,Overdose,Demigod,Cinnamon,Invincible,Kit-Kat
-2019-01-17 09:16:02:636,Happy Valley,Kit-Kat,Snowball,Roach,Overdose,Cinnamon,Demigod,Pony,Invincible
-2019-01-17 09:16:02:636,Happy Valley,Demigod,Snowball,Invincible,Overdose,Roach,Cinnamon,Pony,Kit-Kat
-2019-01-17 09:16:02:637,Happy Valley,Cinnamon,Invincible,Demigod,Overdose,Roach,Kit-Kat,Snowball,Pony
-2019-01-17 09:16:02:638,Happy Valley,Demigod,Overdose,Roach,Kit-Kat,Snowball,Pony,Cinnamon,Invincible
-2019-01-17 09:16:02:638,Happy Valley,Pony,Cinnamon,Snowball,Invincible,Roach,Overdose,Kit-Kat,Demigod
-2019-01-17 09:16:02:639,Happy Valley,Cinnamon,Overdose,Snowball,Pony,Demigod,Invincible,Roach,Kit-Kat
-2019-01-17 09:16:02:640,Happy Valley,Cinnamon,Overdose,Invincible,Snowball,Kit-Kat,Roach,Demigod,Pony
-2019-01-17 09:16:02:640,Happy Valley,Kit-Kat,Overdose,Cinnamon,Demigod,Pony,Invincible,Roach,Snowball
-2019-01-17 09:16:02:641,Happy Valley,Invincible,Snowball,Overdose,Roach,Kit-Kat,Cinnamon,Demigod,Pony
-2019-01-17 09:16:02:641,Happy Valley,Kit-Kat,Demigod,Invincible,Roach,Pony,Snowball,Cinnamon,Overdose
-2019-01-17 09:16:02:642,Happy Valley,Roach,Overdose,Snowball,Kit-Kat,Demigod,Invincible,Pony,Cinnamon
-2019-01-17 09:16:02:643,Happy Valley,Demigod,Pony,Overdose,Snowball,Invincible,Cinnamon,Roach,Kit-Kat
-2019-01-17 09:16:02:643,Happy Valley,Invincible,Kit-Kat,Snowball,Overdose,Roach,Demigod,Cinnamon,Pony
-2019-01-17 09:16:02:644,Happy Valley,Snowball,Pony,Roach,Cinnamon,Invincible,Overdose,Kit-Kat,Demigod
-2019-01-17 09:16:02:644,Happy Valley,Demigod,Roach,Overdose,Invincible,Pony,Cinnamon,Snowball,Kit-Kat
-2019-01-17 09:16:02:645,Happy Valley,Kit-Kat,Roach,Cinnamon,Overdose,Demigod,Snowball,Invincible,Pony
-2019-01-17 09:16:02:645,Happy Valley,Roach,Pony,Overdose,Cinnamon,Demigod,Invincible,Kit-Kat,Snowball
-2019-01-17 09:16:02:646,Happy Valley,Overdose,Invincible,Cinnamon,Kit-Kat,Roach,Pony,Snowball,Demigod
-2019-01-17 09:16:02:646,Happy Valley,Invincible,Roach,Snowball,Pony,Cinnamon,Overdose,Kit-Kat,Demigod
-2019-01-17 09:16:02:647,Happy Valley,Snowball,Demigod,Cinnamon,Kit-Kat,Overdose,Pony,Invincible,Roach
-2019-01-17 09:16:02:647,Hippodrom,Pony,Demigod,Kit-Kat,Invincible,Roach,Snowball,Overdose,Cinnamon
-2019-01-17 09:16:02:648,Hippodrom,Invincible,Demigod,Kit-Kat,Roach,Overdose,Pony,Snowball,Cinnamon
-2019-01-17 09:16:02:649,Hippodrom,Roach,Pony,Kit-Kat,Snowball,Demigod,Invincible,Overdose,Cinnamon
-2019-01-17 09:16:02:649,Hippodrom,Cinnamon,Invincible,Demigod,Overdose,Roach,Pony,Kit-Kat,Snowball
-2019-01-17 09:16:02:650,Hippodrom,Kit-Kat,Demigod,Pony,Roach,Invincible,Cinnamon,Overdose,Snowball
-2019-01-17 09:16:02:650,Hippodrom,Invincible,Kit-Kat,Cinnamon,Snowball,Overdose,Pony,Demigod,Roach
-2019-01-17 09:16:02:651,Hippodrom,Demigod,Pony,Snowball,Invincible,Kit-Kat,Overdose,Roach,Cinnamon
-2019-01-17 09:16:02:656,Hippodrom,Pony,Roach,Overdose,Cinnamon,Invincible,Snowball,Kit-Kat,Demigod
-2019-01-17 09:16:02:657,Hippodrom,Overdose,Demigod,Cinnamon,Snowball,Invincible,Kit-Kat,Pony,Roach
-2019-01-17 09:16:02:658,Hippodrom,Snowball,Pony,Roach,Invincible,Demigod,Overdose,Cinnamon,Kit-Kat
-2019-01-17 09:16:02:658,Hippodrom,Overdose,Roach,Demigod,Cinnamon,Snowball,Kit-Kat,Pony,Invincible
-2019-01-17 09:16:02:659,Hippodrom,Snowball,Demigod,Invincible,Roach,Pony,Overdose,Cinnamon,Kit-Kat
-2019-01-17 09:16:02:660,Hippodrom,Kit-Kat,Pony,Roach,Invincible,Cinnamon,Snowball,Overdose,Demigod
-2019-01-17 09:16:02:661,Hippodrom,Cinnamon,Invincible,Kit-Kat,Roach,Snowball,Pony,Overdose,Demigod
-2019-01-17 09:16:02:661,Hippodrom,Demigod,Overdose,Roach,Pony,Kit-Kat,Invincible,Snowball,Cinnamon
-2019-01-17 09:16:02:662,Hippodrom,Demigod,Snowball,Overdose,Cinnamon,Invincible,Roach,Pony,Kit-Kat
-2019-01-17 09:16:02:663,Hippodrom,Roach,Pony,Overdose,Demigod,Invincible,Cinnamon,Snowball,Kit-Kat
-2019-01-17 09:16:02:664,Hippodrom,Snowball,Roach,Kit-Kat,Cinnamon,Demigod,Pony,Invincible,Overdose
-2019-01-17 09:16:02:664,Hippodrom,Snowball,Invincible,Roach,Cinnamon,Overdose,Demigod,Kit-Kat,Pony
-2019-01-17 09:16:02:665,Hippodrom,Cinnamon,Pony,Snowball,Kit-Kat,Roach,Invincible,Demigod,Overdose
-2019-01-17 09:16:02:666,Hippodrom,Kit-Kat,Snowball,Roach,Invincible,Pony,Demigod,Cinnamon,Overdose
-2019-01-17 09:16:02:666,Hippodrom,Pony,Overdose,Invincible,Demigod,Snowball,Cinnamon,Kit-Kat,Roach
-2019-01-17 09:16:02:667,Hippodrom,Pony,Invincible,Demigod,Cinnamon,Roach,Kit-Kat,Overdose,Snowball
-2019-01-17 09:16:02:668,Hippodrom,Invincible,Pony,Overdose,Kit-Kat,Demigod,Snowball,Roach,Cinnamon
-2019-01-17 09:16:02:669,Hippodrom,Snowball,Pony,Roach,Invincible,Overdose,Kit-Kat,Cinnamon,Demigod
-2019-01-17 09:16:02:669,Hippodrom,Overdose,Demigod,Snowball,Invincible,Pony,Kit-Kat,Roach,Cinnamon
-2019-01-17 09:16:02:670,Hippodrom,Overdose,Roach,Cinnamon,Invincible,Pony,Snowball,Demigod,Kit-Kat
-2019-01-17 09:16:02:671,Hippodrom,Roach,Pony,Cinnamon,Kit-Kat,Overdose,Invincible,Snowball,Demigod
-2019-01-17 09:16:02:672,Hippodrom,Invincible,Snowball,Pony,Roach,Demigod,Overdose,Cinnamon,Kit-Kat
-2019-01-17 09:16:02:673,Hippodrom,Snowball,Kit-Kat,Roach,Pony,Invincible,Demigod,Cinnamon,Overdose
-2019-01-17 09:16:05:818,Happy Valley,Demigod,Kit-Kat,Overdose,Snowball,Pony,Invincible,Roach,Cinnamon
-2019-01-17 09:16:05:872,Happy Valley,Roach,Cinnamon,Invincible,Kit-Kat,Overdose,Pony,Snowball,Demigod
-2019-01-17 09:16:05:874,Happy Valley,Demigod,Invincible,Roach,Cinnamon,Pony,Overdose,Kit-Kat,Snowball
-2019-01-17 09:16:05:875,Happy Valley,Roach,Pony,Overdose,Invincible,Snowball,Cinnamon,Kit-Kat,Demigod
-2019-01-17 09:16:05:877,Happy Valley,Demigod,Pony,Overdose,Invincible,Roach,Snowball,Kit-Kat,Cinnamon
-2019-01-17 09:16:05:878,Happy Valley,Snowball,Pony,Kit-Kat,Invincible,Roach,Demigod,Overdose,Cinnamon
-2019-01-17 09:16:05:879,Happy Valley,Demigod,Roach,Overdose,Snowball,Pony,Cinnamon,Kit-Kat,Invincible
-2019-01-17 09:16:05:880,Happy Valley,Kit-Kat,Roach,Invincible,Demigod,Cinnamon,Pony,Overdose,Snowball
-2019-01-17 09:16:05:882,Happy Valley,Cinnamon,Kit-Kat,Roach,Invincible,Demigod,Snowball,Overdose,Pony
-2019-01-17 09:16:05:883,Happy Valley,Overdose,Kit-Kat,Demigod,Snowball,Cinnamon,Roach,Invincible,Pony
-2019-01-17 09:16:05:884,Hippodrom,Kit-Kat,Roach,Snowball,Overdose,Demigod,Cinnamon,Invincible,Pony
-2019-01-17 09:16:05:885,Hippodrom,Cinnamon,Snowball,Demigod,Overdose,Invincible,Kit-Kat,Roach,Pony
-2019-01-17 09:16:05:887,Hippodrom,Invincible,Overdose,Demigod,Snowball,Roach,Pony,Cinnamon,Kit-Kat
-2019-01-17 09:16:05:888,Hippodrom,Snowball,Overdose,Pony,Invincible,Kit-Kat,Roach,Cinnamon,Demigod
-2019-01-17 09:16:05:889,Hippodrom,Roach,Demigod,Cinnamon,Kit-Kat,Overdose,Snowball,Invincible,Pony
-2019-01-17 09:16:05:890,Hippodrom,Cinnamon,Invincible,Roach,Demigod,Pony,Kit-Kat,Snowball,Overdose
-2019-01-17 09:16:05:891,Hippodrom,Invincible,Kit-Kat,Roach,Cinnamon,Overdose,Snowball,Pony,Demigod
-2019-01-17 09:16:05:892,Hippodrom,Kit-Kat,Demigod,Cinnamon,Snowball,Pony,Invincible,Roach,Overdose
-2019-01-17 09:16:05:894,Hippodrom,Overdose,Cinnamon,Roach,Pony,Demigod,Snowball,Invincible,Kit-Kat
-2019-01-17 09:16:05:895,Hippodrom,Snowball,Demigod,Cinnamon,Kit-Kat,Pony,Overdose,Invincible,Roach
-2019-01-17 09:16:05:896,Rennbahn,Demigod,Cinnamon,Invincible,Roach,Kit-Kat,Pony,Snowball,Overdose
-2019-01-17 09:16:05:897,Rennbahn,Roach,Demigod,Pony,Kit-Kat,Overdose,Snowball,Cinnamon,Invincible
-2019-01-17 09:16:05:899,Rennbahn,Roach,Demigod,Invincible,Kit-Kat,Cinnamon,Snowball,Overdose,Pony
-2019-01-17 09:16:05:900,Rennbahn,Cinnamon,Pony,Kit-Kat,Overdose,Demigod,Invincible,Snowball,Roach
-2019-01-17 09:16:05:901,Rennbahn,Snowball,Demigod,Cinnamon,Invincible,Overdose,Kit-Kat,Roach,Pony
-2019-01-17 09:16:05:902,Rennbahn,Kit-Kat,Demigod,Cinnamon,Overdose,Roach,Pony,Invincible,Snowball
-2019-01-17 09:16:05:903,Rennbahn,Overdose,Snowball,Pony,Invincible,Cinnamon,Demigod,Kit-Kat,Roach
-2019-01-17 09:16:05:904,Rennbahn,Kit-Kat,Invincible,Roach,Pony,Overdose,Demigod,Cinnamon,Snowball
-2019-01-17 09:16:05:905,Rennbahn,Invincible,Overdose,Snowball,Roach,Pony,Demigod,Kit-Kat,Cinnamon
-2019-01-17 09:16:05:906,Rennbahn,Roach,Pony,Snowball,Demigod,Invincible,Cinnamon,Kit-Kat,Overdose
-2019-01-17 09:16:05:908,Churchill Downs,Cinnamon,Pony,Roach,Kit-Kat,Demigod,Overdose,Snowball,Invincible
-2019-01-17 09:16:05:909,Churchill Downs,Cinnamon,Pony,Invincible,Kit-Kat,Overdose,Snowball,Roach,Demigod
-2019-01-17 09:16:05:910,Churchill Downs,Demigod,Kit-Kat,Roach,Overdose,Invincible,Pony,Cinnamon,Snowball
-2019-01-17 09:16:05:911,Churchill Downs,Kit-Kat,Invincible,Pony,Roach,Cinnamon,Overdose,Demigod,Snowball
-2019-01-17 09:16:05:912,Churchill Downs,Pony,Cinnamon,Invincible,Snowball,Overdose,Demigod,Roach,Kit-Kat
-2019-01-17 09:16:05:913,Churchill Downs,Snowball,Demigod,Roach,Pony,Overdose,Kit-Kat,Cinnamon,Invincible
-2019-01-17 09:16:05:914,Churchill Downs,Cinnamon,Invincible,Demigod,Kit-Kat,Overdose,Snowball,Pony,Roach
-2019-01-17 09:16:05:915,Churchill Downs,Roach,Pony,Demigod,Cinnamon,Overdose,Invincible,Snowball,Kit-Kat
-2019-01-17 09:16:05:916,Churchill Downs,Snowball,Invincible,Pony,Overdose,Cinnamon,Kit-Kat,Roach,Demigod
-2019-01-17 09:16:05:917,Churchill Downs,Kit-Kat,Invincible,Pony,Cinnamon,Roach,Snowball,Demigod,Overdose
-2019-01-17 09:16:05:918,Royal Bangkok,Pony,Kit-Kat,Demigod,Invincible,Cinnamon,Roach,Snowball,Overdose
-2019-01-17 09:16:05:919,Royal Bangkok,Invincible,Pony,Cinnamon,Demigod,Overdose,Roach,Snowball,Kit-Kat
-2019-01-17 09:16:05:920,Royal Bangkok,Kit-Kat,Pony,Roach,Demigod,Cinnamon,Snowball,Overdose,Invincible
-2019-01-17 09:16:05:921,Royal Bangkok,Invincible,Kit-Kat,Demigod,Overdose,Roach,Cinnamon,Snowball,Pony
-2019-01-17 09:16:05:922,Royal Bangkok,Pony,Invincible,Snowball,Roach,Cinnamon,Demigod,Kit-Kat,Overdose
-2019-01-17 09:16:05:923,Royal Bangkok,Pony,Overdose,Kit-Kat,Demigod,Invincible,Roach,Cinnamon,Snowball
-2019-01-17 09:16:05:924,Royal Bangkok,Snowball,Roach,Cinnamon,Pony,Demigod,Overdose,Kit-Kat,Invincible
-2019-01-17 09:16:05:925,Royal Bangkok,Overdose,Roach,Kit-Kat,Cinnamon,Pony,Snowball,Invincible,Demigod
-2019-01-17 09:16:05:926,Royal Bangkok,Snowball,Overdose,Demigod,Kit-Kat,Pony,Roach,Invincible,Cinnamon
-2019-01-17 09:16:05:927,Royal Bangkok,Kit-Kat,Demigod,Snowball,Cinnamon,Overdose,Invincible,Pony,Roach
-2019-01-17 09:16:05:928,Bendigo,Invincible,Pony,Kit-Kat,Snowball,Overdose,Roach,Cinnamon,Demigod
-2019-01-17 09:16:05:929,Bendigo,Snowball,Overdose,Roach,Pony,Kit-Kat,Cinnamon,Demigod,Invincible
-2019-01-17 09:16:05:930,Bendigo,Demigod,Snowball,Cinnamon,Roach,Overdose,Invincible,Pony,Kit-Kat
-2019-01-17 09:16:05:931,Bendigo,Overdose,Roach,Invincible,Snowball,Cinnamon,Pony,Kit-Kat,Demigod
-2019-01-17 09:16:05:932,Bendigo,Overdose,Invincible,Demigod,Snowball,Roach,Kit-Kat,Pony,Cinnamon
-2019-01-17 09:16:05:933,Bendigo,Snowball,Overdose,Roach,Demigod,Pony,Invincible,Cinnamon,Kit-Kat
-2019-01-17 09:16:05:934,Bendigo,Kit-Kat,Overdose,Demigod,Invincible,Roach,Pony,Cinnamon,Snowball
-2019-01-17 09:16:05:935,Bendigo,Snowball,Invincible,Demigod,Kit-Kat,Cinnamon,Roach,Pony,Overdose
-2019-01-17 09:16:05:936,Bendigo,Pony,Cinnamon,Invincible,Roach,Demigod,Kit-Kat,Overdose,Snowball
-2019-01-17 09:16:05:937,Bendigo,Snowball,Pony,Demigod,Invincible,Kit-Kat,Overdose,Roach,Cinnamon
-2019-01-17 09:16:05:938,Geelong,Overdose,Invincible,Roach,Pony,Demigod,Cinnamon,Snowball,Kit-Kat
-2019-01-17 09:16:05:939,Geelong,Cinnamon,Invincible,Kit-Kat,Roach,Overdose,Demigod,Pony,Snowball
-2019-01-17 09:16:05:940,Geelong,Invincible,Cinnamon,Demigod,Roach,Overdose,Pony,Snowball,Kit-Kat
-2019-01-17 09:16:05:941,Geelong,Cinnamon,Overdose,Kit-Kat,Demigod,Snowball,Pony,Roach,Invincible
-2019-01-17 09:16:05:942,Geelong,Invincible,Kit-Kat,Overdose,Demigod,Cinnamon,Snowball,Pony,Roach
-2019-01-17 09:16:05:942,Geelong,Roach,Demigod,Snowball,Overdose,Pony,Cinnamon,Kit-Kat,Invincible
-2019-01-17 09:16:05:943,Geelong,Demigod,Roach,Invincible,Kit-Kat,Overdose,Pony,Cinnamon,Snowball
-2019-01-17 09:16:05:944,Geelong,Invincible,Overdose,Cinnamon,Kit-Kat,Snowball,Roach,Pony,Demigod
-2019-01-17 09:16:05:945,Geelong,Roach,Kit-Kat,Invincible,Demigod,Overdose,Snowball,Cinnamon,Pony
-2019-01-17 09:16:05:946,Geelong,Pony,Demigod,Overdose,Invincible,Kit-Kat,Snowball,Roach,Cinnamon
-2019-01-17 09:16:05:946,The Track,Demigod,Invincible,Overdose,Pony,Kit-Kat,Roach,Snowball,Cinnamon
-2019-01-17 09:16:05:947,The Track,Overdose,Demigod,Kit-Kat,Invincible,Cinnamon,Pony,Snowball,Roach
-2019-01-17 09:16:05:948,The Track,Snowball,Kit-Kat,Invincible,Cinnamon,Demigod,Pony,Overdose,Roach
-2019-01-17 09:16:05:949,The Track,Pony,Roach,Invincible,Snowball,Demigod,Overdose,Cinnamon,Kit-Kat
-2019-01-17 09:16:05:950,The Track,Kit-Kat,Demigod,Pony,Cinnamon,Roach,Overdose,Snowball,Invincible
-2019-01-17 09:16:05:951,The Track,Roach,Demigod,Cinnamon,Kit-Kat,Snowball,Overdose,Pony,Invincible
-2019-01-17 09:16:05:952,The Track,Demigod,Invincible,Pony,Kit-Kat,Roach,Overdose,Snowball,Cinnamon
-2019-01-17 09:16:05:952,The Track,Kit-Kat,Roach,Invincible,Pony,Cinnamon,Demigod,Snowball,Overdose
-2019-01-17 09:16:05:953,The Track,Pony,Demigod,Invincible,Overdose,Snowball,Kit-Kat,Cinnamon,Roach
-2019-01-17 09:16:05:954,The Track,Kit-Kat,Invincible,Cinnamon,Demigod,Roach,Pony,Overdose,Snowball
-2019-01-17 09:16:05:955,Kincsem Park,Roach,Pony,Invincible,Demigod,Cinnamon,Snowball,Overdose,Kit-Kat
-2019-01-17 09:16:05:955,Kincsem Park,Pony,Roach,Demigod,Cinnamon,Overdose,Kit-Kat,Snowball,Invincible
-2019-01-17 09:16:05:956,Kincsem Park,Roach,Snowball,Overdose,Pony,Cinnamon,Kit-Kat,Demigod,Invincible
-2019-01-17 09:16:05:957,Kincsem Park,Cinnamon,Overdose,Kit-Kat,Roach,Pony,Invincible,Snowball,Demigod
-2019-01-17 09:16:05:957,Kincsem Park,Overdose,Cinnamon,Roach,Kit-Kat,Invincible,Demigod,Snowball,Pony
-2019-01-17 09:16:05:958,Kincsem Park,Cinnamon,Pony,Invincible,Overdose,Roach,Snowball,Demigod,Kit-Kat
-2019-01-17 09:16:05:959,Kincsem Park,Snowball,Pony,Invincible,Overdose,Cinnamon,Roach,Demigod,Kit-Kat
-2019-01-17 09:16:05:960,Kincsem Park,Roach,Invincible,Pony,Overdose,Cinnamon,Demigod,Snowball,Kit-Kat
-2019-01-17 09:16:05:960,Kincsem Park,Kit-Kat,Snowball,Pony,Cinnamon,Demigod,Roach,Invincible,Overdose
-2019-01-17 09:16:05:961,Kincsem Park,Overdose,Demigod,Roach,Invincible,Snowball,Pony,Kit-Kat,Cinnamon
-2019-01-17 09:16:05:962,Ngong,Roach,Cinnamon,Snowball,Overdose,Invincible,Pony,Kit-Kat,Demigod
-2019-01-17 09:16:05:962,Ngong,Overdose,Invincible,Roach,Snowball,Cinnamon,Demigod,Pony,Kit-Kat
-2019-01-17 09:16:05:963,Ngong,Cinnamon,Pony,Overdose,Roach,Demigod,Snowball,Invincible,Kit-Kat
-2019-01-17 09:16:05:964,Ngong,Overdose,Roach,Invincible,Cinnamon,Demigod,Pony,Snowball,Kit-Kat
-2019-01-17 09:16:05:965,Ngong,Demigod,Overdose,Pony,Kit-Kat,Invincible,Cinnamon,Roach,Snowball
-2019-01-17 09:16:05:966,Ngong,Invincible,Pony,Roach,Demigod,Overdose,Kit-Kat,Cinnamon,Snowball
-2019-01-17 09:16:05:966,Ngong,Snowball,Overdose,Roach,Kit-Kat,Demigod,Pony,Invincible,Cinnamon
-2019-01-17 09:16:05:967,Ngong,Pony,Overdose,Kit-Kat,Cinnamon,Snowball,Demigod,Invincible,Roach
-2019-01-17 09:16:05:968,Ngong,Invincible,Overdose,Pony,Roach,Demigod,Cinnamon,Snowball,Kit-Kat
-2019-01-17 09:16:05:968,Ngong,Pony,Overdose,Demigod,Cinnamon,Roach,Invincible,Kit-Kat,Snowball
-2019-01-17 09:16:27:681,Happy Valley,Snowball,Demigod,Invincible,Kit-Kat,Cinnamon,Overdose,Pony,Roach
-2019-01-17 09:16:27:735,Happy Valley,Invincible,Kit-Kat,Pony,Demigod,Overdose,Snowball,Cinnamon,Roach
-2019-01-17 09:16:27:736,Happy Valley,Cinnamon,Overdose,Kit-Kat,Pony,Demigod,Snowball,Invincible,Roach
-2019-01-17 09:16:27:738,Happy Valley,Snowball,Pony,Overdose,Cinnamon,Invincible,Roach,Demigod,Kit-Kat
-2019-01-17 09:16:27:739,Happy Valley,Cinnamon,Snowball,Invincible,Kit-Kat,Demigod,Overdose,Pony,Roach
-2019-01-17 09:16:27:740,Happy Valley,Overdose,Kit-Kat,Demigod,Snowball,Pony,Invincible,Roach,Cinnamon
-2019-01-17 09:16:27:742,Happy Valley,Roach,Overdose,Snowball,Demigod,Cinnamon,Pony,Invincible,Kit-Kat
-2019-01-17 09:16:27:743,Happy Valley,Snowball,Overdose,Kit-Kat,Demigod,Invincible,Pony,Cinnamon,Roach
-2019-01-17 09:16:27:744,Happy Valley,Kit-Kat,Overdose,Cinnamon,Demigod,Snowball,Roach,Pony,Invincible
-2019-01-17 09:16:27:745,Happy Valley,Overdose,Cinnamon,Demigod,Kit-Kat,Snowball,Pony,Roach,Invincible
-2019-01-17 09:16:27:747,Happy Valley,Invincible,Pony,Kit-Kat,Cinnamon,Roach,Demigod,Snowball,Overdose
-2019-01-17 09:16:27:748,Happy Valley,Demigod,Kit-Kat,Cinnamon,Invincible,Overdose,Snowball,Roach,Pony
-2019-01-17 09:16:27:749,Happy Valley,Cinnamon,Demigod,Pony,Invincible,Roach,Snowball,Overdose,Kit-Kat
-2019-01-17 09:16:27:750,Happy Valley,Pony,Cinnamon,Invincible,Demigod,Snowball,Kit-Kat,Roach,Overdose
-2019-01-17 09:16:27:751,Happy Valley,Pony,Kit-Kat,Roach,Snowball,Invincible,Demigod,Overdose,Cinnamon
-2019-01-17 09:16:27:753,Happy Valley,Demigod,Snowball,Kit-Kat,Roach,Cinnamon,Overdose,Pony,Invincible
-2019-01-17 09:16:27:754,Happy Valley,Invincible,Snowball,Roach,Kit-Kat,Demigod,Pony,Cinnamon,Overdose
-2019-01-17 09:16:27:755,Happy Valley,Roach,Cinnamon,Overdose,Invincible,Pony,Demigod,Snowball,Kit-Kat
-2019-01-17 09:16:27:756,Happy Valley,Demigod,Cinnamon,Snowball,Pony,Invincible,Overdose,Kit-Kat,Roach
-2019-01-17 09:16:27:757,Happy Valley,Pony,Snowball,Kit-Kat,Overdose,Cinnamon,Invincible,Roach,Demigod
-2019-01-17 09:16:27:759,Happy Valley,Overdose,Cinnamon,Kit-Kat,Invincible,Snowball,Demigod,Pony,Roach
-2019-01-17 09:16:27:760,Happy Valley,Overdose,Kit-Kat,Demigod,Roach,Pony,Cinnamon,Snowball,Invincible
-2019-01-17 09:16:27:761,Happy Valley,Snowball,Cinnamon,Pony,Kit-Kat,Invincible,Overdose,Demigod,Roach
-2019-01-17 09:16:27:762,Happy Valley,Demigod,Overdose,Cinnamon,Invincible,Pony,Snowball,Roach,Kit-Kat
-2019-01-17 09:16:27:763,Happy Valley,Invincible,Snowball,Cinnamon,Pony,Demigod,Overdose,Roach,Kit-Kat
-2019-01-17 09:16:27:764,Happy Valley,Snowball,Cinnamon,Pony,Overdose,Kit-Kat,Roach,Demigod,Invincible
-2019-01-17 09:16:27:766,Happy Valley,Roach,Snowball,Cinnamon,Demigod,Invincible,Pony,Overdose,Kit-Kat
-2019-01-17 09:16:27:767,Happy Valley,Invincible,Kit-Kat,Roach,Overdose,Cinnamon,Demigod,Pony,Snowball
-2019-01-17 09:16:27:768,Happy Valley,Pony,Demigod,Cinnamon,Kit-Kat,Overdose,Invincible,Snowball,Roach
-2019-01-17 09:16:27:769,Happy Valley,Pony,Snowball,Demigod,Cinnamon,Kit-Kat,Overdose,Invincible,Roach
-2019-01-17 09:16:27:770,Happy Valley,Overdose,Roach,Pony,Snowball,Demigod,Invincible,Cinnamon,Kit-Kat
-2019-01-17 09:16:27:771,Happy Valley,Snowball,Invincible,Kit-Kat,Roach,Pony,Demigod,Overdose,Cinnamon
-2019-01-17 09:16:27:772,Happy Valley,Roach,Overdose,Pony,Kit-Kat,Demigod,Snowball,Cinnamon,Invincible
-2019-01-17 09:16:27:773,Happy Valley,Kit-Kat,Cinnamon,Overdose,Pony,Demigod,Invincible,Snowball,Roach
-2019-01-17 09:16:27:774,Happy Valley,Roach,Kit-Kat,Cinnamon,Overdose,Demigod,Invincible,Pony,Snowball
-2019-01-17 09:16:27:775,Happy Valley,Pony,Roach,Invincible,Snowball,Overdose,Cinnamon,Demigod,Kit-Kat
-2019-01-17 09:16:27:776,Happy Valley,Demigod,Invincible,Overdose,Kit-Kat,Cinnamon,Pony,Roach,Snowball
-2019-01-17 09:16:27:777,Happy Valley,Invincible,Snowball,Demigod,Cinnamon,Pony,Kit-Kat,Roach,Overdose
-2019-01-17 09:16:27:778,Happy Valley,Pony,Invincible,Roach,Kit-Kat,Cinnamon,Demigod,Snowball,Overdose
-2019-01-17 09:16:27:779,Happy Valley,Demigod,Overdose,Snowball,Cinnamon,Invincible,Kit-Kat,Roach,Pony
-2019-01-17 09:16:27:780,Happy Valley,Kit-Kat,Snowball,Invincible,Overdose,Roach,Demigod,Cinnamon,Pony
-2019-01-17 09:16:27:781,Happy Valley,Cinnamon,Kit-Kat,Roach,Overdose,Demigod,Invincible,Pony,Snowball
-2019-01-17 09:16:27:782,Happy Valley,Cinnamon,Demigod,Kit-Kat,Invincible,Overdose,Pony,Snowball,Roach
-2019-01-17 09:16:27:783,Happy Valley,Demigod,Roach,Snowball,Cinnamon,Kit-Kat,Invincible,Pony,Overdose
-2019-01-17 09:16:27:784,Happy Valley,Pony,Kit-Kat,Demigod,Snowball,Overdose,Invincible,Roach,Cinnamon
-2019-01-17 09:16:27:785,Happy Valley,Demigod,Invincible,Cinnamon,Roach,Snowball,Pony,Overdose,Kit-Kat
-2019-01-17 09:16:27:786,Happy Valley,Invincible,Pony,Roach,Snowball,Demigod,Kit-Kat,Overdose,Cinnamon
-2019-01-17 09:16:27:787,Happy Valley,Demigod,Kit-Kat,Overdose,Invincible,Snowball,Roach,Cinnamon,Pony
+2019-01-17 09:36:18:790,Happy Valley,Snowball,Demigod,Kit-Kat,Overdose,Invincible,Cinnamon,Roach,Pony
+2019-01-17 09:36:18:829,Happy Valley,Kit-Kat,Cinnamon,Demigod,Snowball,Pony,Overdose,Roach,Invincible
+2019-01-17 09:36:18:830,Happy Valley,Invincible,Overdose,Roach,Snowball,Pony,Demigod,Cinnamon,Kit-Kat
+2019-01-17 09:36:18:831,Happy Valley,Snowball,Overdose,Demigod,Pony,Kit-Kat,Roach,Invincible,Cinnamon
+2019-01-17 09:36:18:832,Happy Valley,Invincible,Overdose,Roach,Snowball,Kit-Kat,Demigod,Pony,Cinnamon
+2019-01-17 09:36:18:833,Happy Valley,Overdose,Snowball,Roach,Demigod,Cinnamon,Kit-Kat,Pony,Invincible
+2019-01-17 09:36:18:833,Happy Valley,Overdose,Roach,Invincible,Cinnamon,Demigod,Snowball,Pony,Kit-Kat
+2019-01-17 09:36:18:834,Happy Valley,Pony,Invincible,Kit-Kat,Overdose,Snowball,Cinnamon,Demigod,Roach
+2019-01-17 09:36:18:835,Happy Valley,Pony,Roach,Snowball,Invincible,Demigod,Overdose,Kit-Kat,Cinnamon
+2019-01-17 09:36:18:836,Happy Valley,Kit-Kat,Pony,Overdose,Snowball,Cinnamon,Invincible,Demigod,Roach
+2019-01-17 09:36:18:837,Happy Valley,Pony,Kit-Kat,Invincible,Roach,Overdose,Snowball,Cinnamon,Demigod
+2019-01-17 09:36:18:838,Happy Valley,Invincible,Pony,Roach,Overdose,Kit-Kat,Snowball,Cinnamon,Demigod
+2019-01-17 09:36:18:839,Happy Valley,Cinnamon,Kit-Kat,Overdose,Demigod,Pony,Invincible,Snowball,Roach
+2019-01-17 09:36:18:839,Happy Valley,Kit-Kat,Snowball,Invincible,Demigod,Pony,Cinnamon,Roach,Overdose
+2019-01-17 09:36:18:840,Happy Valley,Roach,Snowball,Overdose,Demigod,Cinnamon,Pony,Invincible,Kit-Kat
+2019-01-17 09:36:18:841,Happy Valley,Roach,Pony,Kit-Kat,Cinnamon,Snowball,Demigod,Overdose,Invincible
+2019-01-17 09:36:18:842,Happy Valley,Demigod,Invincible,Snowball,Roach,Pony,Cinnamon,Kit-Kat,Overdose
+2019-01-17 09:36:18:843,Happy Valley,Pony,Roach,Cinnamon,Invincible,Snowball,Overdose,Demigod,Kit-Kat
+2019-01-17 09:36:18:844,Happy Valley,Kit-Kat,Invincible,Roach,Cinnamon,Pony,Snowball,Overdose,Demigod
+2019-01-17 09:36:18:845,Happy Valley,Invincible,Pony,Kit-Kat,Overdose,Cinnamon,Demigod,Snowball,Roach
+2019-01-17 09:36:18:847,Happy Valley,Cinnamon,Pony,Overdose,Snowball,Demigod,Roach,Kit-Kat,Invincible
+2019-01-17 09:36:18:848,Happy Valley,Demigod,Kit-Kat,Roach,Overdose,Cinnamon,Invincible,Pony,Snowball
+2019-01-17 09:36:18:849,Happy Valley,Overdose,Roach,Snowball,Demigod,Invincible,Cinnamon,Kit-Kat,Pony
+2019-01-17 09:36:18:850,Happy Valley,Cinnamon,Roach,Demigod,Snowball,Pony,Invincible,Kit-Kat,Overdose
+2019-01-17 09:36:18:851,Happy Valley,Demigod,Roach,Overdose,Pony,Cinnamon,Invincible,Snowball,Kit-Kat
+2019-01-17 09:36:18:852,Happy Valley,Kit-Kat,Demigod,Roach,Snowball,Invincible,Overdose,Cinnamon,Pony
+2019-01-17 09:36:18:852,Happy Valley,Overdose,Demigod,Pony,Cinnamon,Roach,Kit-Kat,Invincible,Snowball
+2019-01-17 09:36:18:853,Happy Valley,Pony,Demigod,Snowball,Overdose,Roach,Invincible,Kit-Kat,Cinnamon
+2019-01-17 09:36:18:854,Happy Valley,Pony,Snowball,Kit-Kat,Overdose,Invincible,Demigod,Roach,Cinnamon
+2019-01-17 09:36:18:855,Happy Valley,Pony,Demigod,Kit-Kat,Roach,Cinnamon,Snowball,Overdose,Invincible
+2019-01-17 09:36:18:856,Happy Valley,Snowball,Kit-Kat,Overdose,Cinnamon,Demigod,Pony,Invincible,Roach
+2019-01-17 09:36:18:858,Happy Valley,Snowball,Cinnamon,Demigod,Overdose,Kit-Kat,Roach,Pony,Invincible
+2019-01-17 09:36:18:859,Happy Valley,Pony,Demigod,Cinnamon,Overdose,Invincible,Kit-Kat,Roach,Snowball
+2019-01-17 09:36:18:860,Happy Valley,Roach,Demigod,Snowball,Cinnamon,Overdose,Pony,Kit-Kat,Invincible
+2019-01-17 09:36:18:861,Happy Valley,Snowball,Invincible,Roach,Cinnamon,Kit-Kat,Overdose,Pony,Demigod
+2019-01-17 09:36:18:862,Happy Valley,Invincible,Snowball,Overdose,Pony,Cinnamon,Roach,Demigod,Kit-Kat
+2019-01-17 09:36:18:863,Happy Valley,Snowball,Cinnamon,Kit-Kat,Overdose,Invincible,Pony,Demigod,Roach
+2019-01-17 09:36:18:864,Happy Valley,Snowball,Pony,Roach,Cinnamon,Demigod,Overdose,Kit-Kat,Invincible
+2019-01-17 09:36:18:865,Happy Valley,Roach,Demigod,Invincible,Kit-Kat,Snowball,Overdose,Pony,Cinnamon
+2019-01-17 09:36:18:866,Happy Valley,Cinnamon,Roach,Overdose,Kit-Kat,Pony,Invincible,Demigod,Snowball
+2019-01-17 09:36:18:866,Happy Valley,Demigod,Snowball,Cinnamon,Kit-Kat,Overdose,Pony,Roach,Invincible
+2019-01-17 09:36:18:867,Happy Valley,Snowball,Demigod,Roach,Pony,Invincible,Overdose,Cinnamon,Kit-Kat
+2019-01-17 09:36:18:868,Happy Valley,Snowball,Overdose,Invincible,Roach,Demigod,Cinnamon,Kit-Kat,Pony
+2019-01-17 09:36:18:868,Happy Valley,Roach,Snowball,Pony,Invincible,Kit-Kat,Cinnamon,Overdose,Demigod
+2019-01-17 09:36:18:869,Happy Valley,Demigod,Pony,Kit-Kat,Invincible,Overdose,Cinnamon,Roach,Snowball
+2019-01-17 09:36:18:870,Happy Valley,Pony,Invincible,Overdose,Kit-Kat,Demigod,Snowball,Cinnamon,Roach
+2019-01-17 09:36:18:870,Happy Valley,Kit-Kat,Pony,Roach,Cinnamon,Snowball,Overdose,Demigod,Invincible
+2019-01-17 09:36:18:871,Happy Valley,Overdose,Kit-Kat,Invincible,Roach,Cinnamon,Demigod,Snowball,Pony
+2019-01-17 09:36:18:871,Happy Valley,Pony,Kit-Kat,Demigod,Overdose,Cinnamon,Snowball,Invincible,Roach
+2019-01-17 09:36:18:872,Happy Valley,Kit-Kat,Invincible,Overdose,Snowball,Roach,Pony,Demigod,Cinnamon
+2019-01-17 09:36:18:873,Happy Valley,Snowball,Overdose,Pony,Invincible,Roach,Demigod,Cinnamon,Kit-Kat
+2019-01-17 09:36:18:873,Happy Valley,Roach,Cinnamon,Invincible,Snowball,Pony,Kit-Kat,Demigod,Overdose
+2019-01-17 09:36:18:874,Happy Valley,Roach,Snowball,Demigod,Invincible,Pony,Overdose,Kit-Kat,Cinnamon
+2019-01-17 09:36:18:874,Happy Valley,Roach,Pony,Cinnamon,Invincible,Kit-Kat,Overdose,Snowball,Demigod
+2019-01-17 09:36:18:875,Happy Valley,Snowball,Kit-Kat,Cinnamon,Overdose,Pony,Invincible,Roach,Demigod
+2019-01-17 09:36:18:875,Happy Valley,Overdose,Demigod,Invincible,Roach,Cinnamon,Snowball,Pony,Kit-Kat
+2019-01-17 09:36:18:876,Happy Valley,Snowball,Roach,Kit-Kat,Overdose,Pony,Invincible,Demigod,Cinnamon
+2019-01-17 09:36:18:877,Happy Valley,Demigod,Pony,Kit-Kat,Snowball,Overdose,Roach,Invincible,Cinnamon
+2019-01-17 09:36:18:877,Happy Valley,Invincible,Roach,Pony,Snowball,Kit-Kat,Overdose,Demigod,Cinnamon
+2019-01-17 09:36:18:878,Happy Valley,Invincible,Roach,Overdose,Demigod,Cinnamon,Pony,Snowball,Kit-Kat
+2019-01-17 09:36:18:878,Happy Valley,Cinnamon,Demigod,Pony,Overdose,Kit-Kat,Invincible,Snowball,Roach
+2019-01-17 09:36:18:879,Happy Valley,Cinnamon,Snowball,Demigod,Invincible,Kit-Kat,Pony,Overdose,Roach
+2019-01-17 09:36:18:880,Happy Valley,Overdose,Cinnamon,Invincible,Pony,Roach,Snowball,Kit-Kat,Demigod
+2019-01-17 09:36:18:881,Happy Valley,Invincible,Roach,Demigod,Cinnamon,Kit-Kat,Snowball,Overdose,Pony
+2019-01-17 09:36:18:882,Happy Valley,Overdose,Roach,Snowball,Pony,Kit-Kat,Cinnamon,Demigod,Invincible
+2019-01-17 09:36:18:883,Happy Valley,Overdose,Invincible,Demigod,Cinnamon,Snowball,Pony,Kit-Kat,Roach
+2019-01-17 09:36:18:884,Happy Valley,Kit-Kat,Overdose,Snowball,Pony,Roach,Invincible,Cinnamon,Demigod
+2019-01-17 09:36:18:885,Happy Valley,Invincible,Snowball,Cinnamon,Roach,Pony,Overdose,Demigod,Kit-Kat
+2019-01-17 09:36:18:886,Happy Valley,Pony,Kit-Kat,Snowball,Cinnamon,Roach,Overdose,Invincible,Demigod
+2019-01-17 09:36:18:887,Happy Valley,Pony,Overdose,Demigod,Snowball,Invincible,Cinnamon,Kit-Kat,Roach
+2019-01-17 09:36:18:888,Happy Valley,Snowball,Invincible,Kit-Kat,Pony,Overdose,Roach,Demigod,Cinnamon
+2019-01-17 09:36:18:889,Happy Valley,Pony,Kit-Kat,Invincible,Roach,Cinnamon,Demigod,Overdose,Snowball
+2019-01-17 09:36:18:890,Happy Valley,Pony,Snowball,Demigod,Invincible,Roach,Overdose,Cinnamon,Kit-Kat
+2019-01-17 09:36:18:891,Happy Valley,Overdose,Snowball,Pony,Invincible,Roach,Cinnamon,Demigod,Kit-Kat
+2019-01-17 09:36:18:892,Happy Valley,Cinnamon,Snowball,Kit-Kat,Demigod,Invincible,Overdose,Pony,Roach
+2019-01-17 09:36:18:893,Happy Valley,Kit-Kat,Overdose,Cinnamon,Invincible,Demigod,Roach,Pony,Snowball
+2019-01-17 09:36:18:894,Happy Valley,Pony,Snowball,Cinnamon,Demigod,Kit-Kat,Overdose,Roach,Invincible
+2019-01-17 09:36:18:895,Happy Valley,Overdose,Snowball,Invincible,Pony,Demigod,Kit-Kat,Cinnamon,Roach
+2019-01-17 09:36:18:896,Happy Valley,Overdose,Invincible,Cinnamon,Pony,Demigod,Snowball,Kit-Kat,Roach
+2019-01-17 09:36:18:896,Happy Valley,Roach,Pony,Cinnamon,Kit-Kat,Demigod,Snowball,Overdose,Invincible
+2019-01-17 09:36:18:897,Happy Valley,Overdose,Demigod,Kit-Kat,Roach,Pony,Snowball,Invincible,Cinnamon
+2019-01-17 09:36:18:898,Happy Valley,Snowball,Demigod,Cinnamon,Invincible,Overdose,Pony,Roach,Kit-Kat
+2019-01-17 09:36:18:899,Happy Valley,Kit-Kat,Overdose,Pony,Snowball,Demigod,Cinnamon,Roach,Invincible
+2019-01-17 09:36:18:900,Happy Valley,Snowball,Cinnamon,Demigod,Invincible,Kit-Kat,Pony,Overdose,Roach
+2019-01-17 09:36:18:900,Happy Valley,Pony,Snowball,Cinnamon,Kit-Kat,Overdose,Roach,Demigod,Invincible
+2019-01-17 09:36:18:901,Happy Valley,Demigod,Kit-Kat,Pony,Overdose,Cinnamon,Roach,Invincible,Snowball
+2019-01-17 09:36:18:902,Happy Valley,Pony,Demigod,Overdose,Snowball,Invincible,Cinnamon,Roach,Kit-Kat
+2019-01-17 09:36:18:903,Happy Valley,Kit-Kat,Snowball,Pony,Overdose,Invincible,Roach,Demigod,Cinnamon
+2019-01-17 09:36:18:904,Happy Valley,Invincible,Overdose,Cinnamon,Snowball,Roach,Demigod,Pony,Kit-Kat
+2019-01-17 09:36:18:904,Happy Valley,Invincible,Pony,Snowball,Kit-Kat,Cinnamon,Overdose,Demigod,Roach
+2019-01-17 09:36:18:905,Happy Valley,Pony,Overdose,Roach,Snowball,Cinnamon,Invincible,Demigod,Kit-Kat
+2019-01-17 09:36:18:906,Happy Valley,Roach,Snowball,Overdose,Pony,Kit-Kat,Invincible,Demigod,Cinnamon
+2019-01-17 09:36:18:907,Happy Valley,Demigod,Cinnamon,Snowball,Kit-Kat,Roach,Overdose,Invincible,Pony
+2019-01-17 09:36:18:907,Happy Valley,Overdose,Demigod,Cinnamon,Snowball,Roach,Pony,Kit-Kat,Invincible
+2019-01-17 09:36:18:908,Happy Valley,Snowball,Pony,Overdose,Invincible,Kit-Kat,Roach,Cinnamon,Demigod
+2019-01-17 09:36:18:909,Happy Valley,Kit-Kat,Invincible,Pony,Snowball,Overdose,Demigod,Cinnamon,Roach
+2019-01-17 09:36:18:909,Happy Valley,Snowball,Pony,Overdose,Demigod,Kit-Kat,Invincible,Cinnamon,Roach
+2019-01-17 09:36:18:910,Happy Valley,Pony,Roach,Cinnamon,Overdose,Demigod,Snowball,Kit-Kat,Invincible
+2019-01-17 09:36:18:911,Happy Valley,Kit-Kat,Snowball,Overdose,Pony,Cinnamon,Invincible,Roach,Demigod
+2019-01-17 09:36:18:912,Happy Valley,Snowball,Cinnamon,Invincible,Roach,Demigod,Pony,Kit-Kat,Overdose
+2019-01-17 09:36:18:912,Hippodrom,Pony,Cinnamon,Snowball,Invincible,Demigod,Roach,Overdose,Kit-Kat
+2019-01-17 09:36:18:913,Hippodrom,Overdose,Invincible,Pony,Roach,Snowball,Demigod,Kit-Kat,Cinnamon
+2019-01-17 09:36:18:915,Hippodrom,Cinnamon,Demigod,Kit-Kat,Roach,Overdose,Pony,Snowball,Invincible
+2019-01-17 09:36:18:915,Hippodrom,Cinnamon,Invincible,Demigod,Pony,Roach,Snowball,Overdose,Kit-Kat
+2019-01-17 09:36:18:916,Hippodrom,Pony,Invincible,Overdose,Snowball,Kit-Kat,Demigod,Cinnamon,Roach
+2019-01-17 09:36:18:917,Hippodrom,Overdose,Roach,Cinnamon,Invincible,Kit-Kat,Snowball,Demigod,Pony
+2019-01-17 09:36:18:923,Hippodrom,Demigod,Roach,Invincible,Kit-Kat,Overdose,Pony,Cinnamon,Snowball
+2019-01-17 09:36:18:923,Hippodrom,Cinnamon,Kit-Kat,Roach,Pony,Snowball,Overdose,Invincible,Demigod
+2019-01-17 09:36:18:924,Hippodrom,Demigod,Invincible,Roach,Cinnamon,Pony,Snowball,Kit-Kat,Overdose
+2019-01-17 09:36:18:924,Hippodrom,Cinnamon,Invincible,Kit-Kat,Overdose,Snowball,Demigod,Roach,Pony
+2019-01-17 09:36:18:925,Hippodrom,Invincible,Snowball,Pony,Demigod,Roach,Cinnamon,Overdose,Kit-Kat
+2019-01-17 09:36:18:925,Hippodrom,Snowball,Pony,Demigod,Cinnamon,Invincible,Roach,Kit-Kat,Overdose
+2019-01-17 09:36:18:925,Hippodrom,Snowball,Invincible,Pony,Demigod,Kit-Kat,Roach,Cinnamon,Overdose
+2019-01-17 09:36:18:926,Hippodrom,Roach,Overdose,Invincible,Demigod,Pony,Kit-Kat,Snowball,Cinnamon
+2019-01-17 09:36:18:927,Hippodrom,Roach,Kit-Kat,Cinnamon,Invincible,Pony,Snowball,Overdose,Demigod
+2019-01-17 09:36:18:928,Hippodrom,Roach,Kit-Kat,Cinnamon,Snowball,Invincible,Pony,Overdose,Demigod
+2019-01-17 09:36:18:928,Hippodrom,Snowball,Roach,Invincible,Cinnamon,Demigod,Kit-Kat,Pony,Overdose
+2019-01-17 09:36:18:929,Hippodrom,Roach,Pony,Invincible,Demigod,Kit-Kat,Overdose,Cinnamon,Snowball
+2019-01-17 09:36:18:930,Hippodrom,Kit-Kat,Demigod,Pony,Snowball,Overdose,Cinnamon,Invincible,Roach
+2019-01-17 09:36:18:930,Hippodrom,Cinnamon,Snowball,Kit-Kat,Demigod,Roach,Invincible,Pony,Overdose
+2019-01-17 09:36:18:931,Hippodrom,Snowball,Pony,Invincible,Demigod,Kit-Kat,Overdose,Cinnamon,Roach
+2019-01-17 09:36:18:932,Hippodrom,Kit-Kat,Overdose,Roach,Demigod,Pony,Snowball,Cinnamon,Invincible
+2019-01-17 09:36:18:932,Hippodrom,Demigod,Overdose,Pony,Kit-Kat,Invincible,Cinnamon,Snowball,Roach
+2019-01-17 09:36:18:933,Hippodrom,Kit-Kat,Invincible,Demigod,Overdose,Roach,Pony,Snowball,Cinnamon
+2019-01-17 09:36:18:934,Hippodrom,Invincible,Snowball,Cinnamon,Demigod,Kit-Kat,Overdose,Pony,Roach
+2019-01-17 09:36:18:935,Hippodrom,Roach,Demigod,Overdose,Invincible,Kit-Kat,Pony,Snowball,Cinnamon
+2019-01-17 09:36:18:936,Hippodrom,Cinnamon,Demigod,Overdose,Pony,Kit-Kat,Snowball,Roach,Invincible
+2019-01-17 09:36:18:936,Hippodrom,Overdose,Roach,Demigod,Kit-Kat,Snowball,Cinnamon,Pony,Invincible
+2019-01-17 09:36:18:937,Hippodrom,Kit-Kat,Demigod,Roach,Snowball,Cinnamon,Overdose,Invincible,Pony
+2019-01-17 09:36:18:938,Hippodrom,Demigod,Pony,Cinnamon,Overdose,Snowball,Kit-Kat,Invincible,Roach
+2019-01-17 09:36:18:939,Hippodrom,Snowball,Roach,Invincible,Kit-Kat,Overdose,Cinnamon,Pony,Demigod
+2019-01-17 09:36:18:939,Hippodrom,Cinnamon,Demigod,Overdose,Roach,Snowball,Invincible,Kit-Kat,Pony
+2019-01-17 09:36:18:940,Hippodrom,Invincible,Kit-Kat,Demigod,Pony,Snowball,Overdose,Cinnamon,Roach
+2019-01-17 09:36:18:940,Hippodrom,Roach,Snowball,Pony,Demigod,Overdose,Kit-Kat,Invincible,Cinnamon
+2019-01-17 09:36:18:941,Hippodrom,Snowball,Cinnamon,Roach,Kit-Kat,Invincible,Overdose,Demigod,Pony
+2019-01-17 09:36:18:941,Hippodrom,Invincible,Kit-Kat,Snowball,Pony,Demigod,Cinnamon,Overdose,Roach
+2019-01-17 09:36:18:942,Hippodrom,Snowball,Pony,Invincible,Kit-Kat,Roach,Overdose,Cinnamon,Demigod
+2019-01-17 09:36:18:943,Hippodrom,Kit-Kat,Invincible,Roach,Snowball,Pony,Cinnamon,Demigod,Overdose
+2019-01-17 09:36:18:943,Hippodrom,Demigod,Invincible,Kit-Kat,Roach,Cinnamon,Snowball,Overdose,Pony
+2019-01-17 09:36:18:944,Hippodrom,Overdose,Snowball,Pony,Cinnamon,Roach,Invincible,Kit-Kat,Demigod
+2019-01-17 09:36:18:944,Hippodrom,Demigod,Snowball,Kit-Kat,Cinnamon,Roach,Invincible,Overdose,Pony
+2019-01-17 09:36:18:945,Hippodrom,Snowball,Demigod,Roach,Kit-Kat,Overdose,Cinnamon,Pony,Invincible
+2019-01-17 09:36:18:945,Hippodrom,Invincible,Demigod,Kit-Kat,Roach,Pony,Overdose,Snowball,Cinnamon
+2019-01-17 09:36:18:946,Hippodrom,Roach,Kit-Kat,Pony,Snowball,Demigod,Invincible,Overdose,Cinnamon
+2019-01-17 09:36:18:946,Hippodrom,Invincible,Pony,Roach,Snowball,Demigod,Overdose,Kit-Kat,Cinnamon
+2019-01-17 09:36:18:947,Hippodrom,Demigod,Overdose,Invincible,Kit-Kat,Cinnamon,Pony,Snowball,Roach
+2019-01-17 09:36:18:947,Hippodrom,Snowball,Invincible,Overdose,Kit-Kat,Cinnamon,Pony,Demigod,Roach
+2019-01-17 09:36:18:947,Hippodrom,Pony,Invincible,Snowball,Kit-Kat,Roach,Overdose,Demigod,Cinnamon
+2019-01-17 09:36:18:948,Hippodrom,Demigod,Kit-Kat,Roach,Snowball,Overdose,Invincible,Pony,Cinnamon
+2019-01-17 09:36:18:948,Hippodrom,Cinnamon,Roach,Pony,Demigod,Kit-Kat,Invincible,Snowball,Overdose
+2019-01-17 09:36:18:948,Hippodrom,Cinnamon,Invincible,Demigod,Pony,Roach,Kit-Kat,Snowball,Overdose
+2019-01-17 09:36:18:949,Hippodrom,Demigod,Invincible,Kit-Kat,Cinnamon,Overdose,Roach,Pony,Snowball
+2019-01-17 09:36:18:949,Hippodrom,Demigod,Pony,Overdose,Cinnamon,Roach,Invincible,Snowball,Kit-Kat
+2019-01-17 09:36:18:950,Hippodrom,Pony,Demigod,Invincible,Snowball,Overdose,Cinnamon,Kit-Kat,Roach
+2019-01-17 09:36:18:951,Hippodrom,Roach,Overdose,Cinnamon,Kit-Kat,Invincible,Demigod,Snowball,Pony
+2019-01-17 09:36:18:951,Hippodrom,Cinnamon,Roach,Snowball,Pony,Overdose,Kit-Kat,Invincible,Demigod
+2019-01-17 09:36:18:952,Hippodrom,Demigod,Overdose,Pony,Kit-Kat,Cinnamon,Invincible,Snowball,Roach
+2019-01-17 09:36:18:952,Hippodrom,Invincible,Snowball,Cinnamon,Roach,Kit-Kat,Overdose,Pony,Demigod
+2019-01-17 09:36:18:953,Hippodrom,Snowball,Pony,Demigod,Roach,Cinnamon,Kit-Kat,Overdose,Invincible
+2019-01-17 09:36:18:953,Hippodrom,Cinnamon,Snowball,Invincible,Demigod,Roach,Kit-Kat,Pony,Overdose
+2019-01-17 09:36:18:954,Hippodrom,Snowball,Pony,Demigod,Overdose,Cinnamon,Kit-Kat,Invincible,Roach
+2019-01-17 09:36:18:955,Hippodrom,Pony,Snowball,Invincible,Cinnamon,Demigod,Roach,Kit-Kat,Overdose
+2019-01-17 09:36:18:955,Hippodrom,Demigod,Cinnamon,Snowball,Overdose,Pony,Kit-Kat,Invincible,Roach
+2019-01-17 09:36:18:956,Hippodrom,Demigod,Roach,Cinnamon,Kit-Kat,Snowball,Overdose,Invincible,Pony
+2019-01-17 09:36:18:956,Hippodrom,Demigod,Cinnamon,Kit-Kat,Invincible,Overdose,Snowball,Roach,Pony
+2019-01-17 09:36:18:957,Hippodrom,Invincible,Snowball,Cinnamon,Kit-Kat,Roach,Overdose,Pony,Demigod
+2019-01-17 09:36:18:957,Hippodrom,Invincible,Demigod,Overdose,Cinnamon,Pony,Roach,Kit-Kat,Snowball
+2019-01-17 09:36:18:958,Hippodrom,Snowball,Pony,Invincible,Kit-Kat,Roach,Cinnamon,Demigod,Overdose
+2019-01-17 09:36:18:958,Hippodrom,Demigod,Roach,Invincible,Snowball,Overdose,Kit-Kat,Cinnamon,Pony
+2019-01-17 09:36:18:959,Hippodrom,Roach,Snowball,Overdose,Cinnamon,Invincible,Pony,Demigod,Kit-Kat
+2019-01-17 09:36:18:959,Hippodrom,Snowball,Kit-Kat,Roach,Invincible,Demigod,Cinnamon,Overdose,Pony
+2019-01-17 09:36:18:960,Hippodrom,Cinnamon,Kit-Kat,Snowball,Pony,Roach,Demigod,Invincible,Overdose
+2019-01-17 09:36:18:960,Hippodrom,Snowball,Roach,Kit-Kat,Pony,Demigod,Cinnamon,Invincible,Overdose
+2019-01-17 09:36:18:961,Hippodrom,Roach,Cinnamon,Snowball,Overdose,Demigod,Pony,Kit-Kat,Invincible
+2019-01-17 09:36:18:961,Hippodrom,Invincible,Overdose,Cinnamon,Pony,Roach,Demigod,Kit-Kat,Snowball
+2019-01-17 09:36:18:962,Hippodrom,Kit-Kat,Roach,Invincible,Snowball,Demigod,Pony,Cinnamon,Overdose
+2019-01-17 09:36:18:962,Hippodrom,Snowball,Cinnamon,Kit-Kat,Invincible,Overdose,Demigod,Pony,Roach
+2019-01-17 09:36:18:963,Hippodrom,Demigod,Snowball,Pony,Overdose,Invincible,Kit-Kat,Cinnamon,Roach
+2019-01-17 09:36:18:963,Hippodrom,Kit-Kat,Overdose,Pony,Demigod,Roach,Cinnamon,Invincible,Snowball
+2019-01-17 09:36:18:964,Hippodrom,Pony,Roach,Demigod,Invincible,Kit-Kat,Snowball,Cinnamon,Overdose
+2019-01-17 09:36:18:964,Hippodrom,Invincible,Roach,Demigod,Cinnamon,Overdose,Snowball,Pony,Kit-Kat
+2019-01-17 09:36:18:964,Hippodrom,Snowball,Pony,Roach,Demigod,Overdose,Cinnamon,Kit-Kat,Invincible
+2019-01-17 09:36:18:964,Hippodrom,Roach,Invincible,Cinnamon,Kit-Kat,Snowball,Pony,Demigod,Overdose
+2019-01-17 09:36:18:965,Hippodrom,Kit-Kat,Roach,Snowball,Invincible,Pony,Cinnamon,Overdose,Demigod
+2019-01-17 09:36:18:965,Hippodrom,Pony,Demigod,Invincible,Overdose,Roach,Cinnamon,Snowball,Kit-Kat
+2019-01-17 09:36:18:965,Hippodrom,Cinnamon,Demigod,Roach,Pony,Overdose,Invincible,Kit-Kat,Snowball
+2019-01-17 09:36:18:965,Hippodrom,Demigod,Snowball,Roach,Invincible,Cinnamon,Kit-Kat,Overdose,Pony
+2019-01-17 09:36:18:966,Hippodrom,Roach,Snowball,Demigod,Cinnamon,Invincible,Pony,Kit-Kat,Overdose
+2019-01-17 09:36:18:966,Hippodrom,Invincible,Cinnamon,Snowball,Pony,Overdose,Demigod,Kit-Kat,Roach
+2019-01-17 09:36:18:966,Hippodrom,Pony,Kit-Kat,Demigod,Cinnamon,Overdose,Invincible,Snowball,Roach
+2019-01-17 09:36:18:967,Hippodrom,Demigod,Invincible,Cinnamon,Overdose,Roach,Kit-Kat,Pony,Snowball
+2019-01-17 09:36:18:967,Hippodrom,Pony,Invincible,Snowball,Demigod,Cinnamon,Kit-Kat,Overdose,Roach
+2019-01-17 09:36:18:967,Hippodrom,Snowball,Invincible,Overdose,Pony,Roach,Kit-Kat,Demigod,Cinnamon
+2019-01-17 09:36:18:968,Hippodrom,Cinnamon,Demigod,Kit-Kat,Overdose,Snowball,Invincible,Pony,Roach
+2019-01-17 09:36:18:968,Hippodrom,Kit-Kat,Invincible,Demigod,Snowball,Roach,Overdose,Pony,Cinnamon
+2019-01-17 09:36:18:968,Hippodrom,Overdose,Pony,Demigod,Cinnamon,Invincible,Roach,Kit-Kat,Snowball
+2019-01-17 09:36:18:969,Hippodrom,Cinnamon,Kit-Kat,Snowball,Overdose,Invincible,Demigod,Roach,Pony
+2019-01-17 09:36:18:969,Hippodrom,Cinnamon,Snowball,Roach,Demigod,Overdose,Kit-Kat,Invincible,Pony
+2019-01-17 09:36:18:969,Hippodrom,Kit-Kat,Demigod,Roach,Cinnamon,Pony,Overdose,Invincible,Snowball
+2019-01-17 09:36:18:970,Hippodrom,Cinnamon,Overdose,Roach,Snowball,Demigod,Invincible,Kit-Kat,Pony
+2019-01-17 09:36:18:970,Rennbahn,Demigod,Snowball,Kit-Kat,Roach,Overdose,Invincible,Pony,Cinnamon
+2019-01-17 09:36:18:970,Rennbahn,Kit-Kat,Invincible,Roach,Pony,Demigod,Snowball,Overdose,Cinnamon
+2019-01-17 09:36:18:970,Rennbahn,Demigod,Invincible,Kit-Kat,Cinnamon,Overdose,Snowball,Pony,Roach
+2019-01-17 09:36:18:971,Rennbahn,Invincible,Cinnamon,Overdose,Demigod,Kit-Kat,Pony,Roach,Snowball
+2019-01-17 09:36:18:971,Rennbahn,Cinnamon,Invincible,Overdose,Kit-Kat,Demigod,Snowball,Roach,Pony
+2019-01-17 09:36:18:971,Rennbahn,Invincible,Kit-Kat,Overdose,Pony,Roach,Snowball,Demigod,Cinnamon
+2019-01-17 09:36:18:971,Rennbahn,Overdose,Pony,Invincible,Roach,Demigod,Cinnamon,Kit-Kat,Snowball
+2019-01-17 09:36:18:972,Rennbahn,Demigod,Invincible,Pony,Snowball,Kit-Kat,Overdose,Cinnamon,Roach
+2019-01-17 09:36:18:972,Rennbahn,Invincible,Kit-Kat,Snowball,Overdose,Roach,Cinnamon,Pony,Demigod
+2019-01-17 09:36:18:973,Rennbahn,Cinnamon,Pony,Roach,Kit-Kat,Demigod,Snowball,Invincible,Overdose
+2019-01-17 09:36:18:973,Rennbahn,Cinnamon,Invincible,Demigod,Snowball,Roach,Pony,Overdose,Kit-Kat
+2019-01-17 09:36:18:974,Rennbahn,Kit-Kat,Snowball,Cinnamon,Demigod,Pony,Invincible,Roach,Overdose
+2019-01-17 09:36:18:974,Rennbahn,Cinnamon,Overdose,Roach,Pony,Demigod,Kit-Kat,Invincible,Snowball
+2019-01-17 09:36:18:974,Rennbahn,Demigod,Invincible,Roach,Kit-Kat,Pony,Cinnamon,Overdose,Snowball
+2019-01-17 09:36:18:974,Rennbahn,Demigod,Cinnamon,Invincible,Kit-Kat,Pony,Snowball,Overdose,Roach
+2019-01-17 09:36:18:975,Rennbahn,Pony,Overdose,Roach,Kit-Kat,Demigod,Snowball,Cinnamon,Invincible
+2019-01-17 09:36:18:975,Rennbahn,Roach,Invincible,Overdose,Snowball,Demigod,Cinnamon,Pony,Kit-Kat
+2019-01-17 09:36:18:975,Rennbahn,Invincible,Snowball,Cinnamon,Overdose,Kit-Kat,Roach,Pony,Demigod
+2019-01-17 09:36:18:976,Rennbahn,Cinnamon,Kit-Kat,Overdose,Pony,Roach,Snowball,Invincible,Demigod
+2019-01-17 09:36:18:976,Rennbahn,Demigod,Snowball,Roach,Pony,Kit-Kat,Overdose,Invincible,Cinnamon
+2019-01-17 09:36:18:976,Rennbahn,Invincible,Snowball,Kit-Kat,Demigod,Pony,Roach,Overdose,Cinnamon
+2019-01-17 09:36:18:976,Rennbahn,Pony,Invincible,Snowball,Overdose,Demigod,Cinnamon,Roach,Kit-Kat
+2019-01-17 09:36:18:977,Rennbahn,Pony,Cinnamon,Invincible,Demigod,Roach,Kit-Kat,Overdose,Snowball
+2019-01-17 09:36:18:977,Rennbahn,Cinnamon,Kit-Kat,Invincible,Roach,Overdose,Demigod,Pony,Snowball
+2019-01-17 09:36:18:977,Rennbahn,Overdose,Cinnamon,Demigod,Roach,Pony,Kit-Kat,Snowball,Invincible
+2019-01-17 09:36:18:977,Rennbahn,Demigod,Cinnamon,Pony,Snowball,Invincible,Kit-Kat,Roach,Overdose
+2019-01-17 09:36:18:978,Rennbahn,Invincible,Pony,Demigod,Snowball,Roach,Overdose,Kit-Kat,Cinnamon
+2019-01-17 09:36:18:978,Rennbahn,Roach,Demigod,Snowball,Invincible,Pony,Cinnamon,Kit-Kat,Overdose
+2019-01-17 09:36:18:978,Rennbahn,Overdose,Demigod,Cinnamon,Pony,Invincible,Kit-Kat,Roach,Snowball
+2019-01-17 09:36:18:979,Rennbahn,Invincible,Demigod,Overdose,Snowball,Cinnamon,Kit-Kat,Pony,Roach
+2019-01-17 09:36:18:979,Rennbahn,Demigod,Invincible,Pony,Kit-Kat,Overdose,Snowball,Roach,Cinnamon
+2019-01-17 09:36:18:979,Rennbahn,Overdose,Kit-Kat,Roach,Pony,Cinnamon,Snowball,Demigod,Invincible
+2019-01-17 09:36:18:979,Rennbahn,Invincible,Snowball,Pony,Cinnamon,Demigod,Roach,Overdose,Kit-Kat
+2019-01-17 09:36:18:980,Rennbahn,Demigod,Kit-Kat,Cinnamon,Overdose,Pony,Roach,Invincible,Snowball
+2019-01-17 09:36:18:980,Rennbahn,Demigod,Cinnamon,Pony,Invincible,Overdose,Kit-Kat,Snowball,Roach
+2019-01-17 09:36:18:980,Rennbahn,Snowball,Overdose,Roach,Demigod,Invincible,Pony,Kit-Kat,Cinnamon
+2019-01-17 09:36:18:981,Rennbahn,Invincible,Roach,Demigod,Cinnamon,Snowball,Overdose,Pony,Kit-Kat
+2019-01-17 09:36:18:981,Rennbahn,Demigod,Kit-Kat,Invincible,Roach,Cinnamon,Pony,Overdose,Snowball
