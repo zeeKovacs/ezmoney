@@ -10,8 +10,8 @@ public class GamblingSim {
         Logger logger = new Logger();
         //Scanner sc = new Scanner(System.in);
         
-        stat.initMaps();
         gen.generateSimulations(args);
+        stat.initMaps();
 
         logger.clearTerminal();
         logger.log("NOTIFICATION", "Ran " + stat.numOfSims("data/temp.csv") + " tests in " +
