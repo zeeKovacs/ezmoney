@@ -8,7 +8,6 @@ public class GamblingSim {
     public static void main(String[] args) throws Exception {
         Generator gen = new Generator();  
         gen.generateSimulations(args); 
-
         Statistics stat = new Statistics();
         Logger logger = new Logger();
         
@@ -21,9 +20,12 @@ public class GamblingSim {
                    + ".");
         logger.log("SYSTEM MESSAGE", "NEXT RACE WILL TAKE PLACE ON:\n");
         Race randomRace = new Race();
+
         String[] horses = stat.getHorses();
         double[] winChances = stat.statRecords.get(randomRace.getRacetrack().getName());
+
         logger.log("TRACK", randomRace.getRacetrack().toString());
+        
         String betPercent = "";
         for (int i = 0; i < horses.length; i ++) {
             Arrays.sort(horses);
@@ -31,8 +33,10 @@ public class GamblingSim {
                 betPercent += winChances[i] + "%";
             }
         }
+
         String betOn = stat.winnerOnTrack(randomRace.getRacetrack().getName()) + " - Chance to win: " + betPercent;  ;
         logger.log("BET ON", betOn);
+
         Scanner sc = new Scanner(System.in);
         while (true) {
             logger.log("SYSTEM MESSAGE", "PRESS (1) TO GET DETAILED STATISTICS");
@@ -42,8 +46,8 @@ public class GamblingSim {
                     logger.log("DETAILED STATISTICS", "\n");
                     int i = 1;
                     for (String horse : stat.getHorses()) {
-                        logger.log("PLACE" + " " + i, "");
-                        logger.listDoubleArray(stat.getHorses(), stat.getPlacementPercentages(randomRace.getRacetrack().getName(), horse));
+                        logger.log(horse, "");
+                        logger.listDoubleArray(stat.getPlacementPercentages(randomRace.getRacetrack().getName(), horse));
                         i ++;
                     }
                     continue;

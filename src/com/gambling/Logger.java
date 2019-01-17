@@ -1,15 +1,10 @@
 package com.gambling;
 
-//import java.util.Calendar;
-//import java.text.SimpleDateFormat;
 import java.text.DecimalFormat;
 
 public class Logger {
 
     public void log(String type, String message) {
-        // Calendar calendar = Calendar.getInstance();
-        // SimpleDateFormat sdf = new SimpleDateFormat(Race.DATE_FORMAT_NOW);
-        // sdf.format(calendar.getTime());
         System.out.println(" -> " + type + ": " + message);
     }
 
@@ -24,11 +19,11 @@ public class Logger {
         System.out.println();
     }
 
-    public void listDoubleArray(String[] array, double[] nums) {
+    public void listDoubleArray(double[] nums) {
         DecimalFormat format = new DecimalFormat();
         format.setMaximumFractionDigits(2);
-        for (int i = 0; i < array.length; i ++) {
-            System.out.println(" -> " + Integer.toString(i+1) + ": " + array[i] + " -> " + format.format(nums[i]) + "%");
+        for (int i = 0; i < nums.length; i ++) {
+            System.out.println(" -> " + Integer.toString(i+1) + ". -> " + format.format(nums[i]) + "%");
         }
         System.out.println();
     }
