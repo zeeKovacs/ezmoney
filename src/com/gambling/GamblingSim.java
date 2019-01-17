@@ -1,15 +1,13 @@
 package com.gambling;
 
-//import java.util.Scanner;
-
 public class GamblingSim {
 
-    public static void main(String[] args) {
-        Generator gen = new Generator();
-        gen.generateSimulations(args);     
+    public static void main(String[] args) throws Exception {
+        Generator gen = new Generator();  
+        gen.generateSimulations(args); 
+
         Statistics stat = new Statistics();
         Logger logger = new Logger();
-        //Scanner sc = new Scanner(System.in);
         
         stat.initMaps();
 
@@ -22,5 +20,8 @@ public class GamblingSim {
         logger.log("LISTING", "Horses\n");
         logger.listArray(stat.getHorses()); 
         logger.listArray(stat.getTracks());
+        logger.log("SYSTEM MESSAGE", "NEXT RACE WILL TAKE PLACE ON:");
+        Race randomRace = new Race();
+        logger.log("TRACK", randomRace.getRacetrack());
     }
 }

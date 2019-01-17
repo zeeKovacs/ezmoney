@@ -8,23 +8,21 @@ import java.text.SimpleDateFormat;
 public class Race {
     
     private Racetrack racetrack;
-    private Horse[] horses;
+    private Horse[] horses = Horse.createHorses();
     private Horse winner;
     private String timestamp;
     private Horse[] placements;
 
     public static final String DATE_FORMAT_NOW = "yyyy-MM-dd HH:mm:ss:SS";
 
-    public Race(Horse[] horses) {
-        this.horses = horses;
+    public Race() {
         this.racetrack = createRandomTrack();
         this.timestamp = createTimestamp();
         this.placements = getRaceResults();
         this.winner = placements[0];
     }
 
-    public Race(Racetrack track, Horse[] horses) {
-        this.horses = horses;
+    public Race(Racetrack track) {
         this.racetrack = track;
         this.timestamp = createTimestamp();
         this.placements = getRaceResults();
@@ -58,7 +56,6 @@ public class Race {
     }
 
     private String createTimestamp() {
-        System.out.println("firstmethod " + horses);
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORMAT_NOW);
         return sdf.format(calendar.getTime());
@@ -76,17 +73,13 @@ public class Race {
     }
 
     private Horse[] getRaceResults() {
-        System.out.println("??? " + Arrays.toString(horses));
         Horse[] tempHorses = Arrays.copyOf(horses, horses.length);
         Horse[] placements = new Horse[tempHorses.length];
         for (int i=0; i < placements.length; i++) {
-            if (tempHorses.length == 1) {
-                placements[7] = tempHorses[0];
-            } else {
                 placements[i] = declareWinner(8-i, tempHorses);
+                System.out.println(placements[i]);
                 tempHorses = Utility.removeFromArray(tempHorses, placements[i], Horse.class);
             }
-        }
         return placements;
     }
 
@@ -114,7 +107,7 @@ public class Race {
             horseChance = 0;        
         } 
 
-        int winner = rand.nextInt(total) + 1;
+        int winner = rand.nextInt(total-1) + 1;
     
         for (int i = 0; i < horseCount; i++) {
             if (winner >= horseStats[i] && winner < horseStats[i + 1]) {
