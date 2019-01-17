@@ -13,6 +13,7 @@ import java.lang.Math;
 import java.util.Date;
 import java.text.SimpleDateFormat;
 import java.text.DateFormat;
+import java.text.DecimalFormat;
 
 public class Statistics {
     FileHandler fh = new FileHandler();
@@ -98,7 +99,10 @@ public class Statistics {
         for (int z = 0; z < tempInt.length; z++) {
             tempInt[z] = (tempInt[z] / racePerTrack.get(track)) * 100;
             double num = tempInt[z];
-            double rounded = Math.round(num * 100) / 100;
+            DecimalFormat df = new DecimalFormat();
+            df.setMaximumFractionDigits(2);
+            String str = df.format(num);
+            double rounded = Double.parseDouble(str);
             tempInt[z] = rounded;
         }
         return tempInt;
