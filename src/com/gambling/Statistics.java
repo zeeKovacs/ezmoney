@@ -19,11 +19,11 @@ public class Statistics {
     FileHandler fh = new FileHandler();
     String[][] statData = fh.read("data/history.csv");
     String[][] tempData = fh.read("data/temp.csv");
-    private String[] horses = horses();
-    private String[] tracks = tracks();
-    private Map<String, Integer> racePerTrack = new HashMap<>();
-    private Map<String, String[]> trackResults = new HashMap<>();
-    private Map<String, double[]> statRecords = new HashMap<>();
+    protected String[] horses = horses();
+    protected String[] tracks = tracks();
+    protected Map<String, Integer> racePerTrack = new HashMap<>();
+    protected Map<String, String[]> trackResults = new HashMap<>();
+    protected Map<String, double[]> statRecords = new HashMap<>();
 
     public void initMaps() {
         racePerTrack();
