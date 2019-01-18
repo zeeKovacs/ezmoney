@@ -9,10 +9,6 @@ public class Horse {
     private Map<Integer, Integer> terrains;
     private int lengths;
     private int jockeySkill;
-    private String terrainPref;
-    private String climatePref;
-    private String lengthPref;
-    private String jockey;
 
     public Horse(String[] data) {
         this.name = data[0];
@@ -56,78 +52,75 @@ public class Horse {
     }
 
     public String getTerrainPref() {
-        int max = Collections.max(this.terrains.values());
-        switch (max) {
-            case 1:
-                this.terrainPref = "sand";
+        int indx = 0;
+        for (int i : this.terrains.keySet()) {
+            
+            if (terrains.get(i) == 3) {
+                indx = i;
                 break;
-            case 2:
-                this.terrainPref = "grass";
-                break;
-            case 3:
-                this.terrainPref = "slag";
-                break;
-            case 4:
-                this.terrainPref = "asphalt";
-                break;
-            default:
-                this.terrainPref = "grass";
-                break;
+            }
         }
-        return this.terrainPref;
+        String[] materials = new String[] {"sand", "grass", "slag", "asphalt"};
+        if (indx == 0) {
+            return "grass";
+        }
+        return materials[indx-1];
     }
 
     public String getClimatePref() {
+        String climatePref = "";
         switch (this.climates) {
             case 1:
-                this.climatePref = "warm";
+                climatePref = "warm";
                 break;
             case 2:
-                this.climatePref = "cold";
+                climatePref = "cold";
                 break;
             default:
                 break;
         }
-        return this.climatePref;
+        return climatePref;
     }
 
     public String getLengthPref() {
+        String lengthPref = "";
         switch (this.lengths) {
             case 1:
-                this.lengthPref = "short";
+                lengthPref = "short";
                 break;
             case 2:
-                this.lengthPref = "medium";
+                lengthPref = "medium";
                 break;
             case 3:
-                this.lengthPref = "long";
+                lengthPref = "long";
                 break;
             default:
                 break;
         }
-        return this.lengthPref;
+        return lengthPref;
     }
 
     public String getJockeySkill() {
+        String jockey = "";
         switch (this.jockeySkill) {
             case 3:
-                this.jockey = "low-skilled jockey";
+                jockey = "low-skilled jockey";
                 break;
             case 4:
-                this.jockey = "medium-skilled jockey";
+                jockey = "medium-skilled jockey";
                 break;
             case 5:
-                this.jockey = "high-skilled jockey";
+                jockey = "high-skilled jockey";
                 break;
             default:
                 break;
         }
-        return this.jockey;
+        return jockey;
     }
 
     @Override
     public String toString() {
-        return this.name + " is a horse who runs best on " + this.terrainPref + " terrain and prefers " + this.lengthPref +
-               " distance tracks, where the climate is " + this.climatePref + ". " + "Currently has a " + this.jockey + ".\n";
+        return this.name + " is a horse who runs best on " + getTerrainPref() + " covered terrains and prefers " + getLengthPref() +
+               " distance tracks, where the climate is " + getClimatePref() + ". " + "Currently has a " + getJockeySkill() + ".\n";
     }
 }

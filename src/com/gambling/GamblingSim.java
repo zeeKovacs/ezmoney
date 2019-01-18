@@ -34,8 +34,14 @@ public class GamblingSim {
             }
         }
 
-        String betOn = stat.winnerOnTrack(randomRace.getRacetrack().getName()) + " - Chance to win: " + betPercent;  ;
+        String betOn = stat.winnerOnTrack(randomRace.getRacetrack().getName()) + " - Chance to win: " + betPercent;
         logger.log("BET ON", betOn);
+
+        for (Horse horse : randomRace.getHorses()) {
+             if (horse.getName().equals(stat.winnerOnTrack(randomRace.getRacetrack().getName()))) {
+                logger.log("HORSE INFO", horse.toString());
+            }
+        }
 
         Scanner sc = new Scanner(System.in);
         while (true) {
